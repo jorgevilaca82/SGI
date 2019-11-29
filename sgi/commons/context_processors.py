@@ -1,13 +1,8 @@
-from django.conf import settings
+from django.conf import settings as s
 
 
 def app_settings(request):
-    default_layout = 'layout.html'
-
-    if hasattr(settings, 'DEFAULT_LAYOUT'):
-        default_layout = settings.DEFAULT_LAYOUT
-
     return {
-        'app_name': settings.APP_NAME,
-        'default_layout': default_layout
+        'app_name': s.APP_NAME,
+        'default_layout': s.DEFAULT_LAYOUT
     }
