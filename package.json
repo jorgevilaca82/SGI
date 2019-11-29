@@ -1,0 +1,29 @@
+{
+  "name": "sgi",
+  "version": "1.0.0",
+  "description": "Sistema de Gestão Institucional",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgevilaca82/SGI.git"
+  },
+  "author": "Jorge Vilaça <jorge.vilaca@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jorgevilaca82/SGI/issues"
+  },
+  "homepage": "https://github.com/jorgevilaca82/SGI#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.5",
+    "dotenv": "^8.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "admin-lte": "^3.0"
+  }
+}

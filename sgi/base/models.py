@@ -1,3 +1,6 @@
 from django.db import models
 
-# Create your models here.
+from .pessoa.models import *
+from .pessoafisica.models import *
+from .pessoajuridica.models import *
+

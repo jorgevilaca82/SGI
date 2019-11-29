@@ -1,0 +1,37 @@
+{% extends default_layout %}
+{% load model_utils %}
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">{{ opts.verbose_name_plural|title }}</h3>
+
+        <div class="card-tools">
+            <a class="btn btn-sm btn-success mr-2" href="{% url 'base:pessoajuridica-create' %}">Cadastrar novo</a>
+            {% show_pagination class='pagination pagination-sm m-0 float-right' %}
+        </div>
+    </div>
+    <!-- /.card-header -->
+    <div class="card-body p-0">
+        <table class="table">
+            <tr>
+                <th style="width: 10px">#</th>
+                <th>CNPJ</th>
+                <th>Razão Social</th>
+                <th>&nbsp;</th>
+            </tr>
+            {% for pessoajuridica in pessoajuridica_list %}
+            <tr>
+                <td>{{ pessoajuridica.id }}</td>
+                <td>{{ pessoajuridica.cnpj }}</td>
+                <td>{{ pessoajuridica.razao_social }}</td>
+                <td>
+                    <a class="btn btn-sm btn-light" href="{% url 'base:pessoajuridica-update' pk=pessoajuridica.id %}">Editar</a>
+                    <a class="btn btn-sm btn-light" href="{% url 'base:pessoajuridica-detail' pk=pessoajuridica.id %}">Detalhes</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+    <!-- /.card-body -->
+</div>
+{% endblock content %}

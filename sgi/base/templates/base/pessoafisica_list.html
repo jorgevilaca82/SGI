@@ -1,0 +1,47 @@
+{% extends default_layout %}
+{% load model_utils %}
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">{{ opts.verbose_name_plural|title }}</h3>
+
+        <div class="card-tools">
+            <a class="btn btn-sm btn-success mr-2" href="{% url 'base:pessoafisica-create' %}">Cadastrar novo</a>
+            {% show_pagination class='pagination pagination-sm m-0 float-right' %}
+        </div>
+    </div>
+    <!-- /.card-header -->
+    <div class="card-body p-0">
+        <table class="table">
+            <tr>
+                <th style="width: 10px">#</th>
+                <th>CPF</th>
+                <th>Nome completo</th>
+                <th>Sexo</th>
+                <th>EstadoCivil</th>
+                <th>Falecido?</th>
+                <th>&nbsp;</th>
+            </tr>
+            {% for pessoafisica in pessoafisica_list %}
+            <tr>
+                <td>{{ pessoafisica.id }}</td>
+                <td>{{ pessoafisica.cpf }}</td>
+                <td>{{ pessoafisica.nome }}</td>
+                <td>{{ pessoafisica.get_sexo_display }}</td>
+                <td>{{ pessoafisica.get_estado_civil_display }}</td>
+                {% comment %} <td>{{ pessoafisica.tipo_sanguineo }}</td>
+                <td>{{ pessoafisica.natural_cidade }}</td>
+                <td>{{ pessoafisica.natural_uf }}</td>
+                <td>{{ pessoafisica.nacionalidade }}</td> {% endcomment %}
+                <td>{{ pessoafisica.falecido|yesno:"sim,não" }}</td>
+                <td>
+                    <a class="btn btn-sm btn-light" href="{% url 'base:pessoafisica-update' pk=pessoafisica.id %}">Editar</a>
+                    <a class="btn btn-sm btn-light" href="{% url 'base:pessoafisica-detail' pk=pessoafisica.id %}">Detalhes</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+    <!-- /.card-body -->
+</div>
+{% endblock content %}

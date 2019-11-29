@@ -1,0 +1,18 @@
+{% extends default_layout %} 
+{% load model_utils %}
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">{{ opts.verbose_name_plural|title }}</h3>
+
+        <div class="card-tools">
+            {% show_pagination class='pagination pagination-sm m-0 float-right' %}
+        </div>
+    </div>
+    <!-- /.card-header -->
+    <div class="card-body p-0">
+        {% include 'base/_documentopessoal_list.html' with documentopessoal_list=documentopessoal_list %}
+    </div>
+    <!-- /.card-body -->
+</div>
+{% endblock content %}

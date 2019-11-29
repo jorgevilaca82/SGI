@@ -1,0 +1,96 @@
+{% extends default_layout %} {% load model_utils html_utils %} {% block content %}
+{% build_qs redirect=request.get_full_path as qs %}
+<div class="row">
+    <div class="col-12">
+        <!-- Custom Tabs -->
+        <div class="card">
+            <div class="card-header d-flex p-0">
+                <h3 class="card-title p-3">Detalhes de {{ object }}</h3>
+                <ul class="nav nav-pills ml-auto p-2">
+                    <li class="nav-item"><a class="nav-link active" href="#tab_geral" data-toggle="tab">Geral</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tab_enderecos" data-toggle="tab">Endereços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tab_telefones" data-toggle="tab">Telefones</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tab_contatossociais" data-toggle="tab">Contatos Sociais</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tab_outrosdocumentos" data-toggle="tab">Outros Documentos</a></li>
+                </ul>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body">
+                <div class="tab-content">
+                    <div class="tab-pane active" id="tab_geral">
+                        <dl class="dl-horizontal row">
+                        {% with "base/_"|add:opts.model_name|add:"_detail.html" as template %}
+                        {% include template %}
+                        {% endwith %}
+                        </dl>
+
+                    </div>
+                    <!-- /.tab-pane -->
+                    <div class="tab-pane" id="tab_enderecos">
+                        <h3>Endereços</h3>
+                        <div class="card-tools">                            
+                            <a class="btn btn-sm btn-success mr-2" href="{% url 'base:pessoa-endereco-create' pessoa_id=object.pk %}{{qs|safe}}#tab_enderecos">Cadastrar novo</a>
+                        </div>
+                        count: {{ object.base_endereco_related.count }}
+                        {% include 'base/_endereco_list.html' with endereco_list=object.base_endereco_related.all %}
+                    </div>
+                    <!-- /.tab-pane -->
+                    <div class="tab-pane" id="tab_telefones">
+                        <h3>Telefones</h3>
+                        <div class="card-tools">
+                            <a class="btn btn-sm btn-success mr-2" href="{% url 'base:pessoa-telefone-create' pessoa_id=object.pk %}{{qs|safe}}#tab_telefones">Cadastrar novo</a>
+                        </div>
+                        count: {{ object.base_telefone_related.count }}
+                        {% include 'base/_telefone_list.html' with telefone_list=object.base_telefone_related.all %}
+                    </div>
+                    <div class="tab-pane" id="tab_dependentes">
+                        <h3>Dependentes</h3>
+                        count: {{ object.base_relacaodependencia_related.count }}
+                    </div>
+                    <div class="tab-pane" id="tab_contatossociais">
+                        <h3>Contatos Sociais</h3>
+                        <div class="card-tools">
+                            <a class="btn btn-sm btn-success mr-2" href="{% url 'base:pessoa-contatosocial-create' pessoa_id=object.pk %}{{qs|safe}}#tab_contatossociais">Cadastrar novo</a>
+                        </div>
+                        count: {{ object.base_contatosocial_related.count }}
+                        {% include 'base/_contatosocial_list.html' with contatosocial_list=object.base_contatosocial_related.all %}
+                    </div>
+                    <div class="tab-pane" id="tab_outrosdocumentos">
+                        <h3>Outros Documentos</h3>
+                        <div class="card-tools">
+                            <a class="btn btn-sm btn-success mr-2" href="{% url 'base:pessoa-documento-create' pessoa_id=object.pk %}{{qs|safe}}#tab_outrosdocumentos">Cadastrar novo</a>
+                        </div>
+                        count: {{ object.base_documentopessoal_related.count }}
+                        {% include 'base/_documentopessoal_list.html' with documentopessoal_list=object.base_documentopessoal_related.all %}
+                    </div>
+                    <!-- /.tab-pane -->
+                </div>
+                <!-- /.tab-content -->
+            </div>
+            <!-- /.card-body -->
+        </div>
+        <!-- ./card -->
+    </div>
+    <!-- /.col -->
+</div>
+
+
+{% endblock content %} {% block scripts %}
+<script>
+    $(function() {
+        var activeTab = window.localStorage.getItem('activeTab');
+        if (window.location.hash) {
+            activeTab = window.location.hash
+            window.location.hash = ''
+        }
+
+        $('a[data-toggle="tab"]').on('click', (e) => {
+            window.localStorage.setItem('activeTab', $(e.target).attr('href'));
+        });
+        if (activeTab) {
+            $('li.nav-item a[href="' + activeTab + '"]').tab('show');
+            window.localStorage.removeItem("activeTab");
+        }
+    });
+</script>
+{% endblock scripts %}
