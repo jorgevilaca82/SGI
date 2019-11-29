@@ -20,6 +20,8 @@ load_dotenv(find_dotenv())
 # Nome da aplicação
 APP_NAME = os.getenv('APP_NAME', '')
 
+DEFAULT_LAYOUT = os.getenv('DEFAULT_LAYOUT', 'layout.html')
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
