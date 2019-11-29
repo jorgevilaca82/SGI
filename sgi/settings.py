@@ -11,6 +11,11 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
+import locale
+from dotenv import load_dotenv, find_dotenv
+
+
+load_dotenv(find_dotenv())
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -20,12 +25,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '4ntjqahj$iz2v!kc)y_7x2vb*vy&s^gm(%phpz&u@q%p-&v#3b'
+SECRET_KEY = os.getenv('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.getenv('DEBUG', True)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', []).split()
 
 
 # Application definition
@@ -105,15 +110,15 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = os.getenv('LANGUAGE_CODE', 'en-us')
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = os.getenv('TIME_ZONE', 'UTC')
 
-USE_I18N = True
+USE_I18N = os.getenv('USE_I18N', True)
 
-USE_L10N = True
+USE_L10N = os.getenv('USE_L10N', True)
 
-USE_TZ = True
+USE_TZ = os.getenv('USE_TZ', True)
 
 
 # Static files (CSS, JavaScript, Images)
@@ -126,3 +131,6 @@ STATICFILES_DIRS = [
 ]
 
 STATIC_ROOT = 'wwwroot/'
+
+
+locale.setlocale(locale.LC_ALL, os.getenv('LC_ALL', 'pt_BR.UTF-8'))
