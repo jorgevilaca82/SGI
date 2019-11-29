@@ -17,6 +17,9 @@ from dotenv import load_dotenv, find_dotenv
 
 load_dotenv(find_dotenv())
 
+# Nome da aplicação
+APP_NAME = os.getenv('APP_NAME', '')
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -43,7 +46,14 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # vendor
+    'crispy_forms',
+    'localflavor',
+
+    # Módulos de aplicação
+    'sgi.commons',
     'sgi.home',
+    'sgi.base',
 ]
 
 MIDDLEWARE = [
@@ -61,7 +71,7 @@ ROOT_URLCONF = 'sgi.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -69,6 +79,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'sgi.commons.context_processors.app_settings',
             ],
         },
     },
@@ -134,3 +145,6 @@ STATIC_ROOT = 'wwwroot/'
 
 
 locale.setlocale(locale.LC_ALL, os.getenv('LC_ALL', 'pt_BR.UTF-8'))
+
+
+CRISPY_TEMPLATE_PACK = os.getenv('CRISPY_TEMPLATE_PACK', 'bootstrap4')
