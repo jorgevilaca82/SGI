@@ -1,0 +1,9 @@
+---
+- menu: Cadastros
+  base_url: /base/
+  icon_classes: far fa-address-card
+  items:
+  - label: Pessoa Física
+    link: 'base:pessoafisica-list'
+  - label: Pessoa Jurídica
+    link: 'base:pessoajuridica-list'
