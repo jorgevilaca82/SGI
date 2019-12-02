@@ -68,7 +68,7 @@ class PessoaTestCase(TestCase):
         self.assertEquals(self.p1.base_contatosocial_related.count(), 0)
 
         c1_whatsapp = ContatoSocial(
-            tipo=ContatoSocial.Tipo.WHATSAPP, valor='+55 69 9.9999-1234', pessoa=self.p1)
+            tipo=ContatoSocial.Tipo.WHATSAPP.value, valor='+55 69 9.9999-1234', pessoa=self.p1)
 
         c1_whatsapp.save()
 
@@ -80,7 +80,8 @@ class PessoaTestCase(TestCase):
     def test_pessoa_p1_tem_telefones(self):
         self.assertEquals(self.p1.base_telefone_related.count(), 0)
 
-        c1_cel = Telefone(tipo=Telefone.Tipo.CEL, numero='69 9.9999-1234', pessoa=self.p1)
+        c1_cel = Telefone(tipo=Telefone.Tipo.CEL,
+                          numero='69 9.9999-1234', pessoa=self.p1)
 
         with self.assertRaises(ValidationError) as target:
             c1_cel.full_clean()
@@ -114,9 +115,11 @@ class PessoaTestCase(TestCase):
                 observacoes='nenhuma observação'
             )
 
-        self.assertGreaterEqual(self.p1.base_documentopessoal_related.count(), 6)
+        self.assertGreaterEqual(
+            self.p1.base_documentopessoal_related.count(), 6)
 
-        doc_cnh = self.p1.base_documentopessoal_related.filter(tipo__nome='CNH').get()
+        doc_cnh = self.p1.base_documentopessoal_related.filter(
+            tipo__nome='CNH').get()
 
         self.assertEquals(doc_cnh.valor, 'num/id do CNH')
 
