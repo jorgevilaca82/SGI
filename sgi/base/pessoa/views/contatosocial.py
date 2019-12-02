@@ -1,5 +1,5 @@
-from .. import models as bm
-from .. import forms
+from sgi.base import models as bm
+from sgi.base.pessoa import forms
 from . import generic
 
 
@@ -18,8 +18,6 @@ class CreateView(generic.CreateView):
 
     contatos_disabled = []
 
-    pessoa = None
-
     def get_form_kwargs(self):
         """Return the keyword arguments for instantiating the form."""
         kwargs = super().get_form_kwargs()
@@ -27,6 +25,7 @@ class CreateView(generic.CreateView):
         return kwargs
 
     def get(self, request, *args, **kwargs):
+        # Desabilita os tipos de contatos já utlizados pela pessoa
         self.contatos_disabled = (
             [contato['tipo']
                 for contato in self.pessoa.base_contatosocial_related.values('tipo')])

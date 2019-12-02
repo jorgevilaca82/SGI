@@ -3,8 +3,8 @@ from enum import IntEnum, auto
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 
-from sagii.apps.administracao import models as adm  # (adm) administracao models
-from sagii.apps.base import models as bm  # (bm) base models
+from sgi.administracao import models as adm  # (adm) administracao models
+from sgi.base import models as bm  # (bm) base models
 
 
 class Funcionario(bm.PessoaFisica):

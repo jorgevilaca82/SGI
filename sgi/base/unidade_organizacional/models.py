@@ -3,7 +3,7 @@ from django.contrib.contenttypes.models import ContentType
 from django.db import models
 
 from sgi.commons.models import AuditableModel
-from .. import models as bm
+from sgi.base import models as bm
 
 
 class UnidadeOrganizacional(AuditableModel):

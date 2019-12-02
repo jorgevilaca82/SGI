@@ -2,7 +2,7 @@ from django.utils.translation import gettext_lazy as _
 from django.shortcuts import get_object_or_404
 
 from sgi.commons.views import generic
-from .. import models as bm
+from sgi.base import models as bm
 
 
 import mimetypes

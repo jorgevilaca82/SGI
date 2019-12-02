@@ -56,6 +56,9 @@ INSTALLED_APPS = [
     'sgi.commons',
     'sgi.home',
     'sgi.base',
+    'sgi.academico',
+    'sgi.administracao',
+    'sgi.recursos_humanos',
 ]
 
 MIDDLEWARE = [
