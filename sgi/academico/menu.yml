@@ -1,0 +1,9 @@
+---
+- menu: Acadêmico
+  base_url: /academico/
+  icon_classes: fas fa-graduation-cap
+  items:
+  - label: Aluno
+    link: 'academico:aluno-list'
+  - label: Professor
+    link: 'academico:professor-list'
