@@ -1,7 +1,7 @@
 from django.core.exceptions import ValidationError
 from django.test import TestCase
 
-from ..models import *
+from sgi.base.models import *
 
 
 class PessoaTestCase(TestCase):

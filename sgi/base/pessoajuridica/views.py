@@ -1,7 +1,7 @@
 from sgi.commons.views import generic
 
+from sgi.base import models as bm
 from . import forms as bf
-from .. import models as bm
 
 
 MODEL = bm.PessoaJuridica

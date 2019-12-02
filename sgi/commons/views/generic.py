@@ -4,7 +4,7 @@ from django.utils.translation import gettext_lazy as _
 from django.shortcuts import get_object_or_404
 from django.urls import reverse_lazy
 
-from ..messages.views import SuccessMessageOnDeleteMixin
+from sgi.commons.messages.views import SuccessMessageOnDeleteMixin
 
 
 class ModelOptsMixin(object):

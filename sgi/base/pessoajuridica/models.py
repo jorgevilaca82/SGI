@@ -4,7 +4,7 @@ from django.db import models
 from django.utils.translation import gettext_lazy as _
 from localflavor.br import models as lf_models
 
-from ..pessoa.models import Pessoa
+from sgi.base.models import Pessoa
 
 
 class PessoaJuridica(Pessoa):

@@ -6,7 +6,7 @@ from localflavor.br import models as lf_models
 
 from sgi.commons import ChoiceEnumCharValueMeta
 from sgi.commons.constants import ONE_SPACE
-from ..pessoa.models import Pessoa
+from sgi.base.models import Pessoa
 
 
 class CondicaoLimitante(models.Model):

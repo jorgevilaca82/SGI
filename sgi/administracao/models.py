@@ -1,6 +1,6 @@
 from django.db import models
 
-from sagii.apps.base import models as bm
+from sgi.base import models as bm
 
 
 class SetorTipo(models.Model):
