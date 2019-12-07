@@ -1,5 +1,4 @@
 # mkvirtualenv -p python3 ${PWD##*/}
-# ./bin/update-requirements.sh
 rm db.sqlite3
 ./bin/clean-migrations.sh
 python manage.py makemigrations

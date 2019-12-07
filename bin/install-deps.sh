@@ -1,0 +1,1 @@
+xargs sudo apt-get install < pkglist
