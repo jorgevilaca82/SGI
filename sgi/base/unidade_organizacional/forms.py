@@ -9,4 +9,11 @@ from . import models as bm
 class UnidadeOrganizacionalForm(ModelForm):
 
     class Meta:
+        
         model = bm.UnidadeOrganizacional
+        
+        fields = ('sigla',
+                  'nome',
+                  'pessoa_juridica',
+                  'content_type',
+                  'object_id',)

@@ -1,0 +1,19 @@
+{% extends default_layout %} 
+{% load model_utils %}
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">{{ opts.verbose_name_plural|title }}</h3>
+
+        <div class="card-tools">
+            <a class="btn btn-sm btn-success mr-2" href="{% url 'sgi_base:unidadeorganizacional-create' %}">Cadastrar novo</a>
+            {% show_pagination class='pagination pagination-sm m-0 float-right' %}
+        </div>
+    </div>
+    <!-- /.card-header -->
+    <div class="card-body p-0">
+        {% include 'base/_unidadeorganizacional_list.html' with unidadeorganizacional_list=unidadeorganizacional_list %}
+    </div>
+    <!-- /.card-body -->
+</div>
+{% endblock content %}

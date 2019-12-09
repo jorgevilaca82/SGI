@@ -1,0 +1,13 @@
+- model: base.pessoa
+  pk: 1
+  fields:
+    created_on: '2019-12-09 18:46:45.587581+00:00'
+    updated_on: '2019-12-09 18:46:45.587607+00:00'
+    nome_razao_social: "JORGE LUIZ PULLIG VIL\xC7A"
+- model: base.pessoa
+  pk: 2
+  fields:
+    created_on: '2019-12-09 18:49:56.933737+00:00'
+    updated_on: '2019-12-09 18:49:56.933769+00:00'
+    nome_razao_social: "NSTITUTO FEDERAL DE EDUCA\xC7\xC3O CI\xCANCIA E TECNOLOGIA\
+      \ DE ROND\xD4NIA - IFRO"

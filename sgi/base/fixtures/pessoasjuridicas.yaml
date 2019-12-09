@@ -1,0 +1,6 @@
+- model: base.pessoajuridica
+  pk: 2
+  fields:
+    cnpj: 10.817.343/0001-05
+    content_type: null
+    object_id: null

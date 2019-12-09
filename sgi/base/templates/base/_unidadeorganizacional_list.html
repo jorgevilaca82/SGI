@@ -1,0 +1,26 @@
+{% load model_utils %}
+<table class="table">
+    <tr>
+        <th style="width: 10px">#</th>
+        <th>sigla</th>
+        <th>nome</th>
+        <th>pessoa_juridica</th>
+        <th>content_type</th>
+        <th>object_id</th>
+        <th>&nbsp;</th>
+    </tr>
+    {% for uo in unidadeorganizacional_list %}
+    <tr>
+        <td>{{ uo.pk }}</td>
+        <td>{{ uo.sigla }}</td>
+        <td>{{ uo.nome }}</td>
+        <td>{{ uo.pessoa_juridica }}</td>
+        <td>{{ uo.content_type }}</td>
+        <td>{{ uo.object_id }}</td>
+        <td>
+            <a class="btn btn-sm btn-light" href="{% url 'sgi_base:unidadeorganizacional-update' pk=uo.pk %}">Editar</a>
+            <a class="btn btn-sm btn-light" href="{% url 'sgi_base:unidadeorganizacional-detail' pk=uo.pk %}">Detalhes</a>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
