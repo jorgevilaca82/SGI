@@ -2,4 +2,7 @@ from django.apps import AppConfig
 
 
 class HomeConfig(AppConfig):
-    name = 'home'
+    name = 'sgi.home'
+
+    def ready(self):
+        from . import checks
