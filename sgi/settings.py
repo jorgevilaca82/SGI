@@ -151,5 +151,9 @@ STATIC_ROOT = 'wwwroot/'
 
 locale.setlocale(locale.LC_ALL, os.getenv('LC_ALL', 'pt_BR.UTF-8'))
 
+LOCALE_PATHS = (BASE_DIR + '/locale', )
+
 
 CRISPY_TEMPLATE_PACK = os.getenv('CRISPY_TEMPLATE_PACK', 'bootstrap4')
+
+LOGOUT_REDIRECT_URL = '/'

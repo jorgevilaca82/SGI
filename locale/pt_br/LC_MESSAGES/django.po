@@ -1,0 +1,474 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-09 16:24-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: sgi/academico/models/__init__.py:18
+msgid "Campus"
+msgstr ""
+
+#: sgi/academico/models/__init__.py:19
+msgid "Polo"
+msgstr ""
+
+#: sgi/academico/models/__init__.py:20
+msgid "Escola"
+msgstr ""
+
+#: sgi/academico/models/__init__.py:50
+msgid "Diretoria de Ensino"
+msgstr ""
+
+#: sgi/academico/models/__init__.py:51
+msgid "Coordenação de Curso"
+msgstr ""
+
+#: sgi/academico/models/models.py:25
+msgid "Matriculado"
+msgstr ""
+
+#: sgi/academico/models/models.py:26
+msgid "Evadido"
+msgstr ""
+
+#: sgi/academico/models/models.py:48
+msgid "Gradução"
+msgstr ""
+
+#: sgi/academico/models/models.py:49
+msgid "Especialização"
+msgstr ""
+
+#: sgi/academico/models/models.py:50
+msgid "Mestrador"
+msgstr ""
+
+#: sgi/academico/models/models.py:51
+msgid "Doutorado"
+msgstr ""
+
+#: sgi/academico/models/models.py:52
+msgid "Pós Doutorado"
+msgstr ""
+
+#: sgi/academico/processo_seletivo/models.py:17
+msgid "Deferida"
+msgstr ""
+
+#: sgi/academico/processo_seletivo/models.py:18
+msgid "Indeferida"
+msgstr ""
+
+#: sgi/academico/processo_seletivo/models.py:19
+msgid "Deferida após recurso"
+msgstr ""
+
+#: sgi/base/pessoa/models/contatosocial.py:12
+msgid "Contato Social"
+msgstr ""
+
+#: sgi/base/pessoa/models/contatosocial.py:13
+msgid "Contatos Sociais"
+msgstr ""
+
+#: sgi/base/pessoa/models/documento.py:9
+msgid "Documento Pessoal Tipo"
+msgstr ""
+
+#: sgi/base/pessoa/models/documento.py:10
+msgid "Documentos Pessoais Tipos"
+msgstr ""
+
+#: sgi/base/pessoa/models/documento.py:22
+msgid "Documento Pessoal"
+msgstr ""
+
+#: sgi/base/pessoa/models/documento.py:23
+msgid "Documentos Pessoais"
+msgstr ""
+
+#: sgi/base/pessoa/models/endereco.py:12
+msgid "Endereço"
+msgstr ""
+
+#: sgi/base/pessoa/models/endereco.py:13
+msgid "Endereços"
+msgstr ""
+
+#: sgi/base/pessoa/models/endereco.py:22
+msgid "Comercial"
+msgstr ""
+
+#: sgi/base/pessoa/models/endereco.py:23
+msgid "Residencial"
+msgstr ""
+
+#: sgi/base/pessoa/models/endereco.py:24
+msgid "Rural"
+msgstr ""
+
+#: sgi/base/pessoa/models/telefone.py:20
+msgid "Tel. Fixo"
+msgstr ""
+
+#: sgi/base/pessoa/models/telefone.py:21
+msgid "Tel. Celular"
+msgstr ""
+
+#: sgi/base/pessoafisica/forms.py:26
+msgid "CPF"
+msgstr ""
+
+#: sgi/base/pessoafisica/forms.py:27
+msgid "Nome completo"
+msgstr ""
+
+#: sgi/base/pessoafisica/forms.py:28
+msgid "Tipo Sanguíneo"
+msgstr ""
+
+#: sgi/base/pessoafisica/forms.py:29
+msgid "Natural UF"
+msgstr ""
+
+#: sgi/base/pessoafisica/models.py:19
+msgid "Deficiência"
+msgstr ""
+
+#: sgi/base/pessoafisica/models.py:20
+msgid "Transtorno"
+msgstr ""
+
+#: sgi/base/pessoafisica/models.py:30
+msgid "Pessoa Física"
+msgstr ""
+
+#: sgi/base/pessoafisica/models.py:31
+msgid "Pessoas Físicas"
+msgstr ""
+
+#: sgi/base/pessoafisica/models.py:38
+msgid "Masculino"
+msgstr ""
+
+#: sgi/base/pessoafisica/models.py:39
+msgid "Feminino"
+msgstr ""
+
+#: sgi/base/pessoafisica/models.py:57
+msgid "Solteiro"
+msgstr ""
+
+#: sgi/base/pessoafisica/models.py:58
+msgid "Casado"
+msgstr ""
+
+#: sgi/base/pessoafisica/models.py:59
+msgid "Viúvo"
+msgstr ""
+
+#: sgi/base/pessoafisica/models.py:60
+msgid "Divorciado"
+msgstr ""
+
+#: sgi/base/pessoafisica/models.py:95
+msgid "Brasileiro"
+msgstr ""
+
+#: sgi/base/pessoafisica/models.py:96
+msgid "Estrangeiro"
+msgstr ""
+
+#: sgi/base/pessoafisica/models.py:145
+msgid "Nome Completo"
+msgstr ""
+
+#: sgi/base/pessoafisica/models.py:169
+msgid "Pai/Mãe"
+msgstr ""
+
+#: sgi/base/pessoafisica/models.py:170
+msgid "Avô/Avó"
+msgstr ""
+
+#: sgi/base/pessoafisica/models.py:171
+msgid "Tio/Tia"
+msgstr ""
+
+#: sgi/base/pessoafisica/models.py:172
+msgid "Outro"
+msgstr ""
+
+#: sgi/base/pessoajuridica/forms.py:13
+msgid "CNPJ"
+msgstr ""
+
+#: sgi/base/pessoajuridica/forms.py:14 sgi/base/pessoajuridica/models.py:41
+msgid "Razão Social"
+msgstr ""
+
+#: sgi/base/pessoajuridica/models.py:12
+msgid "Pessoa Jurídica"
+msgstr ""
+
+#: sgi/base/pessoajuridica/models.py:13
+msgid "Pessoas Jurídicas"
+msgstr ""
+
+#: sgi/commons/views/generic.py:23
+msgid "Cadastrar"
+msgstr ""
+
+#: sgi/commons/views/generic.py:36
+msgid "Editar"
+msgstr ""
+
+#: sgi/forms.py:11 sgi/home/forms.py:14
+msgid "Username"
+msgstr ""
+
+#: sgi/forms.py:15 sgi/forms.py:19 sgi/home/forms.py:18 sgi/home/forms.py:22
+msgid "Password"
+msgstr "Senha"
+
+#: sgi/recursos_humanos/models.py:24
+msgid "CLT Permanente"
+msgstr ""
+
+#: sgi/recursos_humanos/models.py:25
+msgid "CLT Temporário"
+msgstr ""
+
+#: sgi/recursos_humanos/models.py:26
+msgid "Prestador de Serviço"
+msgstr ""
+
+#: sgi/recursos_humanos/models.py:27
+msgid "Servidor Público"
+msgstr ""
+
+#: sgi/recursos_humanos/models.py:28
+msgid "Estagiário"
+msgstr ""
+
+#: sgi/recursos_humanos/models.py:29
+msgid "Trainee"
+msgstr ""
+
+#: sgi/recursos_humanos/models.py:30
+msgid "Menor Aprendiz"
+msgstr ""
+
+#: templates/registration/logged_out.html:4
+#: templates/registration/password_change_done.html:6
+#: templates/registration/password_change_form.html:7
+#: templates/registration/password_reset_complete.html:6
+#: templates/registration/password_reset_confirm.html:7
+#: templates/registration/password_reset_done.html:6
+#: templates/registration/password_reset_form.html:7
+msgid "Home"
+msgstr ""
+
+#: templates/registration/logged_out.html:8
+msgid "Thanks for spending some quality time with the Web site today."
+msgstr ""
+
+#: templates/registration/logged_out.html:10
+msgid "Log in again"
+msgstr ""
+
+#: templates/registration/login.html:51
+msgid "Sign in to start your session"
+msgstr "Autentique-se para iniciar"
+
+#: templates/registration/login.html:78
+msgid "Remember Me"
+msgstr "Lembre-se de mim"
+
+#: templates/registration/login.html:84
+msgid "Sign In"
+msgstr "Entrar"
+
+#: templates/registration/login.html:91
+msgid "OR"
+msgstr "OU"
+
+#: templates/registration/login.html:93
+msgid "Sign in using Facebook"
+msgstr "Login com Facebook"
+
+#: templates/registration/login.html:96
+msgid "Sign in using Google+"
+msgstr "Login com Google"
+
+#: templates/registration/login.html:102
+msgid "I forgot my password"
+msgstr "Esqueci minha senha"
+
+#: templates/registration/login.html:105
+msgid "Register a new membership"
+msgstr "Registra-se como novo membro"
+
+#: templates/registration/password_change_done.html:3
+#: templates/registration/password_change_form.html:4
+msgid "Documentation"
+msgstr ""
+
+#: templates/registration/password_change_done.html:3
+#: templates/registration/password_change_form.html:4
+#, fuzzy
+#| msgid "Password"
+msgid "Change password"
+msgstr "Alterar senha"
+
+#: templates/registration/password_change_done.html:3
+#: templates/registration/password_change_form.html:4
+msgid "Log out"
+msgstr "Sair"
+
+#: templates/registration/password_change_done.html:7
+#: templates/registration/password_change_form.html:8
+#, fuzzy
+#| msgid "Password"
+msgid "Password change"
+msgstr "Senha"
+
+#: templates/registration/password_change_done.html:14
+msgid "Your password was changed."
+msgstr "Sua senha foi alterada"
+
+#: templates/registration/password_change_form.html:21
+msgid "Please correct the error below."
+msgstr "Por favor, corrija o erro abaixo"
+
+#: templates/registration/password_change_form.html:21
+msgid "Please correct the errors below."
+msgstr "Por favor, corrija os erros abaixo"
+
+#: templates/registration/password_change_form.html:26
+msgid ""
+"Please enter your old password, for security's sake, and then enter your new "
+"password twice so we can verify you typed it in correctly."
+msgstr ""
+"Por favor informe sua senha antiga, por razões de segurança, e então informe uma nova "
+"senha duas vezes para que possamos verificar se vocês as digitou corretamente."
+
+#: templates/registration/password_change_form.html:54
+#: templates/registration/password_reset_confirm.html:32
+#, fuzzy
+#| msgid "I forgot my password"
+msgid "Change my password"
+msgstr "Esqueci minha senha"
+
+#: templates/registration/password_reset_complete.html:7
+#: templates/registration/password_reset_done.html:7
+#: templates/registration/password_reset_form.html:8
+#, fuzzy
+#| msgid "Password"
+msgid "Password reset"
+msgstr "Senha"
+
+#: templates/registration/password_reset_complete.html:16
+msgid "Your password has been set.  You may go ahead and log in now."
+msgstr ""
+
+#: templates/registration/password_reset_complete.html:18
+msgid "Log in"
+msgstr ""
+
+#: templates/registration/password_reset_confirm.html:8
+msgid "Password reset confirmation"
+msgstr ""
+
+#: templates/registration/password_reset_confirm.html:18
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
+msgstr ""
+
+#: templates/registration/password_reset_confirm.html:24
+#, fuzzy
+#| msgid "Password"
+msgid "New password:"
+msgstr "Nova senha"
+
+#: templates/registration/password_reset_confirm.html:29
+#, fuzzy
+#| msgid "I forgot my password"
+msgid "Confirm password:"
+msgstr "Esqueci minha senha"
+
+#: templates/registration/password_reset_confirm.html:38
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a new password reset."
+msgstr ""
+
+#: templates/registration/password_reset_done.html:15
+msgid ""
+"We've emailed you instructions for setting your password, if an account "
+"exists with the email you entered. You should receive them shortly."
+msgstr ""
+
+#: templates/registration/password_reset_done.html:17
+msgid ""
+"If you don't receive an email, please make sure you've entered the address "
+"you registered with, and check your spam folder."
+msgstr ""
+
+#: templates/registration/password_reset_email.html:2
+#, python-format
+msgid ""
+"You're receiving this email because you requested a password reset for your "
+"user account at %(site_name)s."
+msgstr ""
+
+#: templates/registration/password_reset_email.html:4
+msgid "Please go to the following page and choose a new password:"
+msgstr ""
+
+#: templates/registration/password_reset_email.html:8
+msgid "Your username, in case you've forgotten:"
+msgstr ""
+
+#: templates/registration/password_reset_email.html:10
+msgid "Thanks for using our site!"
+msgstr ""
+
+#: templates/registration/password_reset_email.html:12
+#, python-format
+msgid "The %(site_name)s team"
+msgstr ""
+
+#: templates/registration/password_reset_form.html:16
+msgid ""
+"Forgotten your password? Enter your email address below, and we'll email "
+"instructions for setting a new one."
+msgstr ""
+
+#: templates/registration/password_reset_form.html:22
+msgid "Email address:"
+msgstr ""
+
+#: templates/registration/password_reset_form.html:25
+#, fuzzy
+#| msgid "I forgot my password"
+msgid "Reset my password"
+msgstr "Esqueci minha senha"
+
+#~ msgid "Email"
+#~ msgstr "Email"

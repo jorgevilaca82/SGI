@@ -1,0 +1,15 @@
+- model: auth.user
+  pk: 1
+  fields:
+    password: pbkdf2_sha256$180000$lvzU7myRAboc$n73bEu8zHA/E7nYwCmJ0+qDGRmyVZDCunw+KrWE0QAA=
+    last_login: 2019-12-09 19:31:15.345266+00:00
+    is_superuser: true
+    username: jorge
+    first_name: Jorge
+    last_name: "Vila\xE7a"
+    email: jorge.vilaca@ifro.edu.br
+    is_staff: true
+    is_active: true
+    date_joined: 2019-12-09 17:56:21.124533+00:00
+    groups: []
+    user_permissions: []

@@ -1,6 +1,7 @@
 build-essential
 curl
 wget
+gettext
 git
 python
 python-pip
