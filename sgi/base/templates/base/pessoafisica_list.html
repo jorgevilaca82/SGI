@@ -6,7 +6,7 @@
         <h3 class="card-title">{{ opts.verbose_name_plural|title }}</h3>
 
         <div class="card-tools">
-            <a class="btn btn-sm btn-success mr-2" href="{% url 'base:pessoafisica-create' %}">Cadastrar novo</a>
+            <a class="btn btn-sm btn-success mr-2" href="{% url 'sgi_base:pessoafisica-create' %}">Cadastrar novo</a>
             {% show_pagination class='pagination pagination-sm m-0 float-right' %}
         </div>
     </div>
@@ -35,8 +35,8 @@
                 <td>{{ pessoafisica.nacionalidade }}</td> {% endcomment %}
                 <td>{{ pessoafisica.falecido|yesno:"sim,não" }}</td>
                 <td>
-                    <a class="btn btn-sm btn-light" href="{% url 'base:pessoafisica-update' pk=pessoafisica.id %}">Editar</a>
-                    <a class="btn btn-sm btn-light" href="{% url 'base:pessoafisica-detail' pk=pessoafisica.id %}">Detalhes</a>
+                    <a class="btn btn-sm btn-light" href="{% url 'sgi_base:pessoafisica-update' pk=pessoafisica.id %}">Editar</a>
+                    <a class="btn btn-sm btn-light" href="{% url 'sgi_base:pessoafisica-detail' pk=pessoafisica.id %}">Detalhes</a>
                 </td>
             </tr>
             {% endfor %}

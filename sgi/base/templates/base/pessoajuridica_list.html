@@ -6,7 +6,7 @@
         <h3 class="card-title">{{ opts.verbose_name_plural|title }}</h3>
 
         <div class="card-tools">
-            <a class="btn btn-sm btn-success mr-2" href="{% url 'base:pessoajuridica-create' %}">Cadastrar novo</a>
+            <a class="btn btn-sm btn-success mr-2" href="{% url 'sgi_base:pessoajuridica-create' %}">Cadastrar novo</a>
             {% show_pagination class='pagination pagination-sm m-0 float-right' %}
         </div>
     </div>
@@ -25,8 +25,8 @@
                 <td>{{ pessoajuridica.cnpj }}</td>
                 <td>{{ pessoajuridica.razao_social }}</td>
                 <td>
-                    <a class="btn btn-sm btn-light" href="{% url 'base:pessoajuridica-update' pk=pessoajuridica.id %}">Editar</a>
-                    <a class="btn btn-sm btn-light" href="{% url 'base:pessoajuridica-detail' pk=pessoajuridica.id %}">Detalhes</a>
+                    <a class="btn btn-sm btn-light" href="{% url 'sgi_base:pessoajuridica-update' pk=pessoajuridica.id %}">Editar</a>
+                    <a class="btn btn-sm btn-light" href="{% url 'sgi_base:pessoajuridica-detail' pk=pessoajuridica.id %}">Detalhes</a>
                 </td>
             </tr>
             {% endfor %}

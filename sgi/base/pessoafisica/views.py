@@ -37,4 +37,4 @@ class DeleteView(generic.DeleteView):
     model = MODEL
     success_message = model._meta.verbose_name + \
         " com CPF n. %(cpf)s excluída permanentemente!"
-    success_url_name = 'base:pessoafisica-list'
+    success_url_name = 'sgi_base:pessoafisica-list'

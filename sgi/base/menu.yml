@@ -4,6 +4,6 @@
   icon_classes: far fa-address-card
   items:
   - label: Pessoa Física
-    link: 'base:pessoafisica-list'
+    link: 'sgi_base:pessoafisica-list'
   - label: Pessoa Jurídica
-    link: 'base:pessoajuridica-list'
+    link: 'sgi_base:pessoajuridica-list'

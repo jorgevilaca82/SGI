@@ -1,3 +1,4 @@
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.messages.views import SuccessMessageMixin
 from django.views import generic
 from django.utils.translation import gettext_lazy as _
@@ -13,12 +14,12 @@ class ModelOptsMixin(object):
         return super().get_context_data(**kwargs)
 
 
-class ListView(ModelOptsMixin, generic.ListView):
+class ListView(LoginRequiredMixin, ModelOptsMixin, generic.ListView):
     paginate_by = 5
     ordering = ['-id']
 
 
-class CreateView(SuccessMessageMixin, ModelOptsMixin, generic.CreateView):
+class CreateView(LoginRequiredMixin, SuccessMessageMixin, ModelOptsMixin, generic.CreateView):
     extra_context = {'action': _('Cadastrar'), }
 
     def post(self, request, *args, **kwargs):
@@ -26,16 +27,16 @@ class CreateView(SuccessMessageMixin, ModelOptsMixin, generic.CreateView):
         return super().post(request, *args, **kwargs)
 
 
-class DetailView(ModelOptsMixin, generic.DetailView):
+class DetailView(LoginRequiredMixin, ModelOptsMixin, generic.DetailView):
     pass
 
 
-class UpdateView(SuccessMessageMixin, ModelOptsMixin, generic.UpdateView):
+class UpdateView(LoginRequiredMixin, SuccessMessageMixin, ModelOptsMixin, generic.UpdateView):
     model = None
     extra_context = {'action': _('Editar'), }
 
 
-class DeleteView(SuccessMessageOnDeleteMixin, generic.DeleteView):
+class DeleteView(LoginRequiredMixin, SuccessMessageOnDeleteMixin, generic.DeleteView):
     model = None
     success_url_name = None
     success_params = []

@@ -34,4 +34,4 @@ class ContatoSocial(PessoaRelatedModel):
     def get_absolute_url(self):
         from django.urls import reverse
         kwargs = {'pessoa_id': self.pessoa_id, 'pk': self.pk}
-        return reverse('base:pessoa-contatosocial-detail', kwargs=kwargs)
+        return reverse('sgi_base:pessoa-contatosocial-detail', kwargs=kwargs)

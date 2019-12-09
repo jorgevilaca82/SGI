@@ -49,4 +49,4 @@ class DeleteView(generic.DeleteView):
     model = MODEL
     success_message = model._meta.verbose_name + \
         " com n. %(valor)s excluída permanentemente!"
-    success_url_name = 'base:pessoa-documento-list'
+    success_url_name = 'sgi_base:pessoa-documento-list'

@@ -15,9 +15,16 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.contrib.auth import views as auth_views
+from .forms import SGIAuthenticationForm
+
 
 urlpatterns = [
+    path('accounts/login/', auth_views.LoginView.as_view(form_class=SGIAuthenticationForm)),
+    path('accounts/', include('django.contrib.auth.urls')),
+
     path('', include('sgi.home.urls')),
+
     path('base/', include('sgi.base.urls')),
     path('admin/', admin.site.urls),
 ]

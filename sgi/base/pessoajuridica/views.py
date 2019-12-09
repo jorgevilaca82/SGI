@@ -37,4 +37,4 @@ class DeleteView(generic.DeleteView):
     model = MODEL
     success_message = model._meta.verbose_name + \
         " com CNPJ n. %(cnpj)s excluída permanentemente!"
-    success_url_name = 'base:pessoajuridica-list'
+    success_url_name = 'sgi_base:pessoajuridica-list'

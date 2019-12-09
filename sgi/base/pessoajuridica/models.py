@@ -33,7 +33,7 @@ class PessoaJuridica(Pessoa):
 
     def get_absolute_url(self):
         from django.urls import reverse
-        return reverse('base:pessoajuridica-detail', kwargs={'pk': self.pk})
+        return reverse('sgi_base:pessoajuridica-detail', kwargs={'pk': self.pk})
 
     def __init__(self, *args, **kwargs):
         instance = super().__init__(*args, **kwargs)

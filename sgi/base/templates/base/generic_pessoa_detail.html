@@ -29,7 +29,7 @@
                     <div class="tab-pane" id="tab_enderecos">
                         <h3>Endereços</h3>
                         <div class="card-tools">                            
-                            <a class="btn btn-sm btn-success mr-2" href="{% url 'base:pessoa-endereco-create' pessoa_id=object.pk %}{{qs|safe}}#tab_enderecos">Cadastrar novo</a>
+                            <a class="btn btn-sm btn-success mr-2" href="{% url 'sgi_base:pessoa-endereco-create' pessoa_id=object.pk %}{{qs|safe}}#tab_enderecos">Cadastrar novo</a>
                         </div>
                         count: {{ object.base_endereco_related.count }}
                         {% include 'base/_endereco_list.html' with endereco_list=object.base_endereco_related.all %}
@@ -38,7 +38,7 @@
                     <div class="tab-pane" id="tab_telefones">
                         <h3>Telefones</h3>
                         <div class="card-tools">
-                            <a class="btn btn-sm btn-success mr-2" href="{% url 'base:pessoa-telefone-create' pessoa_id=object.pk %}{{qs|safe}}#tab_telefones">Cadastrar novo</a>
+                            <a class="btn btn-sm btn-success mr-2" href="{% url 'sgi_base:pessoa-telefone-create' pessoa_id=object.pk %}{{qs|safe}}#tab_telefones">Cadastrar novo</a>
                         </div>
                         count: {{ object.base_telefone_related.count }}
                         {% include 'base/_telefone_list.html' with telefone_list=object.base_telefone_related.all %}
@@ -50,7 +50,7 @@
                     <div class="tab-pane" id="tab_contatossociais">
                         <h3>Contatos Sociais</h3>
                         <div class="card-tools">
-                            <a class="btn btn-sm btn-success mr-2" href="{% url 'base:pessoa-contatosocial-create' pessoa_id=object.pk %}{{qs|safe}}#tab_contatossociais">Cadastrar novo</a>
+                            <a class="btn btn-sm btn-success mr-2" href="{% url 'sgi_base:pessoa-contatosocial-create' pessoa_id=object.pk %}{{qs|safe}}#tab_contatossociais">Cadastrar novo</a>
                         </div>
                         count: {{ object.base_contatosocial_related.count }}
                         {% include 'base/_contatosocial_list.html' with contatosocial_list=object.base_contatosocial_related.all %}
@@ -58,7 +58,7 @@
                     <div class="tab-pane" id="tab_outrosdocumentos">
                         <h3>Outros Documentos</h3>
                         <div class="card-tools">
-                            <a class="btn btn-sm btn-success mr-2" href="{% url 'base:pessoa-documento-create' pessoa_id=object.pk %}{{qs|safe}}#tab_outrosdocumentos">Cadastrar novo</a>
+                            <a class="btn btn-sm btn-success mr-2" href="{% url 'sgi_base:pessoa-documento-create' pessoa_id=object.pk %}{{qs|safe}}#tab_outrosdocumentos">Cadastrar novo</a>
                         </div>
                         count: {{ object.base_documentopessoal_related.count }}
                         {% include 'base/_documentopessoal_list.html' with documentopessoal_list=object.base_documentopessoal_related.all %}

@@ -5,7 +5,7 @@ from .pessoa import urls as pessoa_urls
 from .pessoafisica import urls as pessoafisica_urls
 from .pessoajuridica import urls as pessoajuridica_urls
 
-app_name = 'base'
+app_name = 'sgi_base'
 
 base_module = 'sgi.base'
 
