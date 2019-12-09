@@ -20,7 +20,7 @@ from .forms import SGIAuthenticationForm
 
 
 urlpatterns = [
-    path('accounts/login/', auth_views.LoginView.as_view(form_class=SGIAuthenticationForm)),
+    path('accounts/login/', auth_views.LoginView.as_view(form_class=SGIAuthenticationForm), name='login'),
     path('accounts/', include('django.contrib.auth.urls')),
 
     path('', include('sgi.home.urls')),

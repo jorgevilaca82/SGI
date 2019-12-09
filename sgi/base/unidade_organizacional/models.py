@@ -16,9 +16,11 @@ class UnidadeOrganizacional(AuditableModel):
     # slug = models.SlugField()
 
     # opcional no caso de subsetores
-    pessoa_juridica = models.ForeignKey(bm.PessoaJuridica, on_delete=models.PROTECT)
+    pessoa_juridica = models.ForeignKey(
+        bm.PessoaJuridica, on_delete=models.PROTECT)
 
-    content_type = models.ForeignKey(ContentType,on_delete=models.CASCADE,null=True)
+    content_type = models.ForeignKey(
+        ContentType, on_delete=models.CASCADE, null=True)
 
     object_id = models.PositiveIntegerField(null=True)
 

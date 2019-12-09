@@ -7,6 +7,7 @@ from . import models as bm
 
 
 class _PessoaFisicaForm(ModelForm):
+    
     class Meta:
         model = bm.PessoaFisica
 
@@ -49,7 +50,8 @@ class _PessoaFisicaForm(ModelForm):
         self.helper.layout = Layout(
             Row(
                 Column('cpf', css_class='form-group col-md-4 mb-0'),
-                Column('nome_razao_social', css_class='form-group col-md-8 mb-0'),
+                Column('nome_razao_social',
+                       css_class='form-group col-md-8 mb-0'),
             ),
             Row(
                 Column('sexo', css_class='form-group col-md-4 mb-0'),

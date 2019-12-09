@@ -1,3 +1,4 @@
+from django.forms import Select
 from crispy_forms.helper import FormHelper
 from crispy_forms.layout import Layout, Submit, Row, Column
 from django.forms import modelform_factory, ModelForm
@@ -22,11 +23,12 @@ class TelefoneForm(ModelForm):
             Submit('submit', 'Salvar'),
         )
 
-from django.forms import Select
+
 class SelectWidget(Select):
     """
     Subclass of Django's select widget that allows disabling options.
     """
+
     def __init__(self, *args, **kwargs):
         self._disabled_choices = []
         super(SelectWidget, self).__init__(*args, **kwargs)
@@ -46,6 +48,7 @@ class SelectWidget(Select):
         if value in self.disabled_choices:
             option_dict['attrs']['disabled'] = 'disabled'
         return option_dict
+
 
 class ContatoSocialForm(ModelForm):
 
@@ -68,7 +71,9 @@ class ContatoSocialForm(ModelForm):
             Submit('submit', 'Salvar'),
         )
 
+
 class EnderecoForm(ModelForm):
+
     class Meta:
         model = bm.Endereco
         exclude = ("pessoa",)
@@ -94,6 +99,7 @@ class EnderecoForm(ModelForm):
             'principal',
             Submit('submit', 'Salvar'),
         )
+
 
 class DocumentoForm(ModelForm):
     class Meta:

@@ -7,6 +7,7 @@ from . import models as bm
 
 
 class _PessoaJuridicaForm(ModelForm):
+    
     class Meta:
         fields = ('cnpj', 'nome_razao_social')
         labels = {
