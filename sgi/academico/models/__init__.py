@@ -6,6 +6,8 @@ from django.utils.translation import gettext_lazy as _
 from sgi.commons.models import AuditableModel
 from sgi.base import models as bm
 
+from .curso import *
+
 
 class UnidadeDeEnsino(bm.UnidadeOrganizacional):
 
@@ -38,7 +40,11 @@ class UnidadeDeEnsino(bm.UnidadeOrganizacional):
     por_tipo = PorTipoQuerySet.as_manager()
 
 
-class AreaUnidadeDeEnsino(AuditableModel):
+class AreaUnidadeDeEnsino(bm.UnidadeOrganizacional):
+    """
+    Áreas(setores) e sub-áreas(sub-setores) de uma unidade de ensino
+    """
+
     class Meta:
         pass
 
@@ -53,14 +59,16 @@ class AreaUnidadeDeEnsino(AuditableModel):
 
     tipo = models.IntegerField(choices=TIPO_CHOICES)
 
-    unidade_de_ensino = models.ForeignKey(UnidadeDeEnsino, on_delete=models.PROTECT)
+    sub_areas = GenericRelation('AreaUnidadeDeEnsino')
 
-    area_superior = models.ForeignKey(
-        'self',
-        on_delete=models.PROTECT,
-        related_name='sub_areas',
-        null=True
-    )
+    # unidade_de_ensino = models.ForeignKey(UnidadeDeEnsino, on_delete=models.PROTECT)
+
+    # area_superior = models.ForeignKey(
+    #     'self',
+    #     on_delete=models.PROTECT,
+    #     related_name='sub_areas',
+    #     null=True
+    # )
 
     responsavel = models.ForeignKey(bm.PessoaFisica, on_delete=models.PROTECT)
 
@@ -73,3 +81,11 @@ class AreaUnidadeDeEnsino(AuditableModel):
             return self.filter(tipo=AreaUnidadeDeEnsino.Tipo.COORDENACAO_DE_CURSO)
 
     por_tipo = PorTipoQuerySet.as_manager()
+
+
+
+__all__ = [
+    'AreaCAPES',
+    'UnidadeDeEnsino',
+    'AreaUnidadeDeEnsino',
+]

@@ -109,3 +109,5 @@ wwwroot/*
 
 node_modules/
 static/
+
+.vscode

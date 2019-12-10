@@ -26,5 +26,8 @@ urlpatterns = [
     path('', include('sgi.home.urls')),
 
     path('base/', include('sgi.base.urls')),
+    
+    path('academico/', include('sgi.academico.urls')),
+    
     path('admin/', admin.site.urls),
 ]

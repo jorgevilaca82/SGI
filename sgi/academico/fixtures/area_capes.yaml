@@ -1,0 +1,5216 @@
+- model: academico.areacapes
+  pk: 10000003
+  fields:
+    descricao: "CI\xCANCIAS EXATAS E DA TERRA"
+- model: academico.areacapes
+  pk: 10100008
+  fields:
+    descricao: "MATEM\xC1TICA"
+- model: academico.areacapes
+  pk: 10101004
+  fields:
+    descricao: ALGEBRA
+- model: academico.areacapes
+  pk: 10101012
+  fields:
+    descricao: CONJUNTOS
+- model: academico.areacapes
+  pk: 10101020
+  fields:
+    descricao: "L\xD3GICA MATEM\xC1TICA"
+- model: academico.areacapes
+  pk: 10101039
+  fields:
+    descricao: "TEORIA DOS N\xDAMEROS"
+- model: academico.areacapes
+  pk: 10101047
+  fields:
+    descricao: "GRUPO DE \xC1LGEBRA N\xC3O-COMUTATIVA"
+- model: academico.areacapes
+  pk: 10101055
+  fields:
+    descricao: "\xC1LGEBRA COMUTATIVA"
+- model: academico.areacapes
+  pk: 10101063
+  fields:
+    descricao: "GEOMETRIA ALG\xC9BRICA"
+- model: academico.areacapes
+  pk: 10102000
+  fields:
+    descricao: "AN\xC1LISE"
+- model: academico.areacapes
+  pk: 10102019
+  fields:
+    descricao: "AN\xC1LISE COMPLEXA"
+- model: academico.areacapes
+  pk: 10102027
+  fields:
+    descricao: "AN\xC1LISE FUNCIONAL"
+- model: academico.areacapes
+  pk: 10102035
+  fields:
+    descricao: "AN\xC1LISE FUNCIONAL N\xC3O-LINEAR"
+- model: academico.areacapes
+  pk: 10102043
+  fields:
+    descricao: "EQUA\xC7\xD5ES DIFERENCIAIS ORDIN\xC1RIAS"
+- model: academico.areacapes
+  pk: 10102051
+  fields:
+    descricao: "EQUA\xC7\xD5ES DIFERENCIAIS PARCIAIS"
+- model: academico.areacapes
+  pk: 10102060
+  fields:
+    descricao: "EQUA\xC7\xD5ES DIFERENCIAIS FUNCIONAIS"
+- model: academico.areacapes
+  pk: 10103007
+  fields:
+    descricao: GEOMETRIA E TOPOLOGIA
+- model: academico.areacapes
+  pk: 10103015
+  fields:
+    descricao: "GEOMETRIA DIFER\xCANCIAL"
+- model: academico.areacapes
+  pk: 10103023
+  fields:
+    descricao: "TOPOLOGIA ALG\xC9BRICA"
+- model: academico.areacapes
+  pk: 10103031
+  fields:
+    descricao: TOPOLOGIA DAS VARIEDADES
+- model: academico.areacapes
+  pk: 10103040
+  fields:
+    descricao: "SISTEMAS DIN\xC2MICOS"
+- model: academico.areacapes
+  pk: 10103058
+  fields:
+    descricao: "TEORIA DAS SINGULARIDADES E TEORIA DAS CAT\xC1STROFES"
+- model: academico.areacapes
+  pk: 10103066
+  fields:
+    descricao: "TEORIA DAS FOLHEA\xC7\xD5ES"
+- model: academico.areacapes
+  pk: 10104003
+  fields:
+    descricao: "MATEM\xC1TICA APLICADA"
+- model: academico.areacapes
+  pk: 10104011
+  fields:
+    descricao: "F\xCDSICA MATEM\xC1TICA"
+- model: academico.areacapes
+  pk: 10104020
+  fields:
+    descricao: "AN\xC1LISE NUM\xC9RICA"
+- model: academico.areacapes
+  pk: 10104038
+  fields:
+    descricao: "MATEM\xC1TICA DISCRETA E COMBINAT\xD3RIA"
+- model: academico.areacapes
+  pk: 10200002
+  fields:
+    descricao: "PROBABILIDADE E ESTAT\xCDSTICA"
+- model: academico.areacapes
+  pk: 10201017
+  fields:
+    descricao: TEORIA GERAL E FUNDAMENTOS DA PROBABILIDADE
+- model: academico.areacapes
+  pk: 10201025
+  fields:
+    descricao: "TEORIA GERAL E PROCESSOS ESTOC\xC1STICOS"
+- model: academico.areacapes
+  pk: 10201033
+  fields:
+    descricao: TEOREMAS DE LIMITE
+- model: academico.areacapes
+  pk: 10201041
+  fields:
+    descricao: PROCESSOS MARKOVIANOS
+- model: academico.areacapes
+  pk: 10201050
+  fields:
+    descricao: "AN\xC1LISE ESTOC\xC1STICA"
+- model: academico.areacapes
+  pk: 10201068
+  fields:
+    descricao: "PROCESSOS ESTOC\xC1STICOS ESPECIAIS"
+- model: academico.areacapes
+  pk: 10202005
+  fields:
+    descricao: "ESTAT\xCDSTICA"
+- model: academico.areacapes
+  pk: 10202013
+  fields:
+    descricao: "FUNDAMENTOS DA ESTAT\xCDSTICA"
+- model: academico.areacapes
+  pk: 10202021
+  fields:
+    descricao: "INFER\xCANCIA PARAM\xC9TRICA"
+- model: academico.areacapes
+  pk: 10202030
+  fields:
+    descricao: "INFER\xCANCIA N\xC3O-PARAM\xC9TRICA"
+- model: academico.areacapes
+  pk: 10202048
+  fields:
+    descricao: "INFER\xCANCIA EM PROCESSOS ESTOC\xC1STICOS"
+- model: academico.areacapes
+  pk: 10202056
+  fields:
+    descricao: "AN\xC1LISE MULTIVARIADA"
+- model: academico.areacapes
+  pk: 10202064
+  fields:
+    descricao: "REGRESS\xC3O E CORRELA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 10202072
+  fields:
+    descricao: PLANEJAMENTO DE EXPERIMENTOS
+- model: academico.areacapes
+  pk: 10202080
+  fields:
+    descricao: "AN\xC1LISE DE DADOS"
+- model: academico.areacapes
+  pk: 10203001
+  fields:
+    descricao: "PROBABILIDADE E ESTAT\xCDSTICA APLICADAS"
+- model: academico.areacapes
+  pk: 10300007
+  fields:
+    descricao: "CI\xCANCIA DA COMPUTA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 10301003
+  fields:
+    descricao: "TEORIA DA COMPUTA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 10301011
+  fields:
+    descricao: "COMPUTABILIDADE E MODELOS DE COMPUTA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 10301020
+  fields:
+    descricao: "LINGUAGEM FORMAIS E AUT\xD4MATOS"
+- model: academico.areacapes
+  pk: 10301038
+  fields:
+    descricao: "AN\xC1LISE DE ALGOR\xCDTMOS E COMPLEXIDADE DE COMPUTA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 10301046
+  fields:
+    descricao: "L\xD3GICAS E SEM\xC2NTICA DE PROGRAMAS"
+- model: academico.areacapes
+  pk: 10302000
+  fields:
+    descricao: "MATEM\xC1TICA DA COMPUTA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 10302018
+  fields:
+    descricao: "MATEM\xC1TICA SIMB\xD3LICA"
+- model: academico.areacapes
+  pk: 10302026
+  fields:
+    descricao: "MODELOS ANAL\xCDTICOS E DE SIMULA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 10303006
+  fields:
+    descricao: "METODOLOGIA E T\xC9CNICAS DA COMPUTA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 10303014
+  fields:
+    descricao: "LINGUAGENS DE PROGRAMA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 10303022
+  fields:
+    descricao: ENGENHARIA DE SOFTWARE
+- model: academico.areacapes
+  pk: 10303030
+  fields:
+    descricao: BANCO DE DADOS
+- model: academico.areacapes
+  pk: 10303049
+  fields:
+    descricao: "SISTEMAS DE INFORMA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 10303057
+  fields:
+    descricao: "PROCESSAMENTO GR\xC1FICO (GRAPHICS)"
+- model: academico.areacapes
+  pk: 10304002
+  fields:
+    descricao: "SISTEMA DE COMPUTA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 10304010
+  fields:
+    descricao: HARDWARE
+- model: academico.areacapes
+  pk: 10304029
+  fields:
+    descricao: "ARQUITETURA DE SISTEMAS DE COMPUTA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 10304037
+  fields:
+    descricao: "SOFTWARE B\xC1SICO"
+- model: academico.areacapes
+  pk: 10304045
+  fields:
+    descricao: "TELEINFORM\xC1TICA"
+- model: academico.areacapes
+  pk: 10400001
+  fields:
+    descricao: ASTRONOMIA
+- model: academico.areacapes
+  pk: 10401008
+  fields:
+    descricao: "ASTRONOMIA DE POSI\xC7\xC3O E MEC\xC2NICA CELESTE"
+- model: academico.areacapes
+  pk: 10401016
+  fields:
+    descricao: ASTRONOMIA FUNDAMENTAL
+- model: academico.areacapes
+  pk: 10401024
+  fields:
+    descricao: "ASTRONOMIA DIN\xC2MICA"
+- model: academico.areacapes
+  pk: 10402004
+  fields:
+    descricao: "ASTROF\xCDSICA ESTELAR"
+- model: academico.areacapes
+  pk: 10403000
+  fields:
+    descricao: "ASTROF\xCDSICA DO MEIO INTERESTELAR"
+- model: academico.areacapes
+  pk: 10403019
+  fields:
+    descricao: MEIO INTERESTELAR
+- model: academico.areacapes
+  pk: 10403027
+  fields:
+    descricao: NEBULOSA
+- model: academico.areacapes
+  pk: 10404007
+  fields:
+    descricao: "ASTROF\xCDSICA EXTRAGAL\xC1TICA"
+- model: academico.areacapes
+  pk: 10404015
+  fields:
+    descricao: "GAL\xC1XIAS"
+- model: academico.areacapes
+  pk: 10404023
+  fields:
+    descricao: "AGLOMERADOS DE GAL\xC1XIAS"
+- model: academico.areacapes
+  pk: 10404031
+  fields:
+    descricao: QUASARES
+- model: academico.areacapes
+  pk: 10404040
+  fields:
+    descricao: COSMOLOGIA
+- model: academico.areacapes
+  pk: 10405003
+  fields:
+    descricao: "ASTROF\xCDSICA DO SISTEMA SOLAR"
+- model: academico.areacapes
+  pk: 10405011
+  fields:
+    descricao: "F\xCDSICA SOLAR"
+- model: academico.areacapes
+  pk: 10405020
+  fields:
+    descricao: MOVIMENTO DA TERRA
+- model: academico.areacapes
+  pk: 10405038
+  fields:
+    descricao: "SISTEMA PLANET\xC1RIO"
+- model: academico.areacapes
+  pk: 10406000
+  fields:
+    descricao: "INSTRUMENTA\xC7\xC3O ASTRON\xD4MICA"
+- model: academico.areacapes
+  pk: 10406018
+  fields:
+    descricao: "ASTRONOMIA \xD3TICA"
+- model: academico.areacapes
+  pk: 10406026
+  fields:
+    descricao: RADIOASTRONOMIA
+- model: academico.areacapes
+  pk: 10406034
+  fields:
+    descricao: ASTRONOMIA ESPACIAL
+- model: academico.areacapes
+  pk: 10406042
+  fields:
+    descricao: "PROCESSAMENTO DE DADOS ASTRON\xD4MICOS"
+- model: academico.areacapes
+  pk: 10500006
+  fields:
+    descricao: "F\xCDSICA"
+- model: academico.areacapes
+  pk: 10501002
+  fields:
+    descricao: "F\xCDSICA GERAL"
+- model: academico.areacapes
+  pk: 10501010
+  fields:
+    descricao: "M\xC9TODOS MATEM\xC1TICOS DA F\xCDSICA"
+- model: academico.areacapes
+  pk: 10501029
+  fields:
+    descricao: "F\xCDSICA CL\xC1SSICA E F\xCDSICA QU\xC2NTICA; MEC\xC2NICA E CAMPOS"
+- model: academico.areacapes
+  pk: 10501037
+  fields:
+    descricao: "RELATIVIDADE E GRAVITA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 10501045
+  fields:
+    descricao: "F\xCDSICA ESTAT\xCDSTICA E TERMODIN\xC2MICA"
+- model: academico.areacapes
+  pk: 10501053
+  fields:
+    descricao: "METROLOGIA, TECN. GER. DE LAB. E SIST. DE INSTRUMENTA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 10501061
+  fields:
+    descricao: "INSTRUMENTA\xC7\xC3O ESPEC\xCDFICA DE USO GERAL EM F\xCDSICA"
+- model: academico.areacapes
+  pk: 10502009
+  fields:
+    descricao: "\xC1REAS CL\xC1SSICAS DE FENOMENOLOGIA E SUAS APLICA\xC7\xD5ES"
+- model: academico.areacapes
+  pk: 10502017
+  fields:
+    descricao: "ELETRICIDADE E MAGNETISMO; CAMPOS E PART\xCDCULAS CARREGADAS"
+- model: academico.areacapes
+  pk: 10502025
+  fields:
+    descricao: "\xD3TICA"
+- model: academico.areacapes
+  pk: 10502033
+  fields:
+    descricao: "AC\xDASTICA"
+- model: academico.areacapes
+  pk: 10502041
+  fields:
+    descricao: "TRANSFER\xCANCIA DE CALOR; PROCESSOS T\xC9RMICOS E TERMODIN\xC2MICOS"
+- model: academico.areacapes
+  pk: 10502050
+  fields:
+    descricao: "MEC\xC2NICA, ELASTICIDADE E REOLOGIA"
+- model: academico.areacapes
+  pk: 10502068
+  fields:
+    descricao: "DIN\xC2MICA DOS FLUIDOS"
+- model: academico.areacapes
+  pk: 10503005
+  fields:
+    descricao: "F\xCDSICA DAS PART\xCDCULAS ELEMENTARES E CAMPOS"
+- model: academico.areacapes
+  pk: 10503013
+  fields:
+    descricao: "TEORIA GERAL DE PART\xCDCULAS E CAMPOS"
+- model: academico.areacapes
+  pk: 10503021
+  fields:
+    descricao: "TEOR.ESP.E MOD.DE INTERA\xC7\xC3O; SIST.DE PART\xCDCULAS; R.C\xD3\
+      SMICOS"
+- model: academico.areacapes
+  pk: 10503030
+  fields:
+    descricao: "REA\xC7\xD5ES ESPEC\xCDFICAS E FENOMIOLOGIA DE PART\xCDCULAS"
+- model: academico.areacapes
+  pk: 10503048
+  fields:
+    descricao: "PROPRIEDADES DE PART\xCDCULAS ESPEC\xCDFICAS E RESSON\xC2NCIAS"
+- model: academico.areacapes
+  pk: 10504001
+  fields:
+    descricao: "F\xCDSICA NUCLEAR"
+- model: academico.areacapes
+  pk: 10504010
+  fields:
+    descricao: ESTRUTURA NUCLEAR
+- model: academico.areacapes
+  pk: 10504028
+  fields:
+    descricao: "DESINTEGRA\xC7\xC3O NUCLEAR E RADIOATIVIDADE"
+- model: academico.areacapes
+  pk: 10504036
+  fields:
+    descricao: "REA\xC7\xD5ES NUCLEARES E ESPALHAMENTO GERAL"
+- model: academico.areacapes
+  pk: 10504044
+  fields:
+    descricao: "REA\xC7\xD5ES NUCLEARES E ESPALHAMENTO (REA\xC7\xD5ES ESPEC\xCDFICAS)"
+- model: academico.areacapes
+  pk: 10504052
+  fields:
+    descricao: "PROPRIEDADES DE N\xDACLEOS ESPEC\xCDFICOS"
+- model: academico.areacapes
+  pk: 10504060
+  fields:
+    descricao: "MET.EXPER.E INSTRUMENT.PARA PART.ELEMENT.E F\xCDSICA NUCLEAR"
+- model: academico.areacapes
+  pk: 10505008
+  fields:
+    descricao: "F\xCDSICA AT\xD4MICA E MOLECULAR"
+- model: academico.areacapes
+  pk: 10505016
+  fields:
+    descricao: "ESTRUTURA ELETR\xD4NICA DE \xC1TOMOS E MOL\xC9CULAS; TEORIA"
+- model: academico.areacapes
+  pk: 10505024
+  fields:
+    descricao: "ESPECTROS AT\xD4MICOS E INTEGRA\xC7\xC3O DE F\xD3TONS"
+- model: academico.areacapes
+  pk: 10505032
+  fields:
+    descricao: "ESPECTROS MOLECUL. E INTERA\xC7\xD5ES DE F\xD3TONS COM MOL\xC9CULAS"
+- model: academico.areacapes
+  pk: 10505040
+  fields:
+    descricao: "PROCESSOS DE COLIS\xC3O E INTERA\xC7\xD5ES DE \xC1TOMOS E MOL\xC9\
+      CULAS"
+- model: academico.areacapes
+  pk: 10505059
+  fields:
+    descricao: "INF.SOB.ATOM.E MOL.OBIT.EXPERIMENTALMENTE; INST.E T\xC9CNICAS"
+- model: academico.areacapes
+  pk: 10505067
+  fields:
+    descricao: "ESTUDOS DE \xC1TOMOS E MOL\xC9CULAS ESPECIAIS"
+- model: academico.areacapes
+  pk: 10506004
+  fields:
+    descricao: "F\xCDSICA DOS FL\xDAIDOS, F\xCDSICA DE PLASMAS E DESCARGAS EL\xC9\
+      TRICAS"
+- model: academico.areacapes
+  pk: 10506012
+  fields:
+    descricao: "CIN\xC9TICA E TEOR.DE TRANSP.DE FL\xDAIDOS; PROPRIED.FIS.DE GASES"
+- model: academico.areacapes
+  pk: 10506020
+  fields:
+    descricao: "F\xCDSICA DE PLASMAS E DESCARGAS EL\xC9TRICAS"
+- model: academico.areacapes
+  pk: 10507000
+  fields:
+    descricao: "F\xCDSICA DA MAT\xC9RIA CONDENSADA"
+- model: academico.areacapes
+  pk: 10507019
+  fields:
+    descricao: "ESTRUTURA DE L\xCDQUIDOS E S\xD3LIDOS; CRISTALOGRAFIA"
+- model: academico.areacapes
+  pk: 10507027
+  fields:
+    descricao: "PROPRIEDADES MEC\xC2NICAS E AC\xDASTICAS DA MAT\xC9RIA CONDENSADA"
+- model: academico.areacapes
+  pk: 10507035
+  fields:
+    descricao: "DIN\xC2MICA DA REDE E ESTAT\xCDSTICA DE CRISTAIS"
+- model: academico.areacapes
+  pk: 10507043
+  fields:
+    descricao: "EQUA\xC7\xC3O DE ESTADO, EQUILIB. DE FASES E TRANSI\xC7\xD5ES DE FASES"
+- model: academico.areacapes
+  pk: 10507051
+  fields:
+    descricao: "PROPRIEDADES T\xC9RMICAS DA MAT\xC9RIA CONDENSADA"
+- model: academico.areacapes
+  pk: 10507060
+  fields:
+    descricao: "PROPRIEDADES DE TRANSP.DE MAT\xC9RIA COND. (N\xC3O ELETR\xD4NICAS)"
+- model: academico.areacapes
+  pk: 10507078
+  fields:
+    descricao: "CAMPOS QU\xC2NTICOS E S\xD3LIDOS, H\xC9LIO, L\xCDQUIDO, S\xD3LIDO"
+- model: academico.areacapes
+  pk: 10507086
+  fields:
+    descricao: "SUPERF\xCDCIES E INTERFACES; PEL\xCDCULAS E FILAMENTOS"
+- model: academico.areacapes
+  pk: 10507094
+  fields:
+    descricao: "ESTADOS ELETR\xD4NICOS"
+- model: academico.areacapes
+  pk: 10507108
+  fields:
+    descricao: "TRANSP.ELETR.E PROPR.ELET.DE SUPERF\xCDCIES; INTERF.E PEL\xCDCULAS"
+- model: academico.areacapes
+  pk: 10507116
+  fields:
+    descricao: "ESTRUT.ELETR.E PROPR.ELET.DE SUPERF\xCDCIES; INTERF.E PEL\xCDCULAS"
+- model: academico.areacapes
+  pk: 10507124
+  fields:
+    descricao: SUPERCONDUTIVIDADE
+- model: academico.areacapes
+  pk: 10507132
+  fields:
+    descricao: "MATERIAIS MAGN\xC9TICOS E PROPRIEDADES MAGN\xC9TICAS"
+- model: academico.areacapes
+  pk: 10507140
+  fields:
+    descricao: RESS.MAGN. REL.MAT.COND.; EFEIT.MOSBAUER; CORR.ANG.PERTUBADA
+- model: academico.areacapes
+  pk: 10507159
+  fields:
+    descricao: "MATERIAIS DIEL\xC9TRICOS E PROPRIEDADES DIEL\xC9TRICAS"
+- model: academico.areacapes
+  pk: 10507167
+  fields:
+    descricao: PROP.OTIC.E ESPEC.MATR.COND.; OUTRAS INTER.MAT.COM RAD.PART.
+- model: academico.areacapes
+  pk: 10507175
+  fields:
+    descricao: "EMISS\xC3O ELETRON.E I\xD4NICA POR LIQ.E S\xD3LIDOS; FENOM.DE IMPACTO"
+- model: academico.areacapes
+  pk: 10600000
+  fields:
+    descricao: "QU\xCDMICA"
+- model: academico.areacapes
+  pk: 10601007
+  fields:
+    descricao: "QU\xCDMICA ORG\xC2NICA"
+- model: academico.areacapes
+  pk: 10601015
+  fields:
+    descricao: "ESTRUTURA, CONFORMA\xC7\xC3O E ESTEREOQU\xCDMICA"
+- model: academico.areacapes
+  pk: 10601023
+  fields:
+    descricao: "S\xCDNTESE ORG\xC2NICA"
+- model: academico.areacapes
+  pk: 10601031
+  fields:
+    descricao: "F\xCDSICO-QU\xCDMICA ORG\xC2NICA"
+- model: academico.areacapes
+  pk: 10601040
+  fields:
+    descricao: "FOTOQU\xCDMICA ORG\xC2NICA"
+- model: academico.areacapes
+  pk: 10601058
+  fields:
+    descricao: "QU\xCDMICA DOS PRODUTOS NATURAIS"
+- model: academico.areacapes
+  pk: 10601066
+  fields:
+    descricao: "EVOLU\xC7\xC3O, SISTEM\xC1TICA E ECOLOGIA QU\xCDMICA"
+- model: academico.areacapes
+  pk: 10601074
+  fields:
+    descricao: "POL\xCDMEROS E COL\xD3IDES"
+- model: academico.areacapes
+  pk: 10602003
+  fields:
+    descricao: "QU\xCDMICA INORG\xC2NICA"
+- model: academico.areacapes
+  pk: 10602011
+  fields:
+    descricao: "CAMPOS DE COORDENA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 10602020
+  fields:
+    descricao: "N\xC3O-METAIS E SEUS COMPOSTOS"
+- model: academico.areacapes
+  pk: 10602038
+  fields:
+    descricao: "COMPOSTOS ORGANO-MET\xC1LICOS"
+- model: academico.areacapes
+  pk: 10602046
+  fields:
+    descricao: "DETERMINA\xC7\xC3O DE ESTRUTURAS DE COMPOSTOS INORG\xC2NICOS"
+- model: academico.areacapes
+  pk: 10602054
+  fields:
+    descricao: "FOTO-QU\xCDMICA INORG\xC2NICA"
+- model: academico.areacapes
+  pk: 10602062
+  fields:
+    descricao: "F\xCDSICO QU\xCDMICA INORG\xC2NICA"
+- model: academico.areacapes
+  pk: 10602070
+  fields:
+    descricao: "QU\xCDMICA BIO-INORG\xC2NICA"
+- model: academico.areacapes
+  pk: 10603000
+  fields:
+    descricao: "F\xCDSICO-QU\xCDMICA"
+- model: academico.areacapes
+  pk: 10603018
+  fields:
+    descricao: "CIN\xC9TICA QU\xCDMICA E CATALISE"
+- model: academico.areacapes
+  pk: 10603026
+  fields:
+    descricao: "ELETROQU\xCDMICA"
+- model: academico.areacapes
+  pk: 10603034
+  fields:
+    descricao: ESPECTROSCOPIA
+- model: academico.areacapes
+  pk: 10603042
+  fields:
+    descricao: "QU\xCDMICA DE INTERFACES"
+- model: academico.areacapes
+  pk: 10603050
+  fields:
+    descricao: "QU\xCDMICA DO ESTADO CONDENSADO"
+- model: academico.areacapes
+  pk: 10603069
+  fields:
+    descricao: "QU\xCDMICA N\xDACLEAR E RADIOQU\xCDMICA"
+- model: academico.areacapes
+  pk: 10603077
+  fields:
+    descricao: "QU\xCDMICA TE\xD3RICA"
+- model: academico.areacapes
+  pk: 10603085
+  fields:
+    descricao: "TERMODIN\xC2MICA QU\xCDMICA"
+- model: academico.areacapes
+  pk: 10604006
+  fields:
+    descricao: "QU\xCDMICA ANAL\xCDTICA"
+- model: academico.areacapes
+  pk: 10604014
+  fields:
+    descricao: "SEPARA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 10604022
+  fields:
+    descricao: "M\xC9TODOS \xD3TICOS DE AN\xC1LISE"
+- model: academico.areacapes
+  pk: 10604030
+  fields:
+    descricao: "ELETROANAL\xCDTICA"
+- model: academico.areacapes
+  pk: 10604049
+  fields:
+    descricao: GRAVIMETRIA
+- model: academico.areacapes
+  pk: 10604057
+  fields:
+    descricao: TITIMETRIA
+- model: academico.areacapes
+  pk: 10604065
+  fields:
+    descricao: "INSTRUMENTA\xC7\xC3O ANAL\xCDTICA"
+- model: academico.areacapes
+  pk: 10604073
+  fields:
+    descricao: "AN\xC1LISE DE TRA\xC7OS E QU\xCDMICA AMBIENTAL"
+- model: academico.areacapes
+  pk: 10700005
+  fields:
+    descricao: "GEOCI\xCANCIAS"
+- model: academico.areacapes
+  pk: 10701001
+  fields:
+    descricao: GEOLOGIA
+- model: academico.areacapes
+  pk: 10701010
+  fields:
+    descricao: MINERALOGIA
+- model: academico.areacapes
+  pk: 10701028
+  fields:
+    descricao: PETROLOGIA
+- model: academico.areacapes
+  pk: 10701036
+  fields:
+    descricao: "GEOQU\xCDMICA"
+- model: academico.areacapes
+  pk: 10701044
+  fields:
+    descricao: GEOLOGIA REGIONAL
+- model: academico.areacapes
+  pk: 10701052
+  fields:
+    descricao: "GEOTECT\xD4NICA"
+- model: academico.areacapes
+  pk: 10701060
+  fields:
+    descricao: GEOCRONOLOGIA
+- model: academico.areacapes
+  pk: 10701079
+  fields:
+    descricao: "CARTOGRAFIA GEOL\xD3GICA"
+- model: academico.areacapes
+  pk: 10701087
+  fields:
+    descricao: METALOGENIA
+- model: academico.areacapes
+  pk: 10701095
+  fields:
+    descricao: HIDROGEOLOGIA
+- model: academico.areacapes
+  pk: 10701109
+  fields:
+    descricao: "PROSPEC\xC7\xC3O MINERAL"
+- model: academico.areacapes
+  pk: 10701117
+  fields:
+    descricao: SEDIMENTOLOGIA
+- model: academico.areacapes
+  pk: 10701125
+  fields:
+    descricao: "PALEONTOLOGIA ESTRATIGR\xC1FICA"
+- model: academico.areacapes
+  pk: 10701133
+  fields:
+    descricao: ESTRATIGRAFIA
+- model: academico.areacapes
+  pk: 10701141
+  fields:
+    descricao: GEOLOGIA AMBIENTAL
+- model: academico.areacapes
+  pk: 10702008
+  fields:
+    descricao: "GEOF\xCDSICA"
+- model: academico.areacapes
+  pk: 10702016
+  fields:
+    descricao: GEOMAGNETISMO
+- model: academico.areacapes
+  pk: 10702024
+  fields:
+    descricao: SISMOLOGIA
+- model: academico.areacapes
+  pk: 10702032
+  fields:
+    descricao: "GEOTERMIA E FLUXO T\xC9RMICO"
+- model: academico.areacapes
+  pk: 10702040
+  fields:
+    descricao: "PROPRIEDADES F\xCDSICAS DAS ROCHAS"
+- model: academico.areacapes
+  pk: 10702059
+  fields:
+    descricao: "GEOF\xCDSICA NUCLEAR"
+- model: academico.areacapes
+  pk: 10702067
+  fields:
+    descricao: SENSORIAMENTO REMOTO
+- model: academico.areacapes
+  pk: 10702075
+  fields:
+    descricao: AERONOMIA
+- model: academico.areacapes
+  pk: 10702083
+  fields:
+    descricao: "DESENVOLVIMENTO DE INSTRUMENTA\xC7\xC3O GEOF\xCDSICA"
+- model: academico.areacapes
+  pk: 10702091
+  fields:
+    descricao: "GEOF\xCDSICA APLICADA"
+- model: academico.areacapes
+  pk: 10702105
+  fields:
+    descricao: GRAVIMETRIA
+- model: academico.areacapes
+  pk: 10703004
+  fields:
+    descricao: METEOROLOGIA
+- model: academico.areacapes
+  pk: 10703012
+  fields:
+    descricao: "METEOROLOGIA DIN\xC2MICA"
+- model: academico.areacapes
+  pk: 10703020
+  fields:
+    descricao: "METEOROLOGIA SIN\xD3TICA"
+- model: academico.areacapes
+  pk: 10703039
+  fields:
+    descricao: "METEOROLOGIA F\xCDSICA"
+- model: academico.areacapes
+  pk: 10703047
+  fields:
+    descricao: "QU\xCDMICA DA ATMOSFERA"
+- model: academico.areacapes
+  pk: 10703055
+  fields:
+    descricao: "INSTRUMENTA\xC7\xC3O METEOROL\xD3GICA"
+- model: academico.areacapes
+  pk: 10703063
+  fields:
+    descricao: CLIMATOLOGIA
+- model: academico.areacapes
+  pk: 10703071
+  fields:
+    descricao: MICROMETEOROLOGIA
+- model: academico.areacapes
+  pk: 10703080
+  fields:
+    descricao: SENSORIAMENTO REMOTO DA ATMOSFERA
+- model: academico.areacapes
+  pk: 10703098
+  fields:
+    descricao: METEOROLOGIA APLICADA
+- model: academico.areacapes
+  pk: 10704000
+  fields:
+    descricao: "GEOD\xC9SIA"
+- model: academico.areacapes
+  pk: 10704019
+  fields:
+    descricao: "GEOD\xC9SIA F\xCDSICA"
+- model: academico.areacapes
+  pk: 10704027
+  fields:
+    descricao: "GEOD\xC9SIA GEOM\xC9TRICA"
+- model: academico.areacapes
+  pk: 10704035
+  fields:
+    descricao: "GEOD\xC9SIA CELESTE"
+- model: academico.areacapes
+  pk: 10704043
+  fields:
+    descricao: FOTOGRAMETRIA
+- model: academico.areacapes
+  pk: 10704051
+  fields:
+    descricao: "CARTOGRAFIA B\xC1SICA"
+- model: academico.areacapes
+  pk: 10705007
+  fields:
+    descricao: "GEOGRAFIA F\xCDSICA"
+- model: academico.areacapes
+  pk: 10705015
+  fields:
+    descricao: GEOMORFOLOGIA
+- model: academico.areacapes
+  pk: 10705023
+  fields:
+    descricao: "CLIMATOLOGIA GEOGR\xC1FICA"
+- model: academico.areacapes
+  pk: 10705031
+  fields:
+    descricao: PEDOLOGIA
+- model: academico.areacapes
+  pk: 10705040
+  fields:
+    descricao: HIDROGEOGRAFIA
+- model: academico.areacapes
+  pk: 10705058
+  fields:
+    descricao: GEOECOLOGIA
+- model: academico.areacapes
+  pk: 10705066
+  fields:
+    descricao: "FOTOGEOGRAFIA (F\xCDSICO-ECOL\xD3GICA)"
+- model: academico.areacapes
+  pk: 10705074
+  fields:
+    descricao: GEOCARTOGRAFIA
+- model: academico.areacapes
+  pk: 10800000
+  fields:
+    descricao: OCEANOGRAFIA
+- model: academico.areacapes
+  pk: 10801006
+  fields:
+    descricao: "OCEANOGRAFIA BIOL\xD3GICA"
+- model: academico.areacapes
+  pk: 10801014
+  fields:
+    descricao: "INTER.ENTRE OS ORGAN.MARINHOS E OS PAR\xC2METROS AMBIENTAIS"
+- model: academico.areacapes
+  pk: 10802002
+  fields:
+    descricao: "OCEANOGRAFIA F\xCDSICA"
+- model: academico.areacapes
+  pk: 10802010
+  fields:
+    descricao: "VARI\xC1VEIS F\xCDSICAS DA \xC1GUA DO MAR"
+- model: academico.areacapes
+  pk: 10802029
+  fields:
+    descricao: "MOVIMENTO DA \xC1GUA DO MAR"
+- model: academico.areacapes
+  pk: 10802037
+  fields:
+    descricao: "ORIGEM DAS MASSAS DE \xC1GUA"
+- model: academico.areacapes
+  pk: 10802045
+  fields:
+    descricao: "INTERA\xC7\xC3O DO OCEANO COM O LEITO DO MAR"
+- model: academico.areacapes
+  pk: 10802053
+  fields:
+    descricao: "INTERA\xC7\xC3O DO OCEANO COM A ATMOSFERA"
+- model: academico.areacapes
+  pk: 10803009
+  fields:
+    descricao: "OCEANOGRAFIA QU\xCDMICA"
+- model: academico.areacapes
+  pk: 10803017
+  fields:
+    descricao: "PROPRIEDADES QU\xCDMICAS DA \xC1GUA DO MAR"
+- model: academico.areacapes
+  pk: 10803025
+  fields:
+    descricao: "INTER.QU\xCDM.-BIOL./GEOL.DAS SUBST. QUIM.DA \xC1GUA DO MAR"
+- model: academico.areacapes
+  pk: 10804005
+  fields:
+    descricao: "OCEANOGRAFIA GEOL\xD3GICA"
+- model: academico.areacapes
+  pk: 10804013
+  fields:
+    descricao: GEOMORFOLOGIA SUBMARINA
+- model: academico.areacapes
+  pk: 10804021
+  fields:
+    descricao: SEDIMENTOLOGIA MARINHA
+- model: academico.areacapes
+  pk: 10804030
+  fields:
+    descricao: "GEOF\xCDSICA MARINHA"
+- model: academico.areacapes
+  pk: 10804048
+  fields:
+    descricao: "GEOQU\xCDMICA MARINHA"
+- model: academico.areacapes
+  pk: 20000006
+  fields:
+    descricao: "CI\xCANCIAS BIOL\xD3GICAS"
+- model: academico.areacapes
+  pk: 20100000
+  fields:
+    descricao: BIOLOGIA GERAL
+- model: academico.areacapes
+  pk: 20200005
+  fields:
+    descricao: "GEN\xC9TICA"
+- model: academico.areacapes
+  pk: 20201001
+  fields:
+    descricao: "GEN\xC9TICA QUANTITATIVA"
+- model: academico.areacapes
+  pk: 20202008
+  fields:
+    descricao: "GEN\xC9TICA MOLECULAR E DE MICROORGANISMOS"
+- model: academico.areacapes
+  pk: 20203004
+  fields:
+    descricao: "GEN\xC9TICA VEGETAL"
+- model: academico.areacapes
+  pk: 20204000
+  fields:
+    descricao: "GEN\xC9TICA ANIMAL"
+- model: academico.areacapes
+  pk: 20205007
+  fields:
+    descricao: "GEN\xC9TICA HUMANA E M\xC9DICA"
+- model: academico.areacapes
+  pk: 20206003
+  fields:
+    descricao: MUTAGENESE
+- model: academico.areacapes
+  pk: 20300000
+  fields:
+    descricao: "BOT\xC2NICA"
+- model: academico.areacapes
+  pk: 20301006
+  fields:
+    descricao: "PALEOBOT\xC2NICA"
+- model: academico.areacapes
+  pk: 20302002
+  fields:
+    descricao: MORFOLOGIA VEGETAL
+- model: academico.areacapes
+  pk: 20302010
+  fields:
+    descricao: MORFOLOGIA EXTERNA
+- model: academico.areacapes
+  pk: 20302029
+  fields:
+    descricao: CITOLOGIA VEGETAL
+- model: academico.areacapes
+  pk: 20302037
+  fields:
+    descricao: ANATOMIA VEGETAL
+- model: academico.areacapes
+  pk: 20302045
+  fields:
+    descricao: PALINOLOGIA
+- model: academico.areacapes
+  pk: 20303009
+  fields:
+    descricao: FISIOLOGIA VEGETAL
+- model: academico.areacapes
+  pk: 20303017
+  fields:
+    descricao: "NUTRI\xC7\xC3O E CRESCIMENTO VEGETAL"
+- model: academico.areacapes
+  pk: 20303025
+  fields:
+    descricao: "REPRODU\xC7\xC3O VEGETAL"
+- model: academico.areacapes
+  pk: 20303033
+  fields:
+    descricao: ECOFISIOLOGIA VEGETAL
+- model: academico.areacapes
+  pk: 20304005
+  fields:
+    descricao: TAXONOMIA VEGETAL
+- model: academico.areacapes
+  pk: 20304013
+  fields:
+    descricao: "TAXONOMIA DE CRIPT\xD3GAMOS"
+- model: academico.areacapes
+  pk: 20304021
+  fields:
+    descricao: TAXONOMIA DE FANEROGAMOS
+- model: academico.areacapes
+  pk: 20305001
+  fields:
+    descricao: FITOGEOGRAFIA
+- model: academico.areacapes
+  pk: 20306008
+  fields:
+    descricao: "BOT\xC2NICA APLICADA"
+- model: academico.areacapes
+  pk: 20400004
+  fields:
+    descricao: ZOOLOGIA
+- model: academico.areacapes
+  pk: 20401000
+  fields:
+    descricao: PALEOZOOLOGIA
+- model: academico.areacapes
+  pk: 20402007
+  fields:
+    descricao: MORFOLOGIA DOS GRUPOS RECENTES
+- model: academico.areacapes
+  pk: 20403003
+  fields:
+    descricao: FISIOLOGIA DOS GRUPOS RECENTES
+- model: academico.areacapes
+  pk: 20404000
+  fields:
+    descricao: COMPORTAMENTO ANIMAL
+- model: academico.areacapes
+  pk: 20405006
+  fields:
+    descricao: TAXONOMIA DOS GRUPOS RECENTES
+- model: academico.areacapes
+  pk: 20406002
+  fields:
+    descricao: ZOOLOGIA APLICADA
+- model: academico.areacapes
+  pk: 20406010
+  fields:
+    descricao: "CONSERVA\xC7\xC3O DAS ESP\xC9CIES ANIMAIS"
+- model: academico.areacapes
+  pk: 20406029
+  fields:
+    descricao: "UTILIZA\xC7\xC3O DOS ANIMAIS"
+- model: academico.areacapes
+  pk: 20406037
+  fields:
+    descricao: CONTROLE POPULACIONAL DE ANIMAIS
+- model: academico.areacapes
+  pk: 20500009
+  fields:
+    descricao: ECOLOGIA
+- model: academico.areacapes
+  pk: 20501005
+  fields:
+    descricao: "ECOLOGIA TE\xD3RICA"
+- model: academico.areacapes
+  pk: 20502001
+  fields:
+    descricao: ECOLOGIA DE ECOSSISTEMAS
+- model: academico.areacapes
+  pk: 20503008
+  fields:
+    descricao: ECOLOGIA APLICADA
+- model: academico.areacapes
+  pk: 20600003
+  fields:
+    descricao: MORFOLOGIA
+- model: academico.areacapes
+  pk: 20601000
+  fields:
+    descricao: CITOLOGIA E BIOLOGIA CELULAR
+- model: academico.areacapes
+  pk: 20602006
+  fields:
+    descricao: EMBRIOLOGIA
+- model: academico.areacapes
+  pk: 20603002
+  fields:
+    descricao: HISTOLOGIA
+- model: academico.areacapes
+  pk: 20604009
+  fields:
+    descricao: ANATOMIA
+- model: academico.areacapes
+  pk: 20604017
+  fields:
+    descricao: ANATOMIA HUMANA
+- model: academico.areacapes
+  pk: 20604025
+  fields:
+    descricao: ANATOMIA ANIMAL
+- model: academico.areacapes
+  pk: 20700008
+  fields:
+    descricao: FISIOLOGIA
+- model: academico.areacapes
+  pk: 20701004
+  fields:
+    descricao: FISIOLOGIA GERAL
+- model: academico.areacapes
+  pk: 20702000
+  fields:
+    descricao: "FISIOLOGIA DOS \xD3RG\xC3OS E SISTEMAS"
+- model: academico.areacapes
+  pk: 20702019
+  fields:
+    descricao: NEUROFISIOLOGIA
+- model: academico.areacapes
+  pk: 20702027
+  fields:
+    descricao: FISIOLOGIA CARDIOVASCULAR
+- model: academico.areacapes
+  pk: 20702035
+  fields:
+    descricao: "FISIOLOGIA DA RESPIRA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 20702043
+  fields:
+    descricao: FISIOLOGIA RENAL
+- model: academico.areacapes
+  pk: 20702051
+  fields:
+    descricao: "FISIOLOGIA END\xD3CRINA"
+- model: academico.areacapes
+  pk: 20702060
+  fields:
+    descricao: "FISIOLOGIA DA DIGEST\xC3O"
+- model: academico.areacapes
+  pk: 20702078
+  fields:
+    descricao: CINESIOLOGIA
+- model: academico.areacapes
+  pk: 20703007
+  fields:
+    descricao: "FISIOLOGIA DO ESFOR\xC7O"
+- model: academico.areacapes
+  pk: 20704003
+  fields:
+    descricao: FISIOLOGIA COMPARADA
+- model: academico.areacapes
+  pk: 20800002
+  fields:
+    descricao: "BIOQU\xCDMICA"
+- model: academico.areacapes
+  pk: 20801009
+  fields:
+    descricao: "QU\xCDMICA DE MACROMOL\xC9CULAS"
+- model: academico.areacapes
+  pk: 20801017
+  fields:
+    descricao: "PROTE\xCDNAS"
+- model: academico.areacapes
+  pk: 20801025
+  fields:
+    descricao: "LIP\xCDDEOS"
+- model: academico.areacapes
+  pk: 20801033
+  fields:
+    descricao: "GLIC\xCDDEOS"
+- model: academico.areacapes
+  pk: 20802005
+  fields:
+    descricao: "BIOQU\xCDMICA DOS MICROORGANISMOS"
+- model: academico.areacapes
+  pk: 20803001
+  fields:
+    descricao: "METABOLISMO E BIOENERG\xC9TICA"
+- model: academico.areacapes
+  pk: 20804008
+  fields:
+    descricao: BIOLOGIA MOLECULAR
+- model: academico.areacapes
+  pk: 20805004
+  fields:
+    descricao: ENZIMOLOGIA
+- model: academico.areacapes
+  pk: 20900007
+  fields:
+    descricao: "BIOF\xCDSICA"
+- model: academico.areacapes
+  pk: 20901003
+  fields:
+    descricao: "BIOF\xCDSICA MOLECULAR"
+- model: academico.areacapes
+  pk: 20902000
+  fields:
+    descricao: "BIOF\xCDSICA CELULAR"
+- model: academico.areacapes
+  pk: 20903006
+  fields:
+    descricao: "BIOF\xCDSICA DE PROCESSOS E SISTEMAS"
+- model: academico.areacapes
+  pk: 20904002
+  fields:
+    descricao: RADIOLOGIA E FOTOBIOLOGIA
+- model: academico.areacapes
+  pk: 21000000
+  fields:
+    descricao: FARMACOLOGIA
+- model: academico.areacapes
+  pk: 21001006
+  fields:
+    descricao: FARMACOLOGIA GERAL
+- model: academico.areacapes
+  pk: 21001014
+  fields:
+    descricao: "FARMACOCIN\xC9TICA"
+- model: academico.areacapes
+  pk: 21001022
+  fields:
+    descricao: BIODISPONIBILIDADE
+- model: academico.areacapes
+  pk: 21002002
+  fields:
+    descricao: "FARMACOLOGIA AUTON\xD4MICA"
+- model: academico.areacapes
+  pk: 21003009
+  fields:
+    descricao: NEUROPSICOFARMACOLOGIA
+- model: academico.areacapes
+  pk: 21004005
+  fields:
+    descricao: FARMACOLOGIA CARDIORENAL
+- model: academico.areacapes
+  pk: 21005001
+  fields:
+    descricao: FARMACOLOGIA BIOQUIMICA E MOLECULAR
+- model: academico.areacapes
+  pk: 21006008
+  fields:
+    descricao: ETNOFARMACOLOGIA
+- model: academico.areacapes
+  pk: 21007004
+  fields:
+    descricao: TOXICOLOGIA
+- model: academico.areacapes
+  pk: 21008000
+  fields:
+    descricao: "FARMACOLOGIA CL\xCDNICA"
+- model: academico.areacapes
+  pk: 21100004
+  fields:
+    descricao: IMUNOLOGIA
+- model: academico.areacapes
+  pk: 21101000
+  fields:
+    descricao: "IMUNOQU\xCDMICA"
+- model: academico.areacapes
+  pk: 21102007
+  fields:
+    descricao: IMUNOLOGIA CELULAR
+- model: academico.areacapes
+  pk: 21103003
+  fields:
+    descricao: "IMUNOGEN\xC9TICA"
+- model: academico.areacapes
+  pk: 21104000
+  fields:
+    descricao: IMUNOLOGIA APLICADA
+- model: academico.areacapes
+  pk: 21200009
+  fields:
+    descricao: MICROBIOLOGIA
+- model: academico.areacapes
+  pk: 21201005
+  fields:
+    descricao: BIOLOGIA E FISIOLOGIA DOS MICROORGANISMOS
+- model: academico.areacapes
+  pk: 21201013
+  fields:
+    descricao: VIROLOGIA
+- model: academico.areacapes
+  pk: 21201021
+  fields:
+    descricao: BACTERIOLOGIA
+- model: academico.areacapes
+  pk: 21201030
+  fields:
+    descricao: MICOLOGIA
+- model: academico.areacapes
+  pk: 21202001
+  fields:
+    descricao: MICROBIOLOGIA APLICADA
+- model: academico.areacapes
+  pk: 21202010
+  fields:
+    descricao: "MICROBIOLOGIA M\xC9DICA"
+- model: academico.areacapes
+  pk: 21202028
+  fields:
+    descricao: "MICROBIOLOGIA INDUSTRIAL E DE FERMENTA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 21300003
+  fields:
+    descricao: PARASITOLOGIA
+- model: academico.areacapes
+  pk: 21301000
+  fields:
+    descricao: PROTOZOOLOGIA DE PARASITOS
+- model: academico.areacapes
+  pk: 21301018
+  fields:
+    descricao: "PROTOZOOLOGIA PARASIT\xC1RIA HUMANA"
+- model: academico.areacapes
+  pk: 21301026
+  fields:
+    descricao: "PROTOZOOLOGIA PARASIT\xC1RIA ANIMAL"
+- model: academico.areacapes
+  pk: 21302006
+  fields:
+    descricao: HELMINTOLOGIA DE PARASITOS
+- model: academico.areacapes
+  pk: 21302014
+  fields:
+    descricao: HELMINTOLOGIA HUMANA
+- model: academico.areacapes
+  pk: 21302022
+  fields:
+    descricao: HELMINTOLOGIA ANIMAL
+- model: academico.areacapes
+  pk: 21303002
+  fields:
+    descricao: ENTOMOLOGIA E MALACOLOGIA DE PARASITOS E VETORES
+- model: academico.areacapes
+  pk: 30000009
+  fields:
+    descricao: ENGENHARIAS
+- model: academico.areacapes
+  pk: 30100003
+  fields:
+    descricao: ENGENHARIA CIVIL
+- model: academico.areacapes
+  pk: 30101000
+  fields:
+    descricao: "CONSTRU\xC7\xC3O CIVIL"
+- model: academico.areacapes
+  pk: 30101018
+  fields:
+    descricao: "MATERIAIS E COMPONENTES DE CONSTRU\xC7\xC3O"
+- model: academico.areacapes
+  pk: 30101026
+  fields:
+    descricao: PROCESSOS CONSTRUTIVOS
+- model: academico.areacapes
+  pk: 30101034
+  fields:
+    descricao: "INSTALA\xC7\xD5ES PREDIAIS"
+- model: academico.areacapes
+  pk: 30102006
+  fields:
+    descricao: ESTRUTURAS
+- model: academico.areacapes
+  pk: 30102014
+  fields:
+    descricao: ESTRUTURAS DE CONCRETO
+- model: academico.areacapes
+  pk: 30102022
+  fields:
+    descricao: ESTRUTURAS DE MADEIRAS
+- model: academico.areacapes
+  pk: 30102030
+  fields:
+    descricao: "ESTRUTURAS MET\xC1LICAS"
+- model: academico.areacapes
+  pk: 30102049
+  fields:
+    descricao: "MEC\xC2NICA DAS ESTRUTURAS"
+- model: academico.areacapes
+  pk: 30103002
+  fields:
+    descricao: "GEOT\xC9CNICA"
+- model: academico.areacapes
+  pk: 30103010
+  fields:
+    descricao: "FUNDA\xC7\xD5ES E ESCAVA\xC7\xD5ES"
+- model: academico.areacapes
+  pk: 30103029
+  fields:
+    descricao: "MEC\xC2NICAS DAS ROCHAS"
+- model: academico.areacapes
+  pk: 30103037
+  fields:
+    descricao: "MEC\xC2NICA DOS SOLOS"
+- model: academico.areacapes
+  pk: 30103045
+  fields:
+    descricao: OBRAS DE TERRA E ENROCAMENTO
+- model: academico.areacapes
+  pk: 30103053
+  fields:
+    descricao: PAVIMENTOS
+- model: academico.areacapes
+  pk: 30104009
+  fields:
+    descricao: "ENGENHARIA HIDR\xC1ULICA"
+- model: academico.areacapes
+  pk: 30104017
+  fields:
+    descricao: "HIDR\xC1ULICA"
+- model: academico.areacapes
+  pk: 30104025
+  fields:
+    descricao: HIDROLOGIA
+- model: academico.areacapes
+  pk: 30105005
+  fields:
+    descricao: INFRA-ESTRUTURA DE TRANSPORTES
+- model: academico.areacapes
+  pk: 30105013
+  fields:
+    descricao: "AEROPORTOS; PROJETO E CONSTRU\xC7\xC3O"
+- model: academico.areacapes
+  pk: 30105021
+  fields:
+    descricao: "FERROVIAS; PROJETOS E CONSTRU\xC7\xC3O"
+- model: academico.areacapes
+  pk: 30105030
+  fields:
+    descricao: "PORTOS E VIAS NAVEG\xC1VEIS; PROJETO E CONSTRU\xC7\xC3O"
+- model: academico.areacapes
+  pk: 30105048
+  fields:
+    descricao: "RODOVIAS; PROJETO E CONSTRU\xC7\xC3O"
+- model: academico.areacapes
+  pk: 30200008
+  fields:
+    descricao: ENGENHARIA DE MINAS
+- model: academico.areacapes
+  pk: 30201004
+  fields:
+    descricao: PESQUISA MINERAL
+- model: academico.areacapes
+  pk: 30201012
+  fields:
+    descricao: "CARACTERIZA\xC7\xC3O DO MIN\xC9RIO"
+- model: academico.areacapes
+  pk: 30201020
+  fields:
+    descricao: DIMENSIONAMENTO DE JAZIDAS
+- model: academico.areacapes
+  pk: 30202000
+  fields:
+    descricao: LAVRA
+- model: academico.areacapes
+  pk: 30202019
+  fields:
+    descricao: "LAVRA A C\xC9U ABERTO"
+- model: academico.areacapes
+  pk: 30202027
+  fields:
+    descricao: "LAVRA DE MINA SUBTERR\xC2NEA"
+- model: academico.areacapes
+  pk: 30202035
+  fields:
+    descricao: EQUIPAMENTOS DE LAVRA
+- model: academico.areacapes
+  pk: 30203007
+  fields:
+    descricao: "TRATAMENTO DE MIN\xC9RIOS"
+- model: academico.areacapes
+  pk: 30203015
+  fields:
+    descricao: "M\xC9TODOS DE CONCENTRA\xC7\xC3O E ENRIQUECIMENTOS DE MIN\xC9RIOS"
+- model: academico.areacapes
+  pk: 30203023
+  fields:
+    descricao: "EQUIPAMENTOS DE BENEFICIAMENTO DE MIN\xC9RIOS"
+- model: academico.areacapes
+  pk: 30300002
+  fields:
+    descricao: "ENGENHARIA DE MATERIAIS E METAL\xDARGICA"
+- model: academico.areacapes
+  pk: 30301009
+  fields:
+    descricao: "INSTALA\xC7\xD5ES E EQUIPAMENTOS METAL\xDARGICOS"
+- model: academico.areacapes
+  pk: 30301017
+  fields:
+    descricao: "INSTALA\xC7\xD5ES METAL\xDARGICAS"
+- model: academico.areacapes
+  pk: 30301025
+  fields:
+    descricao: "EQUIPAMENTOS METAL\xDARGICOS"
+- model: academico.areacapes
+  pk: 30302005
+  fields:
+    descricao: METALURGIA EXTRATIVA
+- model: academico.areacapes
+  pk: 30302013
+  fields:
+    descricao: "AGLOMERA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 30302021
+  fields:
+    descricao: ELETROMETALURGIA
+- model: academico.areacapes
+  pk: 30302030
+  fields:
+    descricao: HIDROMETALURGIA
+- model: academico.areacapes
+  pk: 30302048
+  fields:
+    descricao: PIROMETALURGIA
+- model: academico.areacapes
+  pk: 30302056
+  fields:
+    descricao: "TRATAMENTO DE MIN\xC9RIOS"
+- model: academico.areacapes
+  pk: 30303001
+  fields:
+    descricao: "METALURGIA DE TRANSFORMA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 30303010
+  fields:
+    descricao: "CONFORMA\xC7\xC3O MEC\xC2NICA"
+- model: academico.areacapes
+  pk: 30303028
+  fields:
+    descricao: "FUNDI\xC7\xC3O"
+- model: academico.areacapes
+  pk: 30303036
+  fields:
+    descricao: "METALURGIA DE P\xD3"
+- model: academico.areacapes
+  pk: 30303044
+  fields:
+    descricao: RECOBRIMENTOS
+- model: academico.areacapes
+  pk: 30303052
+  fields:
+    descricao: SOLDAGEM
+- model: academico.areacapes
+  pk: 30303060
+  fields:
+    descricao: "TRATAMENTO T\xC9RMICO, MEC\xC2NICOS E QU\xCDMICOS"
+- model: academico.areacapes
+  pk: 30303079
+  fields:
+    descricao: USINAGEM
+- model: academico.areacapes
+  pk: 30304008
+  fields:
+    descricao: "METALURGIA F\xCDSICA"
+- model: academico.areacapes
+  pk: 30304016
+  fields:
+    descricao: ESTRUTURA DOS METAIS E LIGAS
+- model: academico.areacapes
+  pk: 30304024
+  fields:
+    descricao: "PROPRIEDADES F\xCDSICAS DOS METAIS E LIGAS"
+- model: academico.areacapes
+  pk: 30304032
+  fields:
+    descricao: "PROPRIEDADES MEC\xC2NICAS DOS METAIS E LIGAS"
+- model: academico.areacapes
+  pk: 30304040
+  fields:
+    descricao: "TRANSFORMA\xC7\xC3O DE FASES"
+- model: academico.areacapes
+  pk: 30304059
+  fields:
+    descricao: "CORROS\xC3O"
+- model: academico.areacapes
+  pk: 30305004
+  fields:
+    descricao: "MATERIAIS N\xC3O-MET\xC1LICOS"
+- model: academico.areacapes
+  pk: 30305012
+  fields:
+    descricao: "EXTRA\xC7\xC3O E TRANSFORMA\xC7\xC3O DE MATERIAIS"
+- model: academico.areacapes
+  pk: 30305020
+  fields:
+    descricao: "CER\xC2MICOS"
+- model: academico.areacapes
+  pk: 30305039
+  fields:
+    descricao: "MATERIAIS CONJUGADOS N\xC3O-MET\xC1LICOS"
+- model: academico.areacapes
+  pk: 30305047
+  fields:
+    descricao: "POL\xCDMEROS,;APLICA\xC7\xD5ES"
+- model: academico.areacapes
+  pk: 30400007
+  fields:
+    descricao: "ENGENHARIA EL\xC9TRICA"
+- model: academico.areacapes
+  pk: 30401003
+  fields:
+    descricao: "MATERIAIS EL\xC9TRICOS"
+- model: academico.areacapes
+  pk: 30401011
+  fields:
+    descricao: MATERIAIS CONDUTORES
+- model: academico.areacapes
+  pk: 30401020
+  fields:
+    descricao: MATERIAIS E COMPONENTES SEMICONDUTORES
+- model: academico.areacapes
+  pk: 30401038
+  fields:
+    descricao: MATERIAIS E DISPOSITIVOS SUPERCONDUTORES
+- model: academico.areacapes
+  pk: 30401046
+  fields:
+    descricao: "MATERIAIS DIEL\xC9TRICOS, PIESOEL\xC9TRICOS E FERROEL\xC9TRICOS"
+- model: academico.areacapes
+  pk: 30401054
+  fields:
+    descricao: "MAT. E COMP. ELETRO\xD3TICOS E MAGNET., MAT. FOTOEL\xC9TRICOS"
+- model: academico.areacapes
+  pk: 30401062
+  fields:
+    descricao: "MATERIAIS E DISPOSITIVOS MAGN\xC9TICOS"
+- model: academico.areacapes
+  pk: 30402000
+  fields:
+    descricao: "MEDIDAS EL\xC9TRICAS, MAGN\xC9TICAS E ELETR\xD4NICAS; INSTRUMENTA\xC7\
+      \xC3O"
+- model: academico.areacapes
+  pk: 30402018
+  fields:
+    descricao: "MEDIDAS EL\xC9TRICAS"
+- model: academico.areacapes
+  pk: 30402026
+  fields:
+    descricao: "MEDIDAS MAGN\xC9TICAS"
+- model: academico.areacapes
+  pk: 30402034
+  fields:
+    descricao: "INSTRUMENTA\xC7\xC3O ELETROMEC\xC2NICA"
+- model: academico.areacapes
+  pk: 30402042
+  fields:
+    descricao: "INSTRUMENTA\xC7\xC3O ELETR\xD4NICA"
+- model: academico.areacapes
+  pk: 30402050
+  fields:
+    descricao: "SISTEMAS ELETR\xD4NICOS DE MEDIDAS E DE CONTROLE"
+- model: academico.areacapes
+  pk: 30403006
+  fields:
+    descricao: "CIRCUITOS EL\xC9TRICOS, MAGN\xC9TICOS E ELETR\xD4NICOS"
+- model: academico.areacapes
+  pk: 30403014
+  fields:
+    descricao: "TEORIA GERAL DOS CIRCUITOS EL\xC9TRICOS"
+- model: academico.areacapes
+  pk: 30403022
+  fields:
+    descricao: "CIRCUITOS LINEARES E N\xC3O LINEARES"
+- model: academico.areacapes
+  pk: 30403030
+  fields:
+    descricao: "CIRCUITOS ELETR\xD4NICOS"
+- model: academico.areacapes
+  pk: 30403049
+  fields:
+    descricao: "CIRCUITOS MAGN\xC9TICOS, MAGN\xC9TISMO, ELETROMAGN\xC9TISMO"
+- model: academico.areacapes
+  pk: 30404002
+  fields:
+    descricao: "SISTEMAS EL\xC9TRICOS DE POT\xCANCIA"
+- model: academico.areacapes
+  pk: 30404010
+  fields:
+    descricao: "GERA\xC7\xC3O DE ENERGIA EL\xC9TRICA"
+- model: academico.areacapes
+  pk: 30404029
+  fields:
+    descricao: "TRANSMISS\xC3O DA ENERGIA ELET., DISTRIB. DA ENERGIA EL\xC9TRICA"
+- model: academico.areacapes
+  pk: 30404037
+  fields:
+    descricao: "CONVERS\xC3O E RETIFICA\xC7\xC3O DA ENERGIA EL\xC9TRICA"
+- model: academico.areacapes
+  pk: 30404045
+  fields:
+    descricao: "MEDI\xC7\xC3O, CONTROLE, CORRE\xC7\xC3O E PROTE\xC7\xC3O DE SIST.\
+      \ ELET. E POT."
+- model: academico.areacapes
+  pk: 30404053
+  fields:
+    descricao: "M\xC1QUINAS EL\xC9TRICAS E DISPOSITIVOS DE POT\xCANCIA"
+- model: academico.areacapes
+  pk: 30404061
+  fields:
+    descricao: "INSTALA\xC7\xD5ES EL\xC9TRICAS PREDIAIS E INDUSTRIAIS"
+- model: academico.areacapes
+  pk: 30405009
+  fields:
+    descricao: "ELETR\xD4NICA INDUSTRIAL, SISTEMAS E CONTROLES ELETR\xD4NICOS"
+- model: academico.areacapes
+  pk: 30405017
+  fields:
+    descricao: "ELETR\xD4NICA INDUSTRIAL"
+- model: academico.areacapes
+  pk: 30405025
+  fields:
+    descricao: "AUTOMA\xC7\xC3O ELETR\xD4NICA DE PROCESSOS EL\xC9TRICOS E INDUSTRIAIS"
+- model: academico.areacapes
+  pk: 30405033
+  fields:
+    descricao: "CONTROLE DE PROCESSOS ELETR\xD4NICOS, RETROALIMENTA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 30406005
+  fields:
+    descricao: "TELECOMUNICA\xC7\xD5ES"
+- model: academico.areacapes
+  pk: 30406013
+  fields:
+    descricao: "TEORIA ELETROMAG., MICROONDAS, PROPAGA\xC7\xC3O DE ONDAS, ANTENAS"
+- model: academico.areacapes
+  pk: 30406021
+  fields:
+    descricao: "RADIONAVEGA\xC7\xC3O E RADIOASTRONOMIA"
+- model: academico.areacapes
+  pk: 30406030
+  fields:
+    descricao: "SISTEMAS DE TELECOMUNICA\xC7\xD5ES"
+- model: academico.areacapes
+  pk: 30500001
+  fields:
+    descricao: "ENGENHARIA MEC\xC2NICA"
+- model: academico.areacapes
+  pk: 30501008
+  fields:
+    descricao: "FEN\xD4MENOS DE TRANSPORTES"
+- model: academico.areacapes
+  pk: 30501016
+  fields:
+    descricao: "TRANSFER\xCANCIA DE CALOR"
+- model: academico.areacapes
+  pk: 30501024
+  fields:
+    descricao: "MEC\xC2NICA DOS FLU\xCDDOS"
+- model: academico.areacapes
+  pk: 30501032
+  fields:
+    descricao: "DIN\xC2MICA DOS GASES"
+- model: academico.areacapes
+  pk: 30501040
+  fields:
+    descricao: "PRINC\xCDPIOS VARIACIONAIS E M\xC9TODOS NUM\xC9RICOS"
+- model: academico.areacapes
+  pk: 30502004
+  fields:
+    descricao: "ENGENHARIA T\xC9RMICA"
+- model: academico.areacapes
+  pk: 30502012
+  fields:
+    descricao: "TERMODIN\xC2MICA"
+- model: academico.areacapes
+  pk: 30502020
+  fields:
+    descricao: CONTROLE AMBIENTAL
+- model: academico.areacapes
+  pk: 30502039
+  fields:
+    descricao: APROVEITAMENTO DA ENERGIA
+- model: academico.areacapes
+  pk: 30503000
+  fields:
+    descricao: "MEC\xC2NICA DOS S\xD3LIDOS"
+- model: academico.areacapes
+  pk: 30503019
+  fields:
+    descricao: "MEC\xC2NICA DOS CORPOS S\xD3LIDOS, EL\xC1STICOS E PL\xC1STICOS"
+- model: academico.areacapes
+  pk: 30503027
+  fields:
+    descricao: "DIN\xC2MICA DOS CORPOS R\xCDGIDOS, EL\xC1STICOS E PL\xC1STICOS"
+- model: academico.areacapes
+  pk: 30503035
+  fields:
+    descricao: "AN\xC1LISE DE TENS\xD5ES"
+- model: academico.areacapes
+  pk: 30503043
+  fields:
+    descricao: TERMOELASTICIDADE
+- model: academico.areacapes
+  pk: 30504007
+  fields:
+    descricao: "PROJETOS DE M\xC1QUINAS"
+- model: academico.areacapes
+  pk: 30504015
+  fields:
+    descricao: TEORIA DOS MECANISMOS
+- model: academico.areacapes
+  pk: 30504023
+  fields:
+    descricao: "EST\xC1TICA E DIN\xC2MICA APLICADA"
+- model: academico.areacapes
+  pk: 30504031
+  fields:
+    descricao: "ELEMENTOS DE M\xC1QUINAS"
+- model: academico.areacapes
+  pk: 30504040
+  fields:
+    descricao: "FUNDAMENTOS GERAIS DE PROJETOS DAS M\xC1QUINAS"
+- model: academico.areacapes
+  pk: 30504058
+  fields:
+    descricao: "M\xC1QUINAS, MOTORES E EQUIPAMENTOS"
+- model: academico.areacapes
+  pk: 30504066
+  fields:
+    descricao: "M\xC9TODOS DE S\xCDNTESE E OTIMIZA\xC7\xC3O APLICADOS AO PROJ.;MEC\xC2\
+      NICO"
+- model: academico.areacapes
+  pk: 30504074
+  fields:
+    descricao: "CONTROLE DE SISTEMAS MEC\xC2NICOS"
+- model: academico.areacapes
+  pk: 30504082
+  fields:
+    descricao: APROVEITAMENTO DE ENERGIA
+- model: academico.areacapes
+  pk: 30505003
+  fields:
+    descricao: "PROCESSOS DE FABRICA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 30505011
+  fields:
+    descricao: MATRIZES E FERRAMENTAS
+- model: academico.areacapes
+  pk: 30505020
+  fields:
+    descricao: "M\xC1QUINAS DE USINAGEM E CONFORMA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 30505038
+  fields:
+    descricao: "CONTROLE NUM\xC9RICO"
+- model: academico.areacapes
+  pk: 30505046
+  fields:
+    descricao: "ROBOTIZA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 30505054
+  fields:
+    descricao: "PROCESSOS DE FABRICA\xC7\xC3O, SELE\xC7\xC3O ECON\xD4MICA"
+- model: academico.areacapes
+  pk: 30600006
+  fields:
+    descricao: "ENGENHARIA QU\xCDMICA"
+- model: academico.areacapes
+  pk: 30601002
+  fields:
+    descricao: "PROCESSOS INDUSTRIAIS DE ENGENHARIA QU\xCDMICA"
+- model: academico.areacapes
+  pk: 30601010
+  fields:
+    descricao: "PROCESSOS BIOQU\xCDMICOS"
+- model: academico.areacapes
+  pk: 30601029
+  fields:
+    descricao: "PROCESSOS ORG\xC2NICOS"
+- model: academico.areacapes
+  pk: 30601037
+  fields:
+    descricao: "PROCESSOS INORG\xC2NICOS"
+- model: academico.areacapes
+  pk: 30602009
+  fields:
+    descricao: "OPERA\xC7\xD5ES INDUSTRIAIS E EQUIPAMENTOS PARA ENG. QU\xCDMICA"
+- model: academico.areacapes
+  pk: 30602017
+  fields:
+    descricao: "REATORES QU\xCDMICOS"
+- model: academico.areacapes
+  pk: 30602025
+  fields:
+    descricao: "OPERA\xC7\xD5ES CARACTER\xCDSTICAS DE PROCESSOS BIOQU\xCDMICOS"
+- model: academico.areacapes
+  pk: 30602033
+  fields:
+    descricao: "OPERA\xC7\xD5ES DE SEPARA\xC7\xC3O E MISTURA"
+- model: academico.areacapes
+  pk: 30603005
+  fields:
+    descricao: "TECNOLOGIA QU\xCDMICA"
+- model: academico.areacapes
+  pk: 30603013
+  fields:
+    descricao: "BALAN\xC7OS GLOBAIS DE MAT\xC9RIA E ENERGIA"
+- model: academico.areacapes
+  pk: 30603021
+  fields:
+    descricao: "\xC1GUA"
+- model: academico.areacapes
+  pk: 30603030
+  fields:
+    descricao: "\xC1LCOOL"
+- model: academico.areacapes
+  pk: 30603048
+  fields:
+    descricao: ALIMENTOS
+- model: academico.areacapes
+  pk: 30603056
+  fields:
+    descricao: BORRACHAS
+- model: academico.areacapes
+  pk: 30603064
+  fields:
+    descricao: "CARV\xC3O"
+- model: academico.areacapes
+  pk: 30603072
+  fields:
+    descricao: "CER\xC2MICA"
+- model: academico.areacapes
+  pk: 30603080
+  fields:
+    descricao: CIMENTO
+- model: academico.areacapes
+  pk: 30603099
+  fields:
+    descricao: COURO
+- model: academico.areacapes
+  pk: 30603102
+  fields:
+    descricao: DETERGENTES
+- model: academico.areacapes
+  pk: 30603110
+  fields:
+    descricao: FERTILIZANTES
+- model: academico.areacapes
+  pk: 30603129
+  fields:
+    descricao: MEDICAMENTOS
+- model: academico.areacapes
+  pk: 30603137
+  fields:
+    descricao: "METAIS N\xC3O-FERROSOS"
+- model: academico.areacapes
+  pk: 30603145
+  fields:
+    descricao: "\xD3LEOS"
+- model: academico.areacapes
+  pk: 30603153
+  fields:
+    descricao: PAPEL E CELULOSE
+- model: academico.areacapes
+  pk: 30603161
+  fields:
+    descricao: "PETR\xD3LEO E PETROQU\xCDMICA"
+- model: academico.areacapes
+  pk: 30603170
+  fields:
+    descricao: "POL\xCDMEROS"
+- model: academico.areacapes
+  pk: 30603188
+  fields:
+    descricao: PRODUTOS NATURAIS
+- model: academico.areacapes
+  pk: 30603196
+  fields:
+    descricao: "T\xC9XTEIS"
+- model: academico.areacapes
+  pk: 30603200
+  fields:
+    descricao: TRATAMENTOS E APROVEITAMENTOS DE REJEITOS
+- model: academico.areacapes
+  pk: 30603218
+  fields:
+    descricao: XISTO
+- model: academico.areacapes
+  pk: 30700000
+  fields:
+    descricao: "ENGENHARIA SANIT\xC1RIA"
+- model: academico.areacapes
+  pk: 30701007
+  fields:
+    descricao: "RECURSOS H\xCDDRICOS"
+- model: academico.areacapes
+  pk: 30701015
+  fields:
+    descricao: "PLANEJAMENTO INTEGRADO DOS RECURSOS H\xCDDRICOS"
+- model: academico.areacapes
+  pk: 30701023
+  fields:
+    descricao: "TECNOLOGIA E PROBLEMAS SANIT\xC1RIOS DE IRRIGA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 30701031
+  fields:
+    descricao: "\xC1GUAS SUBTERR\xC2NEAS E PO\xC7OS PROFUNDOS"
+- model: academico.areacapes
+  pk: 30701040
+  fields:
+    descricao: CONTROLE DE ENCHENTES E DE BARRAGENS
+- model: academico.areacapes
+  pk: 30701058
+  fields:
+    descricao: SEDIMENTOLOGIA
+- model: academico.areacapes
+  pk: 30702003
+  fields:
+    descricao: "TRATAMENTO DE \xC1GUAS DE ABASTECIMENTO E RESIDU\xC1RIAS"
+- model: academico.areacapes
+  pk: 30702011
+  fields:
+    descricao: "QU\xCDMICA SANIT\xC1RIA"
+- model: academico.areacapes
+  pk: 30702020
+  fields:
+    descricao: "PROCESSOS SIMPLIFICADOS DE TRATAMENTO DE \xC1GUAS"
+- model: academico.areacapes
+  pk: 30702038
+  fields:
+    descricao: "T\xC9CNICAS CONVENCIONAIS DE TRATAMENTO DE \xC1GUAS"
+- model: academico.areacapes
+  pk: 30702046
+  fields:
+    descricao: "T\xC9CNICAS AVAN\xC7ADAS DE TRATAMENTO DE \xC1GUAS"
+- model: academico.areacapes
+  pk: 30702054
+  fields:
+    descricao: "ESTUDOS E CARACTERIZA\xC7\xC3O DE EFLUENTES INDUSTRIAIS"
+- model: academico.areacapes
+  pk: 30702062
+  fields:
+    descricao: LAY OUT DE PROCESSOS INDUSTRIAIS
+- model: academico.areacapes
+  pk: 30702070
+  fields:
+    descricao: "RES\xCDDUOS RADIOATIVOS"
+- model: academico.areacapes
+  pk: 30702078
+  fields:
+    descricao: "T\xC9CNICAS CONVENCIONAIS DE TRATAMENTO DE \xC1GUAS"
+- model: academico.areacapes
+  pk: 30703000
+  fields:
+    descricao: "SANEAMENTO B\xC1SICO"
+- model: academico.areacapes
+  pk: 30703018
+  fields:
+    descricao: "T\xC9CNICAS DE ABASTECIMENTO DA \xC1GUA"
+- model: academico.areacapes
+  pk: 30703026
+  fields:
+    descricao: "DRENAGEM DE \xC1GUAS RESIDU\xC1RIAS"
+- model: academico.areacapes
+  pk: 30703034
+  fields:
+    descricao: "DRENAGEM URBANA DE \xC1GUAS PLUVIAIS"
+- model: academico.areacapes
+  pk: 30703042
+  fields:
+    descricao: "RES\xCDDUOS S\xD3LIDOS, DOM\xC9STICOS E INDUSTRIAIS"
+- model: academico.areacapes
+  pk: 30703050
+  fields:
+    descricao: "LIMPEZA P\xDABLICA"
+- model: academico.areacapes
+  pk: 30703069
+  fields:
+    descricao: "INSTALA\xC7\xD5ES HIDR\xC1ULICO-SANIT\xC1RIAS"
+- model: academico.areacapes
+  pk: 30704006
+  fields:
+    descricao: SANEAMENTO AMBIENTAL
+- model: academico.areacapes
+  pk: 30704014
+  fields:
+    descricao: "ECOLOGIA APLICADA \xC0 ENGENHARIA SANIT\xC1RIA"
+- model: academico.areacapes
+  pk: 30704022
+  fields:
+    descricao: "MICROBIOLOGIA APLICADA E ENGENHARIA SANIT\xC1RIA"
+- model: academico.areacapes
+  pk: 30704030
+  fields:
+    descricao: "PARASITOLOGIA APLICADA \xC0 ENGENHARIA SANIT\xC1RIA"
+- model: academico.areacapes
+  pk: 30704049
+  fields:
+    descricao: "QUALIDADE DO AR, DAS \xC1GUAS E DO SOLO"
+- model: academico.areacapes
+  pk: 30704057
+  fields:
+    descricao: "CONTROLE DA POLUI\xC7\xC3O"
+- model: academico.areacapes
+  pk: 30704065
+  fields:
+    descricao: "LEGISLA\xC7\xC3O AMBIENTAL"
+- model: academico.areacapes
+  pk: 30800005
+  fields:
+    descricao: "ENGENHARIA DE PRODU\xC7\xC3O"
+- model: academico.areacapes
+  pk: 30801001
+  fields:
+    descricao: "GER\xCANCIA DE PRODU\xC7\xC3O"
+- model: academico.areacapes
+  pk: 30801010
+  fields:
+    descricao: "PLANEJAMENTO DE INSTALA\xC7OES INDUSTRIAIS"
+- model: academico.areacapes
+  pk: 30801028
+  fields:
+    descricao: "PLANEJAMENTO, PROJETO E CONTROLE DE SIST. DE PRODU\xC7\xC3O"
+- model: academico.areacapes
+  pk: 30801036
+  fields:
+    descricao: "HIGIENE E SEGURAN\xC7A DO TRABALHO"
+- model: academico.areacapes
+  pk: 30801044
+  fields:
+    descricao: SUPRIMENTOS
+- model: academico.areacapes
+  pk: 30801052
+  fields:
+    descricao: GARANTIA DE CONTROLE DE QUALIDADE
+- model: academico.areacapes
+  pk: 30802008
+  fields:
+    descricao: PESQUISA OPERACIONAL
+- model: academico.areacapes
+  pk: 30802016
+  fields:
+    descricao: "PROCESSOS ESTOC\xC1STICOS E TEORIAS DAS FILAS"
+- model: academico.areacapes
+  pk: 30802024
+  fields:
+    descricao: "PROGRAMA\xC7\xC3O LINEAR, N\xC3O-LINEAR, MISTA E DIN\xC2MICA"
+- model: academico.areacapes
+  pk: 30802032
+  fields:
+    descricao: "S\xC9RIES TEMPORAIS"
+- model: academico.areacapes
+  pk: 30802040
+  fields:
+    descricao: TEORIA DOS GRAFOS
+- model: academico.areacapes
+  pk: 30802059
+  fields:
+    descricao: TEORIA DOS JOGOS
+- model: academico.areacapes
+  pk: 30803004
+  fields:
+    descricao: ENGENHARIA DO PRODUTO
+- model: academico.areacapes
+  pk: 30803012
+  fields:
+    descricao: ERGONOMIA
+- model: academico.areacapes
+  pk: 30803020
+  fields:
+    descricao: METODOLOGIA DE PROJETO DO PRODUTO
+- model: academico.areacapes
+  pk: 30803039
+  fields:
+    descricao: PROCESSOS DE TRABALHO
+- model: academico.areacapes
+  pk: 30803047
+  fields:
+    descricao: "GER\xCANCIA DO PROJETO E DO PRODUTO"
+- model: academico.areacapes
+  pk: 30803055
+  fields:
+    descricao: DESENVOLVIMENTO DE PRODUTO
+- model: academico.areacapes
+  pk: 30804000
+  fields:
+    descricao: "ENGENHARIA ECON\xD4MICA"
+- model: academico.areacapes
+  pk: 30804019
+  fields:
+    descricao: ESTUDO DE MERCADO
+- model: academico.areacapes
+  pk: 30804027
+  fields:
+    descricao: "LOCALIZA\xC7\xC3O INDUSTRIAL"
+- model: academico.areacapes
+  pk: 30804035
+  fields:
+    descricao: "AN\xC1LISE DE CUSTOS"
+- model: academico.areacapes
+  pk: 30804043
+  fields:
+    descricao: ECONOMIA DE TECNOLOGIA
+- model: academico.areacapes
+  pk: 30804051
+  fields:
+    descricao: "VIDA ECON\xD4MICA DOS EQUIPAMENTOS"
+- model: academico.areacapes
+  pk: 30804060
+  fields:
+    descricao: "AVALIA\xC7\xC3O DE PROJETOS"
+- model: academico.areacapes
+  pk: 30900000
+  fields:
+    descricao: ENGENHARIA NUCLEAR
+- model: academico.areacapes
+  pk: 30901006
+  fields:
+    descricao: "APLICA\xC7\xD5ES DE RADIOIS\xD3TOPOS"
+- model: academico.areacapes
+  pk: 30901014
+  fields:
+    descricao: "PRODU\xC7\xC3O DE RADIOIS\xD3POTOS"
+- model: academico.areacapes
+  pk: 30901022
+  fields:
+    descricao: "APLICA\xC7\xD5ES INDUSTRIAIS DE RADIOIS\xD3POTOS"
+- model: academico.areacapes
+  pk: 30901030
+  fields:
+    descricao: "INSTRUMENTA\xC7\xC3O PARA MEDIDA E CONTROLE DE RADIA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 30902002
+  fields:
+    descricao: "FUS\xC3O CONTROLADA"
+- model: academico.areacapes
+  pk: 30902010
+  fields:
+    descricao: "PROCESSOS INDUSTRIAIS DA FUS\xC3O CONTROLADA"
+- model: academico.areacapes
+  pk: 30902029
+  fields:
+    descricao: "PROBLEMAS TECNOL\xD3GICOS DA FUS\xC3O CONTROLADA"
+- model: academico.areacapes
+  pk: 30903009
+  fields:
+    descricao: "COMBUST\xCDVEL N\xDACLEAR"
+- model: academico.areacapes
+  pk: 30903017
+  fields:
+    descricao: "EXTRA\xC7\xC3O DE COMBUST\xCDVEL N\xDACLEAR"
+- model: academico.areacapes
+  pk: 30903025
+  fields:
+    descricao: "CONVERS\xC3O, ENRIQUECIMENTO E FABRICA\xC7\xC3O DE COMBUST. N\xDA\
+      CLEAR"
+- model: academico.areacapes
+  pk: 30903033
+  fields:
+    descricao: "REPROCESSAMENTO DO COMBUST\xCDVEL N\xDACLEAR"
+- model: academico.areacapes
+  pk: 30903041
+  fields:
+    descricao: "REJEITOS DE COMBUST\xCDVEL N\xDACLEAR"
+- model: academico.areacapes
+  pk: 30904005
+  fields:
+    descricao: TECNOLOGIA DOS REATORES
+- model: academico.areacapes
+  pk: 30904013
+  fields:
+    descricao: "N\xDACLEO DO REATOR"
+- model: academico.areacapes
+  pk: 30904021
+  fields:
+    descricao: MATERIAIS NUCLEARES E BLINDAGEM DE REATORES
+- model: academico.areacapes
+  pk: 30904030
+  fields:
+    descricao: "TRANSFER\xCANCIA DE CALOR EM REATORES"
+- model: academico.areacapes
+  pk: 30904048
+  fields:
+    descricao: "GERA\xC7\xC3O E INTEGRA\xC7\xC3O COM SISTEMAS EL\xC9TRICOS EM REATORES"
+- model: academico.areacapes
+  pk: 30904056
+  fields:
+    descricao: "INSTRUMENTA\xC7\xC3O PARA OPERA\xC7\xC3O E CONTROLE DE REATORES"
+- model: academico.areacapes
+  pk: 30904064
+  fields:
+    descricao: "SEGURAN\xC7A, LOCALIZA\xC7\xC3O E LICENCIAMENTO DE REATORES"
+- model: academico.areacapes
+  pk: 30904072
+  fields:
+    descricao: "ASPECTOS ECON\xD4MICOS DE REATORES"
+- model: academico.areacapes
+  pk: 31000002
+  fields:
+    descricao: ENGENHARIA DE TRANSPORTES
+- model: academico.areacapes
+  pk: 31001009
+  fields:
+    descricao: PLANEJAMENTO DE TRANSPORTES
+- model: academico.areacapes
+  pk: 31001017
+  fields:
+    descricao: "PLANEJAMENTO E ORGANIZA\xC7\xC3O DO SISTEMA DE TRANSPORTE"
+- model: academico.areacapes
+  pk: 31001025
+  fields:
+    descricao: ECONOMIA DOS TRANSPORTES
+- model: academico.areacapes
+  pk: 31002005
+  fields:
+    descricao: "VE\xCDCULOS E EQUIPAMENTOS DE CONTROLE"
+- model: academico.areacapes
+  pk: 31002013
+  fields:
+    descricao: VIAS DE TRANSPORTE
+- model: academico.areacapes
+  pk: 31002021
+  fields:
+    descricao: "VE\xCDCULOS DE TRANSPORTES"
+- model: academico.areacapes
+  pk: 31002030
+  fields:
+    descricao: "ESTA\xC7\xC3O DE TRANSPORTE"
+- model: academico.areacapes
+  pk: 31002048
+  fields:
+    descricao: EQUIPAMENTOS AUXILIARES E CONTROLES
+- model: academico.areacapes
+  pk: 31003001
+  fields:
+    descricao: "OPERA\xC7\xD5ES DE TRANSPORTES"
+- model: academico.areacapes
+  pk: 31003010
+  fields:
+    descricao: "ENGENHARIA DE TR\xC1FEGO"
+- model: academico.areacapes
+  pk: 31003028
+  fields:
+    descricao: CAPACIDADE DE VIAS DE TRANSPORTE
+- model: academico.areacapes
+  pk: 31003036
+  fields:
+    descricao: "OPERA\xC7\xC3O DE SISTEMAS DE TRANSPORTE"
+- model: academico.areacapes
+  pk: 31100007
+  fields:
+    descricao: "ENGENHARIA NAVAL E OCE\xC2NICA"
+- model: academico.areacapes
+  pk: 31101003
+  fields:
+    descricao: "HIDRODIN\xC2MICA DE NAVIOS E SISTEMAS OCE\xC2NICOS"
+- model: academico.areacapes
+  pk: 31101011
+  fields:
+    descricao: "RESIST\xCANCIA HIDRODIN\xC2MICA"
+- model: academico.areacapes
+  pk: 31101020
+  fields:
+    descricao: "PROPULS\xC3O DE NAVIOS"
+- model: academico.areacapes
+  pk: 31102000
+  fields:
+    descricao: "ESTRUTURAS NAVAIS E OCE\xC2NICAS"
+- model: academico.areacapes
+  pk: 31102018
+  fields:
+    descricao: "AN\xC1LISE TE\xD3RICA E EXPERIMENTAL DE ESTRUTURA"
+- model: academico.areacapes
+  pk: 31102026
+  fields:
+    descricao: "DIN\xC2MICA ESTRUTURAL NAVAL E OCE\xC2NICA"
+- model: academico.areacapes
+  pk: 31102034
+  fields:
+    descricao: "S\xCDNTESE ESTRUTURAL NAVAL E OCE\xC2NICA"
+- model: academico.areacapes
+  pk: 31103006
+  fields:
+    descricao: "M\xC1QUINAS MAR\xCDTIMAS"
+- model: academico.areacapes
+  pk: 31103014
+  fields:
+    descricao: "AN\xC1LISE DE SISTEMAS PROPULSORES"
+- model: academico.areacapes
+  pk: 31103022
+  fields:
+    descricao: "CONTROLE E AUTOMA\xC7\xC3O DE SISTEMAS PROPULSORES"
+- model: academico.areacapes
+  pk: 31103030
+  fields:
+    descricao: EQUIPAMENTOS AUXILIARES DO SISTEMA PROPULSIVO
+- model: academico.areacapes
+  pk: 31103049
+  fields:
+    descricao: "MOTOR DE PROPULS\xC3O"
+- model: academico.areacapes
+  pk: 31104002
+  fields:
+    descricao: "PROJETOS DE NAVIOS E DE SISTEMAS OCE\xC2NICOS"
+- model: academico.areacapes
+  pk: 31104010
+  fields:
+    descricao: PROJETOS DE NAVIOS
+- model: academico.areacapes
+  pk: 31104029
+  fields:
+    descricao: "PROJETOS DE SISTEMAS OCE\xC2NICOS FIXOS E SEMI-FIXOS"
+- model: academico.areacapes
+  pk: 31104037
+  fields:
+    descricao: "PROJETOS DE EMBARCA\xC7\xD5ES N\xC3O-CONVENCIONAIS"
+- model: academico.areacapes
+  pk: 31105009
+  fields:
+    descricao: "TECNOLOGIA DE CONSTRU\xC7\xC3O NAVAL E DE SISTEMAS OCE\xC2NICOS"
+- model: academico.areacapes
+  pk: 31105017
+  fields:
+    descricao: "M\xC9TODOS DE FABRICA\xC7\xC3O DE NAVIOS E SISTEMAS OCE\xC2NICOS"
+- model: academico.areacapes
+  pk: 31105025
+  fields:
+    descricao: "SOLDAGEM DE ESTRUTURAS NAVAIS E OCE\xC2NICOS"
+- model: academico.areacapes
+  pk: 31105033
+  fields:
+    descricao: "CUSTOS DE CONSTRU\xC7\xC3O NAVAL"
+- model: academico.areacapes
+  pk: 31105041
+  fields:
+    descricao: "NORMATIZA\xC7\xC3O E CERTIFICA\xC7\xC3O DE QUALIDADE DE NAVIOS"
+- model: academico.areacapes
+  pk: 31200001
+  fields:
+    descricao: ENGENHARIA AEROESPACIAL
+- model: academico.areacapes
+  pk: 31201008
+  fields:
+    descricao: "AERODIN\xC2MICA"
+- model: academico.areacapes
+  pk: 31201016
+  fields:
+    descricao: "AERODIN\xC2MICA DE AERONAVES ESPACIAIS"
+- model: academico.areacapes
+  pk: 31201024
+  fields:
+    descricao: "AERODIN\xC2MICA DOS PROCESSOS GEOF\xCDSICOS E INTERPLANET\xC1RIOS"
+- model: academico.areacapes
+  pk: 31202004
+  fields:
+    descricao: "DIN\xC2MICA DE V\xD4O"
+- model: academico.areacapes
+  pk: 31202012
+  fields:
+    descricao: "TRAJET\xD3RIAS E \xD3RBITAS"
+- model: academico.areacapes
+  pk: 31202020
+  fields:
+    descricao: ESTABILIDADE E CONTROLE
+- model: academico.areacapes
+  pk: 31203000
+  fields:
+    descricao: ESTRUTURAS AEROESPACIAIS
+- model: academico.areacapes
+  pk: 31203019
+  fields:
+    descricao: AEROELASTICIDADE
+- model: academico.areacapes
+  pk: 31203027
+  fields:
+    descricao: FADIGA
+- model: academico.areacapes
+  pk: 31203035
+  fields:
+    descricao: PROJETOS DE ESTRUTURAS AEROESPACIAIS
+- model: academico.areacapes
+  pk: 31204007
+  fields:
+    descricao: MATERIAIS E PROCESSOS P/ENGENHARIA AERON. E AEROESPACIAL
+- model: academico.areacapes
+  pk: 31205003
+  fields:
+    descricao: "PROPULS\xC3O AEROESPACIAL"
+- model: academico.areacapes
+  pk: 31205011
+  fields:
+    descricao: "COMBUST\xC3O E ESCOAMENTO COM REA\xC7\xD5ES QU\xCDMICAS"
+- model: academico.areacapes
+  pk: 31205020
+  fields:
+    descricao: "PROPULS\xC3O DE FOGUTES"
+- model: academico.areacapes
+  pk: 31205038
+  fields:
+    descricao: "M\xC1QUINAS DE FLUXO"
+- model: academico.areacapes
+  pk: 31205046
+  fields:
+    descricao: MOTORES ALTERNATIVOS
+- model: academico.areacapes
+  pk: 31206000
+  fields:
+    descricao: SISTEMAS AEROESPACIAIS
+- model: academico.areacapes
+  pk: 31206018
+  fields:
+    descricao: "AVI\xD5ES"
+- model: academico.areacapes
+  pk: 31206026
+  fields:
+    descricao: FOGUETES
+- model: academico.areacapes
+  pk: 31206034
+  fields:
+    descricao: "HELIC\xD3PTEROS"
+- model: academico.areacapes
+  pk: 31206042
+  fields:
+    descricao: HOVERCRAFT
+- model: academico.areacapes
+  pk: 31206050
+  fields:
+    descricao: "SAT\xC9LITES E OUTROS DISPOSITIVOS AEROESPACIAIS"
+- model: academico.areacapes
+  pk: 31206069
+  fields:
+    descricao: "NORMATIZA\xC7\xC3O E CERT. DE QUAL. DE AERONAVES E COMPONENTES"
+- model: academico.areacapes
+  pk: 31206077
+  fields:
+    descricao: "MANUTEN\xC7\xC3O DE SISTEMAS AEROESPACIAIS"
+- model: academico.areacapes
+  pk: 31300006
+  fields:
+    descricao: "ENGENHARIA BIOM\xC9DICA"
+- model: academico.areacapes
+  pk: 31301002
+  fields:
+    descricao: BIOENGENHARIA
+- model: academico.areacapes
+  pk: 31301010
+  fields:
+    descricao: "PROCESSAMENTO DE SINAIS BIOL\xD3GICOS"
+- model: academico.areacapes
+  pk: 31301029
+  fields:
+    descricao: "MODELAGEM DE FEN\xD4MENOS BIOL\xD3GICOS"
+- model: academico.areacapes
+  pk: 31301037
+  fields:
+    descricao: "MODELAGEM DE SISTEMAS BIOL\xD3GICOS"
+- model: academico.areacapes
+  pk: 31302009
+  fields:
+    descricao: "ENGENHARIA M\xC9DICA"
+- model: academico.areacapes
+  pk: 31302017
+  fields:
+    descricao: "BIOMATERIAIS E MATERIAIS BIOCOMPAT\xCDVEIS"
+- model: academico.areacapes
+  pk: 31302025
+  fields:
+    descricao: "TRANSDUTORES PARA APLICA\xC7\xD5ES BIOM\xC9DICAS"
+- model: academico.areacapes
+  pk: 31302033
+  fields:
+    descricao: "INSTRUMENTA\xC7\xC3O ODONTOL\xD3GICA E M\xC9DICO-HOSPITALAR"
+- model: academico.areacapes
+  pk: 31302041
+  fields:
+    descricao: "TECNOLOGIA DE PR\xD3TESES"
+- model: academico.areacapes
+  pk: 40000001
+  fields:
+    descricao: "CI\xCANCIAS DA SA\xDADE"
+- model: academico.areacapes
+  pk: 40100006
+  fields:
+    descricao: MEDICINA
+- model: academico.areacapes
+  pk: 40101002
+  fields:
+    descricao: "CL\xCDNICA M\xC9DICA"
+- model: academico.areacapes
+  pk: 40101010
+  fields:
+    descricao: ANGIOLOGIA
+- model: academico.areacapes
+  pk: 40101029
+  fields:
+    descricao: DERMATOLOGIA
+- model: academico.areacapes
+  pk: 40101037
+  fields:
+    descricao: "ALERGOLOGIA E IMUNOLOGIA CL\xCDNICA"
+- model: academico.areacapes
+  pk: 40101045
+  fields:
+    descricao: CANCEROLOGIA
+- model: academico.areacapes
+  pk: 40101053
+  fields:
+    descricao: HEMATOLOGIA
+- model: academico.areacapes
+  pk: 40101061
+  fields:
+    descricao: ENDOCRINOLOGIA
+- model: academico.areacapes
+  pk: 40101070
+  fields:
+    descricao: NEUROLOGIA
+- model: academico.areacapes
+  pk: 40101088
+  fields:
+    descricao: PEDIATRIA
+- model: academico.areacapes
+  pk: 40101096
+  fields:
+    descricao: "DOEN\xC7AS INFECCIOSAS E PARASIT\xC1RIAS"
+- model: academico.areacapes
+  pk: 40101100
+  fields:
+    descricao: CARDIOLOGIA
+- model: academico.areacapes
+  pk: 40101118
+  fields:
+    descricao: GASTROENTEROLOGIA
+- model: academico.areacapes
+  pk: 40101126
+  fields:
+    descricao: PNEUMOLOGIA
+- model: academico.areacapes
+  pk: 40101134
+  fields:
+    descricao: NEFROLOGIA
+- model: academico.areacapes
+  pk: 40101142
+  fields:
+    descricao: REUMATOLOGIA
+- model: academico.areacapes
+  pk: 40101150
+  fields:
+    descricao: "GINECOLOGIA E OBSTETR\xCDCIA"
+- model: academico.areacapes
+  pk: 40101169
+  fields:
+    descricao: FISIATRIA
+- model: academico.areacapes
+  pk: 40101177
+  fields:
+    descricao: OFTALMOLOGIA
+- model: academico.areacapes
+  pk: 40101186
+  fields:
+    descricao: ORTOPEDIA
+- model: academico.areacapes
+  pk: 40102009
+  fields:
+    descricao: CIRURGIA
+- model: academico.areacapes
+  pk: 40102017
+  fields:
+    descricao: "CIRURGIA PL\xC1STICA E RESTAURADORA"
+- model: academico.areacapes
+  pk: 40102025
+  fields:
+    descricao: CIRURGIA OTORRINOLARINGOLOGIA
+- model: academico.areacapes
+  pk: 40102033
+  fields:
+    descricao: "CIRURGIA OFTALMOL\xD3GICA"
+- model: academico.areacapes
+  pk: 40102041
+  fields:
+    descricao: CIRURGIA CARDIOVASCULAR
+- model: academico.areacapes
+  pk: 40102050
+  fields:
+    descricao: "CIRURGIA TOR\xC1XICA"
+- model: academico.areacapes
+  pk: 40102068
+  fields:
+    descricao: CIRURGIA GASTROENTEROLOGICA
+- model: academico.areacapes
+  pk: 40102076
+  fields:
+    descricao: "CIRURGIA PEDI\xC1TRICA"
+- model: academico.areacapes
+  pk: 40102084
+  fields:
+    descricao: NEUROCIRURGIA
+- model: academico.areacapes
+  pk: 40102092
+  fields:
+    descricao: "CIRURGIA UROL\xD3GICA"
+- model: academico.areacapes
+  pk: 40102106
+  fields:
+    descricao: "CIRURGIA PROCTOL\xD3GICA"
+- model: academico.areacapes
+  pk: 40102114
+  fields:
+    descricao: "CIRURGIA ORTOP\xC9DICA"
+- model: academico.areacapes
+  pk: 40102122
+  fields:
+    descricao: "CIRURGIA TRAUMATOL\xD3GICA"
+- model: academico.areacapes
+  pk: 40102130
+  fields:
+    descricao: ANESTESIOLOGIA
+- model: academico.areacapes
+  pk: 40102149
+  fields:
+    descricao: CIRURGIA EXPERIMENTAL
+- model: academico.areacapes
+  pk: 40103005
+  fields:
+    descricao: "SA\xDADE MATERNO-INFANTIL"
+- model: academico.areacapes
+  pk: 40104001
+  fields:
+    descricao: PSIQUIATRIA
+- model: academico.areacapes
+  pk: 40105008
+  fields:
+    descricao: "ANATOMIA PATOL\xD3GICA E PATOLOGIA CL\xCDNICA"
+- model: academico.areacapes
+  pk: 40106004
+  fields:
+    descricao: "RADIOLOGIA M\xC9DICA"
+- model: academico.areacapes
+  pk: 40107000
+  fields:
+    descricao: MEDICINA LEGAL E DEONTOLOGIA
+- model: academico.areacapes
+  pk: 40200000
+  fields:
+    descricao: ODONTOLOGIA
+- model: academico.areacapes
+  pk: 40201007
+  fields:
+    descricao: "CL\xCDNICA ODONTOL\xD3GICA"
+- model: academico.areacapes
+  pk: 40202003
+  fields:
+    descricao: CIRURGIA BUCO-MAXILO-FACIAL
+- model: academico.areacapes
+  pk: 40203000
+  fields:
+    descricao: ORTODONTIA
+- model: academico.areacapes
+  pk: 40204006
+  fields:
+    descricao: ODONTOPEDIATRIA
+- model: academico.areacapes
+  pk: 40205002
+  fields:
+    descricao: PERIODONTIA
+- model: academico.areacapes
+  pk: 40206009
+  fields:
+    descricao: ENDODONTIA
+- model: academico.areacapes
+  pk: 40207005
+  fields:
+    descricao: "RADIOLOGIA ODONTOL\xD3GICA"
+- model: academico.areacapes
+  pk: 40208001
+  fields:
+    descricao: ODONTOLOGIA SOCIAL E PREVENTIVA
+- model: academico.areacapes
+  pk: 40209008
+  fields:
+    descricao: "MATERIAIS ODONTOL\xD3GICOS"
+- model: academico.areacapes
+  pk: 40300005
+  fields:
+    descricao: "FARM\xC1CIA"
+- model: academico.areacapes
+  pk: 40301001
+  fields:
+    descricao: FARMACOTECNIA
+- model: academico.areacapes
+  pk: 40302008
+  fields:
+    descricao: FARMACOGNOSIA
+- model: academico.areacapes
+  pk: 40303004
+  fields:
+    descricao: "AN\xC1LISE TOXICOL\xD3GICA"
+- model: academico.areacapes
+  pk: 40304000
+  fields:
+    descricao: "AN\xC1LISE E CONTROLE DE MEDICAMENTOS"
+- model: academico.areacapes
+  pk: 40305007
+  fields:
+    descricao: BROMATOLOGIA
+- model: academico.areacapes
+  pk: 40400000
+  fields:
+    descricao: ENFERMAGEM
+- model: academico.areacapes
+  pk: 40401006
+  fields:
+    descricao: "ENFERMAGEM M\xC9DICO-CIR\xDARGICA"
+- model: academico.areacapes
+  pk: 40402002
+  fields:
+    descricao: "ENFERMAGEM OBST\xC9TRICA"
+- model: academico.areacapes
+  pk: 40403009
+  fields:
+    descricao: "ENFERMAGEM PEDI\xC1TRICA"
+- model: academico.areacapes
+  pk: 40404005
+  fields:
+    descricao: "ENFERMAGEM PSIQUI\xC1TRICA"
+- model: academico.areacapes
+  pk: 40405001
+  fields:
+    descricao: "ENFERMAGEM DE DOEN\xC7AS CONTAGIOSAS"
+- model: academico.areacapes
+  pk: 40406008
+  fields:
+    descricao: "ENFERMAGEM DE SA\xDADE P\xDABLICA"
+- model: academico.areacapes
+  pk: 40500004
+  fields:
+    descricao: "NUTRI\xC7\xC3O"
+- model: academico.areacapes
+  pk: 40501000
+  fields:
+    descricao: "BIOQU\xCDMICA DA NUTRI\xC7\xC3O"
+- model: academico.areacapes
+  pk: 40502007
+  fields:
+    descricao: "DIET\xC9TICA"
+- model: academico.areacapes
+  pk: 40503003
+  fields:
+    descricao: "AN\xC1LISE NUTRICIONAL DE POPULA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 40504000
+  fields:
+    descricao: "DESNUTRI\xC7\xC3O E DESENVOLVIMENTO FISIOL\xD3GICO"
+- model: academico.areacapes
+  pk: 40600009
+  fields:
+    descricao: "SA\xDADE COLETIVA"
+- model: academico.areacapes
+  pk: 40601005
+  fields:
+    descricao: EPIDEMIOLOGIA
+- model: academico.areacapes
+  pk: 40602001
+  fields:
+    descricao: "SA\xDADE P\xDABLICA"
+- model: academico.areacapes
+  pk: 40603008
+  fields:
+    descricao: MEDICINA PREVENTIVA
+- model: academico.areacapes
+  pk: 40700003
+  fields:
+    descricao: FONOAUDIOLOGIA
+- model: academico.areacapes
+  pk: 40800008
+  fields:
+    descricao: FISIOTERAPIA E TERAPIA OCUPACIONAL
+- model: academico.areacapes
+  pk: 40900002
+  fields:
+    descricao: "EDUCA\xC7\xC3O F\xCDSICA"
+- model: academico.areacapes
+  pk: 50000004
+  fields:
+    descricao: "CI\xCANCIAS AGR\xC1RIAS"
+- model: academico.areacapes
+  pk: 50100009
+  fields:
+    descricao: AGRONOMIA
+- model: academico.areacapes
+  pk: 50101005
+  fields:
+    descricao: "CI\xCANCIA DO SOLO"
+- model: academico.areacapes
+  pk: 50101013
+  fields:
+    descricao: "G\xCANESE, MORFOLOGIA E CLASSIFICA\xC7\xC3O DOS SOLOS"
+- model: academico.areacapes
+  pk: 50101021
+  fields:
+    descricao: "F\xCDSICA DO SOLO"
+- model: academico.areacapes
+  pk: 50101030
+  fields:
+    descricao: "QU\xCDMICA DO SOLO"
+- model: academico.areacapes
+  pk: 50101048
+  fields:
+    descricao: "MICROBIOLOGIA E BIOQU\xCDMICA DO SOLO"
+- model: academico.areacapes
+  pk: 50101056
+  fields:
+    descricao: "FERTILIDADE DO SOLO E ADUBA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 50101064
+  fields:
+    descricao: "MANEJO E CONSERVA\xC7\xC3O DO SOLO"
+- model: academico.areacapes
+  pk: 50102001
+  fields:
+    descricao: FITOSSANIDADE
+- model: academico.areacapes
+  pk: 50102010
+  fields:
+    descricao: FITOPATOLOGIA
+- model: academico.areacapes
+  pk: 50102028
+  fields:
+    descricao: "ENTOMOLOGIA AGR\xCDCOLA"
+- model: academico.areacapes
+  pk: 50102036
+  fields:
+    descricao: "PARASITOLOGIA AGR\xCDCOLA"
+- model: academico.areacapes
+  pk: 50102044
+  fields:
+    descricao: "MICROBIOLOGIA AGR\xCDCOLA"
+- model: academico.areacapes
+  pk: 50102052
+  fields:
+    descricao: "DEFESA FITOSSANIT\xC1RIA"
+- model: academico.areacapes
+  pk: 50103008
+  fields:
+    descricao: FITOTECNIA
+- model: academico.areacapes
+  pk: 50103016
+  fields:
+    descricao: MANEJO E TRATOS CULTURAIS
+- model: academico.areacapes
+  pk: 50103024
+  fields:
+    descricao: "MECANIZA\xC7\xC3O AGR\xCDCOLA"
+- model: academico.areacapes
+  pk: 50103032
+  fields:
+    descricao: "PRODU\xC7\xC3O E BENEFICIAMENTO DE SEMENTES"
+- model: academico.areacapes
+  pk: 50103040
+  fields:
+    descricao: "PRODU\xC7\xC3O DE MUDAS"
+- model: academico.areacapes
+  pk: 50103059
+  fields:
+    descricao: MELHORAMENTO VEGETAL
+- model: academico.areacapes
+  pk: 50103067
+  fields:
+    descricao: FISIOLOGIA DE PLANTAS CULTIVADAS
+- model: academico.areacapes
+  pk: 50103075
+  fields:
+    descricao: MATOLOGIA
+- model: academico.areacapes
+  pk: 50104004
+  fields:
+    descricao: FLORICULTURA, PARQUES E JARDINS
+- model: academico.areacapes
+  pk: 50104012
+  fields:
+    descricao: FLORICULTURA
+- model: academico.areacapes
+  pk: 50104020
+  fields:
+    descricao: PARQUES E JARDINS
+- model: academico.areacapes
+  pk: 50104039
+  fields:
+    descricao: "ARBORIZA\xC7\xC3O DE VIAS P\xDABLICAS"
+- model: academico.areacapes
+  pk: 50105000
+  fields:
+    descricao: AGROMETEROLOGIA
+- model: academico.areacapes
+  pk: 50106007
+  fields:
+    descricao: "EXTENS\xC3O RURAL"
+- model: academico.areacapes
+  pk: 50200003
+  fields:
+    descricao: RECURSOS FLORESTAIS E ENGENHARIA FLORESTAL
+- model: academico.areacapes
+  pk: 50201000
+  fields:
+    descricao: SILVICULTURA
+- model: academico.areacapes
+  pk: 50201018
+  fields:
+    descricao: DENDROLOGIA
+- model: academico.areacapes
+  pk: 50201026
+  fields:
+    descricao: FLORESTAMENTO E REFLORESTAMENTO
+- model: academico.areacapes
+  pk: 50201034
+  fields:
+    descricao: "GEN\xC9TICA E MELHORAMENTO FLORESTAL"
+- model: academico.areacapes
+  pk: 50201042
+  fields:
+    descricao: SEMENTES FLORESTAIS
+- model: academico.areacapes
+  pk: 50201050
+  fields:
+    descricao: "NUTRI\xC7\xC3O FLORESTAL"
+- model: academico.areacapes
+  pk: 50201069
+  fields:
+    descricao: FISIOLOGIA FLORESTAL
+- model: academico.areacapes
+  pk: 50201077
+  fields:
+    descricao: SOLOS FLORESTAIS
+- model: academico.areacapes
+  pk: 50201085
+  fields:
+    descricao: "PROTE\xC7\xC3O FLORESTAL"
+- model: academico.areacapes
+  pk: 50202006
+  fields:
+    descricao: MANEJO FLORESTAL
+- model: academico.areacapes
+  pk: 50202014
+  fields:
+    descricao: ECONOMIA FLORESTAL
+- model: academico.areacapes
+  pk: 50202022
+  fields:
+    descricao: "POL\xCDTICA E LEGISLA\xC7\xC3O FLORESTAL"
+- model: academico.areacapes
+  pk: 50202030
+  fields:
+    descricao: "ADMINISTRA\xC7\xC3O FLORESTAL"
+- model: academico.areacapes
+  pk: 50202049
+  fields:
+    descricao: "DENDROMETRIA E INVENT\xC1RIO FLORESTAL"
+- model: academico.areacapes
+  pk: 50202057
+  fields:
+    descricao: "FOTOINTERPRETA\xC7\xC3O FLORESTAL"
+- model: academico.areacapes
+  pk: 50202065
+  fields:
+    descricao: ORDENAMENTO FLORESTAL
+- model: academico.areacapes
+  pk: 50203002
+  fields:
+    descricao: "T\xC9CNICAS E OPERA\xC7\xD5ES FLORESTAIS"
+- model: academico.areacapes
+  pk: 50203010
+  fields:
+    descricao: "EXPLORA\xC7\xC3O FLORESTAL"
+- model: academico.areacapes
+  pk: 50203029
+  fields:
+    descricao: "MECANIZA\xC7\xC3O FLORESTAL"
+- model: academico.areacapes
+  pk: 50204009
+  fields:
+    descricao: "TECNOLOGIA E UTILIZA\xC7\xC3O DE PRODUTOS FLORESTAIS"
+- model: academico.areacapes
+  pk: 50204017
+  fields:
+    descricao: "ANATOMIA E IDENTIFICA\xC7\xC3O DE PRODUTOS FLORESTAIS"
+- model: academico.areacapes
+  pk: 50204025
+  fields:
+    descricao: "PROPRIEDADES FISICO-MEC\xC2NICAS DA MADEIRA"
+- model: academico.areacapes
+  pk: 50204033
+  fields:
+    descricao: "RELA\xC7\xD5ES \xC1GUA-MADEIRA E SECAGEM"
+- model: academico.areacapes
+  pk: 50204041
+  fields:
+    descricao: TRATAMENTO DA MADEIRA
+- model: academico.areacapes
+  pk: 50204050
+  fields:
+    descricao: "PROCESSAMENTO MEC\xC2NICO DA MADEIRA"
+- model: academico.areacapes
+  pk: 50204068
+  fields:
+    descricao: "QU\xCDMICA DA MADEIRA"
+- model: academico.areacapes
+  pk: 50204076
+  fields:
+    descricao: RESINAS DE MADEIRAS
+- model: academico.areacapes
+  pk: 50204084
+  fields:
+    descricao: TECNOLOGIA DE CELULOSE E PAPEL
+- model: academico.areacapes
+  pk: 50204092
+  fields:
+    descricao: TECNOLOGIA DE CHAPAS
+- model: academico.areacapes
+  pk: 50205005
+  fields:
+    descricao: "CONSERVA\xC7\xC3O DA NATUREZA"
+- model: academico.areacapes
+  pk: 50205013
+  fields:
+    descricao: HIDROLOGIA FLORESTAL
+- model: academico.areacapes
+  pk: 50205021
+  fields:
+    descricao: "CONSERVA\xC7\xC3O DE \xC1REAS SILVESTRES"
+- model: academico.areacapes
+  pk: 50205030
+  fields:
+    descricao: "CONSERVA\xC7\xC3O DAS BACIAS HIDROGR\xC1FICAS"
+- model: academico.areacapes
+  pk: 50205048
+  fields:
+    descricao: "RECUPERA\xC7\xC3O DE \xC1REAS DEGRADADAS"
+- model: academico.areacapes
+  pk: 50206001
+  fields:
+    descricao: ENERGIA DE BIOMASSA FLORESTAL
+- model: academico.areacapes
+  pk: 50300008
+  fields:
+    descricao: "ENGENHARIA AGR\xCDCOLA"
+- model: academico.areacapes
+  pk: 50301004
+  fields:
+    descricao: "M\xC1QUINAS E IMPLEMENTOS AGR\xCDCOLAS"
+- model: academico.areacapes
+  pk: 50302000
+  fields:
+    descricao: "ENGENHARIA DE \xC1GUA E SOLO"
+- model: academico.areacapes
+  pk: 50302019
+  fields:
+    descricao: "IRRIGA\xC7\xC3O E DRENAGEM"
+- model: academico.areacapes
+  pk: 50302027
+  fields:
+    descricao: "CONSERVA\xC7\xC3O DE SOLO E \xC1GUA"
+- model: academico.areacapes
+  pk: 50303007
+  fields:
+    descricao: "ENGENHARIA DE PROCESSAMENTO DE PRODUTOS AGR\xCDCOLAS"
+- model: academico.areacapes
+  pk: 50303015
+  fields:
+    descricao: "PR\xC9-PROCESSAMENTO DE PRODUTOS AGR\xCDCOLAS"
+- model: academico.areacapes
+  pk: 50303023
+  fields:
+    descricao: "ARMAZENAMENTO DE PRODUTOS AGR\xCDCOLAS"
+- model: academico.areacapes
+  pk: 50303031
+  fields:
+    descricao: "TRANSFER\xCANCIA DE PRODUTOS AGR\xCDCOLAS"
+- model: academico.areacapes
+  pk: 50304003
+  fields:
+    descricao: "CONSTRU\xC7\xD5ES RURAIS E AMBI\xCANCIA"
+- model: academico.areacapes
+  pk: 50304011
+  fields:
+    descricao: ASSENTAMENTO RURAL
+- model: academico.areacapes
+  pk: 50304020
+  fields:
+    descricao: "ENGENHARIA DE CONSTRU\xC7\xD5ES RURAIS"
+- model: academico.areacapes
+  pk: 50304038
+  fields:
+    descricao: SANEAMENTO RURAL
+- model: academico.areacapes
+  pk: 50305000
+  fields:
+    descricao: "ENERGIZA\xC7\xC3O RURAL"
+- model: academico.areacapes
+  pk: 50400002
+  fields:
+    descricao: ZOOTECNIA
+- model: academico.areacapes
+  pk: 50401009
+  fields:
+    descricao: "ECOLOGIA DOS ANIMAIS DOM\xC9STICOS E ETOLOGIA"
+- model: academico.areacapes
+  pk: 50402005
+  fields:
+    descricao: "GEN\xC9TICA E MELHORAMENTO DOS ANIMAIS DOM\xC9STICOS"
+- model: academico.areacapes
+  pk: 50403001
+  fields:
+    descricao: "NUTRI\xC7\xC3O E ALIMENTA\xC7\xC3O ANIMAL"
+- model: academico.areacapes
+  pk: 50403010
+  fields:
+    descricao: "EXIG\xCANCIAS NUTRICIONAIS DOS ANIMAIS"
+- model: academico.areacapes
+  pk: 50403028
+  fields:
+    descricao: "AVALIA\xC7\xC3O DE ALIMENTOS PARA ANIMAIS"
+- model: academico.areacapes
+  pk: 50403036
+  fields:
+    descricao: "CONSERVA\xC7\xC3O DE ALIMENTOS PARA ANIMAIS"
+- model: academico.areacapes
+  pk: 50404008
+  fields:
+    descricao: PASTAGEM E FORRAGICULTURA
+- model: academico.areacapes
+  pk: 50404016
+  fields:
+    descricao: "AVALIA\xC7\xC3O, PRODU\xC7\xC3O E CONSERVA\xC7\xC3O DE FORRAGENS"
+- model: academico.areacapes
+  pk: 50404024
+  fields:
+    descricao: "MANEJO E CONSERVA\xC7\xC3O DE PASTAGENS"
+- model: academico.areacapes
+  pk: 50404032
+  fields:
+    descricao: FISIOLOGIA DE PLANTAS FORRAGEIRAS
+- model: academico.areacapes
+  pk: 50404040
+  fields:
+    descricao: "MELHORAMENTO DE PLANTAS FORRAGEIRAS E PRODU\xC7\xC3O DE SEMENTES"
+- model: academico.areacapes
+  pk: 50404059
+  fields:
+    descricao: "TOXICOLOGIA E PLANTAS T\xD3XICAS"
+- model: academico.areacapes
+  pk: 50405004
+  fields:
+    descricao: "PRODU\xC7\xC3O ANIMAL"
+- model: academico.areacapes
+  pk: 50405012
+  fields:
+    descricao: "CRIA\xC7\xC3O DE ANIMAIS"
+- model: academico.areacapes
+  pk: 50405020
+  fields:
+    descricao: MANEJO DE ANIMAIS
+- model: academico.areacapes
+  pk: 50405039
+  fields:
+    descricao: "INSTALA\xC7\xD5ES PARA PRODU\xC7\xC3O ANIMAL"
+- model: academico.areacapes
+  pk: 50500007
+  fields:
+    descricao: "MEDICINA VETERIN\xC1RIA"
+- model: academico.areacapes
+  pk: 50501003
+  fields:
+    descricao: "CL\xCDNICA E CIR\xDARGIA ANIMAL"
+- model: academico.areacapes
+  pk: 50501011
+  fields:
+    descricao: ANESTESIOLOGIA ANIMAL
+- model: academico.areacapes
+  pk: 50501020
+  fields:
+    descricao: "T\xC9CNICA CIR\xDARGICA ANIMAL"
+- model: academico.areacapes
+  pk: 50501038
+  fields:
+    descricao: RADIOLOGIA DE ANIMAIS
+- model: academico.areacapes
+  pk: 50501046
+  fields:
+    descricao: "FARMACOLOGIA E TERAP\xC9UTICA ANIMAL"
+- model: academico.areacapes
+  pk: 50501054
+  fields:
+    descricao: "OBSTETR\xCDCIA ANIMAL"
+- model: academico.areacapes
+  pk: 50501062
+  fields:
+    descricao: "CL\xCDNICA VETERIN\xC1RIA"
+- model: academico.areacapes
+  pk: 50501070
+  fields:
+    descricao: "CL\xCDNICA CIR\xDARGICA ANIMAL"
+- model: academico.areacapes
+  pk: 50501089
+  fields:
+    descricao: TOXICOLOGIA ANIMAL
+- model: academico.areacapes
+  pk: 50502000
+  fields:
+    descricao: "MEDICINA VETERIN\xC1RIA PREVENTIVA"
+- model: academico.areacapes
+  pk: 50502018
+  fields:
+    descricao: EPIDEMIOLOGIA ANIMAL
+- model: academico.areacapes
+  pk: 50502026
+  fields:
+    descricao: "SANEAMENTO APLICADO \xC0 SA\xDADE DO HOMEM"
+- model: academico.areacapes
+  pk: 50502034
+  fields:
+    descricao: "DOEN\xC7AS INFECCIOSAS DE ANIMAIS"
+- model: academico.areacapes
+  pk: 50502042
+  fields:
+    descricao: "DOEN\xC7AS PARASIT\xC1RIAS DE ANIMAIS"
+- model: academico.areacapes
+  pk: 50502050
+  fields:
+    descricao: "SA\xDADE ANIMAL (PROGRAMAS SANIT\xC1RIOS)"
+- model: academico.areacapes
+  pk: 50503006
+  fields:
+    descricao: PATOLOGIA ANIMAL
+- model: academico.areacapes
+  pk: 50503014
+  fields:
+    descricao: "PATOLOGIA AVI\xC1RIA"
+- model: academico.areacapes
+  pk: 50503022
+  fields:
+    descricao: "ANATOMIA PATOL\xD3GICA ANIMAL"
+- model: academico.areacapes
+  pk: 50503030
+  fields:
+    descricao: "PATOLOGIA CL\xCDNICA ANIMAL"
+- model: academico.areacapes
+  pk: 50504002
+  fields:
+    descricao: "REPRODU\xC7\xC3O ANIMAL"
+- model: academico.areacapes
+  pk: 50504010
+  fields:
+    descricao: GINECOLOGIA E ANDROLOGIA ANIMAL
+- model: academico.areacapes
+  pk: 50504029
+  fields:
+    descricao: "INSEMINA\xC7\xC3O ARTIFICIAL ANIMAL"
+- model: academico.areacapes
+  pk: 50504037
+  fields:
+    descricao: "FISIOPATOLOGIA DA REPRODU\xC7\xC3O ANIMAL"
+- model: academico.areacapes
+  pk: 50505009
+  fields:
+    descricao: "INSPE\xC7\xC3O DE PRODUTOS DE ORIGEM ANIMAL"
+- model: academico.areacapes
+  pk: 50600001
+  fields:
+    descricao: RECURSOS PESQUEIROS E ENGENHARIA DE PESCA
+- model: academico.areacapes
+  pk: 50601008
+  fields:
+    descricao: RECURSOS PESQUEIROS MARINHOS
+- model: academico.areacapes
+  pk: 50601016
+  fields:
+    descricao: "FATORES ABI\xD3TICOS DO MAR"
+- model: academico.areacapes
+  pk: 50601024
+  fields:
+    descricao: "AVALIA\xC7\xC3O DE ESTOQUE PESQUEIROS MARINHOS"
+- model: academico.areacapes
+  pk: 50601032
+  fields:
+    descricao: "EXPLORA\xC7\xC3O PESQUEIRA MARINHA"
+- model: academico.areacapes
+  pk: 50601040
+  fields:
+    descricao: "MANEJO E CONSERVA\xC7\xC3O DE RECURSOS PESQUEIROS MARINHOS"
+- model: academico.areacapes
+  pk: 50602004
+  fields:
+    descricao: "RECURSOS PESQUEIROS DE \xC1GUAS INTERIORES"
+- model: academico.areacapes
+  pk: 50602012
+  fields:
+    descricao: "FATORES ABI\xD3TICOS DE \xC1GUAS INTERIORES"
+- model: academico.areacapes
+  pk: 50602020
+  fields:
+    descricao: "AVALIA\xC7\xC3O DE ESTOQUES PESQUEIROS DE \xC1GUAS INTERIORES"
+- model: academico.areacapes
+  pk: 50602039
+  fields:
+    descricao: "EXPLORA\xC7\xC3O PESQUEIRA DE \xC1GUAS INTERIORES"
+- model: academico.areacapes
+  pk: 50602047
+  fields:
+    descricao: "MANEJO E CONSERV. DE RECURSOS PESQUEIROS DE \xC1GUAS INFERIORES"
+- model: academico.areacapes
+  pk: 50603000
+  fields:
+    descricao: AQUICULTURA
+- model: academico.areacapes
+  pk: 50603019
+  fields:
+    descricao: MARICULTURA
+- model: academico.areacapes
+  pk: 50603027
+  fields:
+    descricao: CARCINOCULTURA
+- model: academico.areacapes
+  pk: 50603035
+  fields:
+    descricao: OSTREICULTURA
+- model: academico.areacapes
+  pk: 50603043
+  fields:
+    descricao: PISCICULTURA
+- model: academico.areacapes
+  pk: 50604007
+  fields:
+    descricao: ENGENHARIA DE PESCA
+- model: academico.areacapes
+  pk: 50700006
+  fields:
+    descricao: "CI\xCANCIA E TECNOLOGIA DE ALIMENTOS"
+- model: academico.areacapes
+  pk: 50701002
+  fields:
+    descricao: "CI\xCANCIA DE ALIMENTOS"
+- model: academico.areacapes
+  pk: 50701010
+  fields:
+    descricao: VALOR NUTRITIVO DE ALIMENTOS
+- model: academico.areacapes
+  pk: 50701029
+  fields:
+    descricao: "QU\xCDMICA, F\xCDSICA, F\xCDSICO-QU\xCDM. BIOQ. DOS ALI. MAT. PRIMAS\
+      \ ALI"
+- model: academico.areacapes
+  pk: 50701037
+  fields:
+    descricao: MICROBIOLOGIA DE ALIMENTOS
+- model: academico.areacapes
+  pk: 50701045
+  fields:
+    descricao: "FISIOLOGIA P\xD3S-COLHEITA"
+- model: academico.areacapes
+  pk: 50701053
+  fields:
+    descricao: "TOXICIDADE E RES\xCDDUOS DE PESTICIDAS EM ALIMENTOS"
+- model: academico.areacapes
+  pk: 50701061
+  fields:
+    descricao: "AVALIA\xC7\xC3O E CONTROLE DE QUALIDADE DE ALIMENTOS"
+- model: academico.areacapes
+  pk: 50701070
+  fields:
+    descricao: "PADR\xD5ES, LEGISLA\xC7\xC3O E FISCALIZA\xC7\xC3O DE ALIMENTOS"
+- model: academico.areacapes
+  pk: 50702009
+  fields:
+    descricao: TECNOLOGIA DE ALIMENTOS
+- model: academico.areacapes
+  pk: 50702017
+  fields:
+    descricao: TECNOLOGIA DE PRODUTOS DE ORIGEM ANIMAL
+- model: academico.areacapes
+  pk: 50702025
+  fields:
+    descricao: TECNOLOGIA DE PRODUTOS DE ORIGEM VEGETAL
+- model: academico.areacapes
+  pk: 50702033
+  fields:
+    descricao: TECNOLOGIA DAS BEBIDAS
+- model: academico.areacapes
+  pk: 50702041
+  fields:
+    descricao: "TECNOLOGIA DE ALIMENTOS DIET\xC9TICOS E NUTRICIONAIS"
+- model: academico.areacapes
+  pk: 50702050
+  fields:
+    descricao: APROVEITAMENTO DE SUBPRODUTOS
+- model: academico.areacapes
+  pk: 50702068
+  fields:
+    descricao: EMBALAGENS DE PRODUTOS ALIMENTARES
+- model: academico.areacapes
+  pk: 50703005
+  fields:
+    descricao: ENGENHARIA DE ALIMENTOS
+- model: academico.areacapes
+  pk: 50703013
+  fields:
+    descricao: "INSTALA\xC7\xD5ES INDUSTRIAIS DE PRODU\xC7\xC3O DE ALIMENTOS"
+- model: academico.areacapes
+  pk: 50703021
+  fields:
+    descricao: ARMAZENAMENTO DE ALIMENTOS
+- model: academico.areacapes
+  pk: 60000007
+  fields:
+    descricao: "CI\xCANCIAS SOCIAIS APLICADAS"
+- model: academico.areacapes
+  pk: 60100001
+  fields:
+    descricao: DIREITO
+- model: academico.areacapes
+  pk: 60101008
+  fields:
+    descricao: TEORIA DO DIREITO
+- model: academico.areacapes
+  pk: 60101016
+  fields:
+    descricao: TEORIA GERAL DO DIREITO
+- model: academico.areacapes
+  pk: 60101024
+  fields:
+    descricao: TEORIA GERAL DO PROCESSO
+- model: academico.areacapes
+  pk: 60101032
+  fields:
+    descricao: TEORIA DO ESTADO
+- model: academico.areacapes
+  pk: 60101040
+  fields:
+    descricao: "HIST\xD3RIA DO DIREITO"
+- model: academico.areacapes
+  pk: 60101059
+  fields:
+    descricao: FILOSOFIA DO DIREITO
+- model: academico.areacapes
+  pk: 60101067
+  fields:
+    descricao: "L\xD3GICA JUR\xCDDICA"
+- model: academico.areacapes
+  pk: 60101075
+  fields:
+    descricao: "SOCIOLOGIA JUR\xCDDICA"
+- model: academico.areacapes
+  pk: 60101083
+  fields:
+    descricao: "ANTROPOLOGIA JUR\xCDDICA"
+- model: academico.areacapes
+  pk: 60102004
+  fields:
+    descricao: "DIREITO P\xDABLICO"
+- model: academico.areacapes
+  pk: 60102012
+  fields:
+    descricao: "DIREITO TRIBUT\xC1RIO"
+- model: academico.areacapes
+  pk: 60102020
+  fields:
+    descricao: DIREITO PENAL
+- model: academico.areacapes
+  pk: 60102039
+  fields:
+    descricao: DIREITO PROCESSUAL PENAL
+- model: academico.areacapes
+  pk: 60102047
+  fields:
+    descricao: DIREITO PROCESSUAL CIVIL
+- model: academico.areacapes
+  pk: 60102055
+  fields:
+    descricao: DIREITO CONSTITUCIONAL
+- model: academico.areacapes
+  pk: 60102063
+  fields:
+    descricao: DIREITO ADMINISTRATIVO
+- model: academico.areacapes
+  pk: 60102071
+  fields:
+    descricao: "DIREITO INTERNACIONAL P\xDABLICO"
+- model: academico.areacapes
+  pk: 60103000
+  fields:
+    descricao: DIREITO PRIVADO
+- model: academico.areacapes
+  pk: 60103019
+  fields:
+    descricao: DIREITO CIVIL
+- model: academico.areacapes
+  pk: 60103027
+  fields:
+    descricao: DIREITO COMERCIAL
+- model: academico.areacapes
+  pk: 60103035
+  fields:
+    descricao: DIREITO DO TRABALHO
+- model: academico.areacapes
+  pk: 60103043
+  fields:
+    descricao: DIREITO INTERNACIONAL PRIVADO
+- model: academico.areacapes
+  pk: 60104007
+  fields:
+    descricao: DIREITOS ESPECIAIS
+- model: academico.areacapes
+  pk: 60200006
+  fields:
+    descricao: "ADMINISTRA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 60201002
+  fields:
+    descricao: "ADMINISTRA\xC7\xC3O DE EMPRESAS"
+- model: academico.areacapes
+  pk: 60201010
+  fields:
+    descricao: "ADMINISTRA\xC7\xC3O DE PRODU\xC7\xC3O"
+- model: academico.areacapes
+  pk: 60201029
+  fields:
+    descricao: "ADMINISTRA\xC7\xC3O FINANCEIRA"
+- model: academico.areacapes
+  pk: 60201037
+  fields:
+    descricao: MERCADOLOGIA
+- model: academico.areacapes
+  pk: 60201045
+  fields:
+    descricao: "NEG\xD3CIOS INTERNACIONAIS"
+- model: academico.areacapes
+  pk: 60201053
+  fields:
+    descricao: "ADMINISTRA\xC7\xC3O DE RECURSOS HUMANOS"
+- model: academico.areacapes
+  pk: 60202009
+  fields:
+    descricao: "ADMINISTRA\xC7\xC3O P\xDABLICA"
+- model: academico.areacapes
+  pk: 60202017
+  fields:
+    descricao: "CONTABILIDADE E FINAN\xC7AS P\xDABLICAS"
+- model: academico.areacapes
+  pk: 60202025
+  fields:
+    descricao: "ORGANIZA\xC7\xD5ES P\xDABLICAS"
+- model: academico.areacapes
+  pk: 60202033
+  fields:
+    descricao: "POL\xCDTICA E PLANEJAMENTO GOVERNAMENTAIS"
+- model: academico.areacapes
+  pk: 60202041
+  fields:
+    descricao: "ADMINISTRA\xC7\xC3O DE PESSOAL"
+- model: academico.areacapes
+  pk: 60203005
+  fields:
+    descricao: "ADMINISTRA\xC7\xC3O DE SETORES ESPEC\xCDFICOS"
+- model: academico.areacapes
+  pk: 60204001
+  fields:
+    descricao: "CI\xCANCIAS CONT\xC1BEIS"
+- model: academico.areacapes
+  pk: 60300000
+  fields:
+    descricao: ECONOMIA
+- model: academico.areacapes
+  pk: 60301007
+  fields:
+    descricao: "TEORIA ECON\xD4MICA"
+- model: academico.areacapes
+  pk: 60301015
+  fields:
+    descricao: ECONOMIA GERAL
+- model: academico.areacapes
+  pk: 60301023
+  fields:
+    descricao: TEORIA GERAL DA ECONOMIA
+- model: academico.areacapes
+  pk: 60301031
+  fields:
+    descricao: "HIST\xD3RIA DO PENSAMENTO ECON\xD4MICO"
+- model: academico.areacapes
+  pk: 60301040
+  fields:
+    descricao: "HIST\xD3RIA ECON\xD4MICA"
+- model: academico.areacapes
+  pk: 60301058
+  fields:
+    descricao: "SISTEMAS ECON\xD4MICOS"
+- model: academico.areacapes
+  pk: 60302003
+  fields:
+    descricao: "M\xC9TODOS QUANTITATIVOS EM ECONOMIA"
+- model: academico.areacapes
+  pk: 60302011
+  fields:
+    descricao: "M\xC9TODOS E MODELOS MATEM\xC1T., ECONOM\xC9TRICOS E ESTAT\xCDSTICOS"
+- model: academico.areacapes
+  pk: 60302020
+  fields:
+    descricao: "ESTAT\xCDSTICA S\xD3CIO-ECON\xD4MICA"
+- model: academico.areacapes
+  pk: 60302038
+  fields:
+    descricao: CONTABILIDADE NACIONAL
+- model: academico.areacapes
+  pk: 60302046
+  fields:
+    descricao: "ECONOMIA MATEM\xC1TICA"
+- model: academico.areacapes
+  pk: 60303000
+  fields:
+    descricao: "ECONOMIA MONET\xC1RIA E FISCAL"
+- model: academico.areacapes
+  pk: 60303018
+  fields:
+    descricao: "TEORIA MONET\xC1RIA E FINANCEIRA"
+- model: academico.areacapes
+  pk: 60303026
+  fields:
+    descricao: "INSTITUI\xC7\xD5ES MONET\xC1RIAS E FINANCEIRAS DO BRASIL"
+- model: academico.areacapes
+  pk: 60303034
+  fields:
+    descricao: "FINAN\xC7AS P\xDABLICAS INTERNAS"
+- model: academico.areacapes
+  pk: 60303042
+  fields:
+    descricao: "POL\xCDTICA FISCAL DO BRASIL"
+- model: academico.areacapes
+  pk: 60304006
+  fields:
+    descricao: "CRESCIMENTO, FLUTUA\xC7\xD5ES E PLANEJAMENTO ECON\xD4MICO"
+- model: academico.areacapes
+  pk: 60304014
+  fields:
+    descricao: "CRESCIMENTO E DESENVOLVIMENTO ECON\xD4MICO"
+- model: academico.areacapes
+  pk: 60304022
+  fields:
+    descricao: "TEORIA E POL\xCDTICA DE PLANEJAMENTO ECON\xD4MICO"
+- model: academico.areacapes
+  pk: 60304030
+  fields:
+    descricao: "FLUTA\xC7\xD5ES CICL\xCDCAS E PROJE\xC7\xD5ES ECON\xD4MICAS"
+- model: academico.areacapes
+  pk: 60304049
+  fields:
+    descricao: "INFLA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 60305002
+  fields:
+    descricao: ECONOMIA INTERNACIONAL
+- model: academico.areacapes
+  pk: 60305010
+  fields:
+    descricao: "TEORIA DO COM\xC9RCIO INTERNACIONAL"
+- model: academico.areacapes
+  pk: 60305029
+  fields:
+    descricao: "RELA\xC7\xD5ES DO COM\xC9RCIO; POL\xCDT. COMERCIAL; INTEGRA\xC7\xC3\
+      O ECON\xD4MICA"
+- model: academico.areacapes
+  pk: 60305037
+  fields:
+    descricao: "BALAN\xC7O DE PAGAMENTO; FINAN\xC7AS INTERNACIONAIS"
+- model: academico.areacapes
+  pk: 60305045
+  fields:
+    descricao: INVESTIMENTOS INTERNACIONAIS E AJUDA EXTERNA
+- model: academico.areacapes
+  pk: 60306009
+  fields:
+    descricao: ECONOMIA DOS RECURSOS HUMANOS
+- model: academico.areacapes
+  pk: 60306017
+  fields:
+    descricao: "TREIN. E ALOCA\xC7\xC3O DE M\xC3O-DE-OBRA;OFERTA M\xC3O-DE-OBRA F.\
+      \ TRAB."
+- model: academico.areacapes
+  pk: 60306025
+  fields:
+    descricao: "MERCADO DE TRABALHO; POL\xCDTICA DO GOVERNO"
+- model: academico.areacapes
+  pk: 60306033
+  fields:
+    descricao: "SINDICATOS, DISS\xCDDIOS COLET., RELA\xC7\xD5ES DE EMPREGO(EMP./EMP)"
+- model: academico.areacapes
+  pk: 60306041
+  fields:
+    descricao: CAPITAL HUMANO
+- model: academico.areacapes
+  pk: 60306050
+  fields:
+    descricao: "DEMOGRAFIA ECON\xD4MICA"
+- model: academico.areacapes
+  pk: 60307005
+  fields:
+    descricao: ECONOMIA INDUSTRIAL
+- model: academico.areacapes
+  pk: 60307013
+  fields:
+    descricao: "ORGANIZA\xC7\xC3O INDUSTRIAL E ESTUDOS INDUSTRIAIS"
+- model: academico.areacapes
+  pk: 60307021
+  fields:
+    descricao: "MUDAN\xC7A TECNOL\xD3GICA"
+- model: academico.areacapes
+  pk: 60308001
+  fields:
+    descricao: ECONOMIA DO BEM-ESTAR SOCIAL
+- model: academico.areacapes
+  pk: 60308010
+  fields:
+    descricao: ECONOMIA DOS PROGRAMAS DE BEM-ESTAR SOCIAL
+- model: academico.areacapes
+  pk: 60308028
+  fields:
+    descricao: ECONOMIA DO CONSUMIDOR
+- model: academico.areacapes
+  pk: 60309008
+  fields:
+    descricao: ECONOMIA REGIONAL E URBANA
+- model: academico.areacapes
+  pk: 60309016
+  fields:
+    descricao: ECONOMIA REGIONAL
+- model: academico.areacapes
+  pk: 60309024
+  fields:
+    descricao: ECONOMIA URBANA
+- model: academico.areacapes
+  pk: 60309032
+  fields:
+    descricao: "RENDA E TRIBUTA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 60310006
+  fields:
+    descricao: "ECONOMIAS AGR\xC1RIA E DOS RECURSOS NATURAIS"
+- model: academico.areacapes
+  pk: 60310014
+  fields:
+    descricao: "ECONOMIA AGR\xC1RIA"
+- model: academico.areacapes
+  pk: 60310022
+  fields:
+    descricao: ECONOMIA DOS RECURSOS NATURAIS
+- model: academico.areacapes
+  pk: 60400005
+  fields:
+    descricao: ARQUITETURA E URBANISMO
+- model: academico.areacapes
+  pk: 60401001
+  fields:
+    descricao: FUNDAMENTOS DE ARQUITETURA E URBANISMO
+- model: academico.areacapes
+  pk: 60401010
+  fields:
+    descricao: "HIST\xD3RIA DA ARQUITETURA E URBANISMO"
+- model: academico.areacapes
+  pk: 60401028
+  fields:
+    descricao: TEORIA DA ARQUITETURA
+- model: academico.areacapes
+  pk: 60401036
+  fields:
+    descricao: "HIST\xD3RIA DO URBANISMO"
+- model: academico.areacapes
+  pk: 60401044
+  fields:
+    descricao: TEORIA DO URBANISMO
+- model: academico.areacapes
+  pk: 60402008
+  fields:
+    descricao: PROJETO DE ARQUITETURA E URBANISMO
+- model: academico.areacapes
+  pk: 60402016
+  fields:
+    descricao: "PLANEJAMENTO E PROJETOS DA EDIFICA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 60402024
+  fields:
+    descricao: "PLANEJAMENTO E PROJETO DO ESPA\xC7O URBANO"
+- model: academico.areacapes
+  pk: 60402032
+  fields:
+    descricao: PLANEJAMENTO E PROJETO DO EQUIPAMENTO
+- model: academico.areacapes
+  pk: 60403004
+  fields:
+    descricao: TECNOLOGIA DE ARQUITETURA E URBANISMO
+- model: academico.areacapes
+  pk: 60403012
+  fields:
+    descricao: "ADEQUA\xC7\xC3O AMBIENTAL"
+- model: academico.areacapes
+  pk: 60404000
+  fields:
+    descricao: PAISAGISMO
+- model: academico.areacapes
+  pk: 60404019
+  fields:
+    descricao: "DESENVOLVIMENTO HIST\xD3RICO DO PAISAGISMO"
+- model: academico.areacapes
+  pk: 60404027
+  fields:
+    descricao: "CONCEITUA\xC7\xC3O DE PAISAGISMO E METODOLOGIA DO PAISAGISMO"
+- model: academico.areacapes
+  pk: 60404035
+  fields:
+    descricao: "ESTUDOS DE ORGANIZA\xC7\xC3O DO ESPA\xC7O EXTERIOR"
+- model: academico.areacapes
+  pk: 60404043
+  fields:
+    descricao: "PROJETOS DE ESPA\xC7OS LIVRES URBANOS"
+- model: academico.areacapes
+  pk: 60500000
+  fields:
+    descricao: PLANEJAMENTO URBANO E REGIONAL
+- model: academico.areacapes
+  pk: 60501006
+  fields:
+    descricao: FUNDAMENTOS DO PLANEJAMENTO URBANO E REGIONAL
+- model: academico.areacapes
+  pk: 60501014
+  fields:
+    descricao: TEORIA DO PLANEJAMENTO URBANO E REGIONAL
+- model: academico.areacapes
+  pk: 60501022
+  fields:
+    descricao: "TEORIA DA URBANIZA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 60501030
+  fields:
+    descricao: "POL\xCDTICA URBANA"
+- model: academico.areacapes
+  pk: 60501049
+  fields:
+    descricao: "HIST\xD3RIA URBANA"
+- model: academico.areacapes
+  pk: 60502002
+  fields:
+    descricao: "M\xC9TODOS E T\xC9CNICAS DO PLANEJAMENTO URBANO E REGIONAL"
+- model: academico.areacapes
+  pk: 60502010
+  fields:
+    descricao: "INFORMA\xC7\xC3O, CADASTRO E MAPEAMENTO"
+- model: academico.areacapes
+  pk: 60502029
+  fields:
+    descricao: "T\xC9CNICA DE PREVIS\xC3O URBANA E REGIONAL"
+- model: academico.areacapes
+  pk: 60502037
+  fields:
+    descricao: "T\xC9CNICAS DE AN\xC1LISE E AVALIA\xC7\xC3O URBANA E REGIONAL"
+- model: academico.areacapes
+  pk: 60502045
+  fields:
+    descricao: "T\xC9CNICAS DE PLANEJAMENTO E PROJETO URBANOS E REGIONAIS"
+- model: academico.areacapes
+  pk: 60503009
+  fields:
+    descricao: "SERVI\xC7OS URBANOS E REGIONAIS"
+- model: academico.areacapes
+  pk: 60503017
+  fields:
+    descricao: "ADMINISTRA\xC7\xC3O MUNICIPAL E URBANA"
+- model: academico.areacapes
+  pk: 60503025
+  fields:
+    descricao: "ESTUDOS DA HABITA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 60503033
+  fields:
+    descricao: ASPECTOS SOCIAIS DO PLANEJAMENTO URBANO E REGIONAL
+- model: academico.areacapes
+  pk: 60503041
+  fields:
+    descricao: "ASPECTOS ECON\xD4MICOS DO PLANEJAMENTO URBANO E REGIONAL"
+- model: academico.areacapes
+  pk: 60503050
+  fields:
+    descricao: "ASPECTOS F\xCDSICO-AMBIENTAIS DO PLANEJ. URBANO E REGIONAL"
+- model: academico.areacapes
+  pk: 60503068
+  fields:
+    descricao: "SERVI\xC7OS COMUNIT\xC1RIOS"
+- model: academico.areacapes
+  pk: 60503076
+  fields:
+    descricao: INFRA-ESTRUTURAS URBANAS E REGIONAIS
+- model: academico.areacapes
+  pk: 60503084
+  fields:
+    descricao: "TRANSPORTE E TR\xC1FEGO URBANO E REGIONAL"
+- model: academico.areacapes
+  pk: 60503092
+  fields:
+    descricao: "LEGISLA\xC7\xC3O URBANA E REGIONAL"
+- model: academico.areacapes
+  pk: 60600004
+  fields:
+    descricao: DEMOGRAFIA
+- model: academico.areacapes
+  pk: 60601000
+  fields:
+    descricao: "DISTRIBUI\xC7\xC3O ESPACIAL"
+- model: academico.areacapes
+  pk: 60601019
+  fields:
+    descricao: "DISTRIBUI\xC7\xC3O ESPACIAL GERAL"
+- model: academico.areacapes
+  pk: 60601027
+  fields:
+    descricao: "DISTRIBUI\xC7\xC3O ESPACIAL URBANA"
+- model: academico.areacapes
+  pk: 60601035
+  fields:
+    descricao: "DISTRIBUI\xC7\xC3O ESPACIAL RURAL"
+- model: academico.areacapes
+  pk: 60602007
+  fields:
+    descricao: "TEND\xCANCIA POPULACIONAL"
+- model: academico.areacapes
+  pk: 60602015
+  fields:
+    descricao: "TEND\xCANCIAS PASSADAS"
+- model: academico.areacapes
+  pk: 60602023
+  fields:
+    descricao: TAXAS E ESTIMATIVAS CORRENTES
+- model: academico.areacapes
+  pk: 60602031
+  fields:
+    descricao: "PROJE\xC7\xD5ES"
+- model: academico.areacapes
+  pk: 60603003
+  fields:
+    descricao: "COMPONENTES DA DIN\xC2MICA DEMOGR\xC1FICA"
+- model: academico.areacapes
+  pk: 60603011
+  fields:
+    descricao: FECUNDIDADE
+- model: academico.areacapes
+  pk: 60603020
+  fields:
+    descricao: MORTALIDADE
+- model: academico.areacapes
+  pk: 60603038
+  fields:
+    descricao: "MIGRA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 60604000
+  fields:
+    descricao: "NUPCIALIDADE E FAM\xCDLIA"
+- model: academico.areacapes
+  pk: 60604018
+  fields:
+    descricao: "CASAMENTO E DIV\xD3RCIO"
+- model: academico.areacapes
+  pk: 60604026
+  fields:
+    descricao: "FAM\xCDLIA E REPRODU\xC7\xC3O"
+- model: academico.areacapes
+  pk: 60605006
+  fields:
+    descricao: "DEMOGRAFIA HIST\xD3RICA"
+- model: academico.areacapes
+  pk: 60605014
+  fields:
+    descricao: "DISTRIBUI\xC7\xC3O ESPACIAL"
+- model: academico.areacapes
+  pk: 60605022
+  fields:
+    descricao: "NATALIDADE, MORTALIDADE, MIGRA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 60605049
+  fields:
+    descricao: "M\xC9TODOS E T\xC9CNICAS DE DEMOGRAFIA HIST\xD3RICA"
+- model: academico.areacapes
+  pk: 60606002
+  fields:
+    descricao: "POL\xCDTICA P\xDABLICA E POPULA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 60606010
+  fields:
+    descricao: "POL\xCDTICA POPULACIONAL"
+- model: academico.areacapes
+  pk: 60606029
+  fields:
+    descricao: "POL\xCDTICAS DE REDISTRIBUI\xC7\xC3O DE POPULA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 60606037
+  fields:
+    descricao: "POL\xCDTICAS DE PLANEJAMENTO FAMILIAR"
+- model: academico.areacapes
+  pk: 60607009
+  fields:
+    descricao: "FONTES DE DADOS DEMOGR\xC1FICOS"
+- model: academico.areacapes
+  pk: 60700009
+  fields:
+    descricao: "CI\xCANCIA DA INFORMA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 60701005
+  fields:
+    descricao: "TEORIA DA INFORMA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 60701013
+  fields:
+    descricao: "TEORIA GERAL DA INFORMA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 60701021
+  fields:
+    descricao: "PROCESSOS DA COMUNICA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 60701030
+  fields:
+    descricao: "REPRESENTA\xC7\xC3O DA INFORMA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 60702001
+  fields:
+    descricao: BIBLIOTECONOMIA
+- model: academico.areacapes
+  pk: 60702010
+  fields:
+    descricao: "TEORIA DA CLASSIFICA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 60702028
+  fields:
+    descricao: "M\xC9TODOS QUANTITATIVOS, BIBLIOMETRIA"
+- model: academico.areacapes
+  pk: 60702036
+  fields:
+    descricao: "T\xC9CNICAS DE RECUPERA\xC7\xC3O DE INFORMA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 60702044
+  fields:
+    descricao: "PROCESSOS DE DISSEMINA\xC7\xC3O DA INFORMA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 60703008
+  fields:
+    descricao: ARQUIVOLOGIA
+- model: academico.areacapes
+  pk: 60703016
+  fields:
+    descricao: "ORGANIZA\xC7\xC3O DE ARQUIVOS"
+- model: academico.areacapes
+  pk: 60800003
+  fields:
+    descricao: MUSEOLOGIA
+- model: academico.areacapes
+  pk: 60900008
+  fields:
+    descricao: "COMUNICA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 60901004
+  fields:
+    descricao: "TEORIA DA COMUNICA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 60902000
+  fields:
+    descricao: "JORNALISMO E EDITORA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 60902019
+  fields:
+    descricao: "TEORIA E \xC9TICA DO JORNALISMO"
+- model: academico.areacapes
+  pk: 60902027
+  fields:
+    descricao: "ORGANIZA\xC7\xC3O EDITORIAL DE JORNAIS"
+- model: academico.areacapes
+  pk: 60902035
+  fields:
+    descricao: "ORGANIZA\xC7\xC3O COMERCIAL DE JORNAIS"
+- model: academico.areacapes
+  pk: 60902043
+  fields:
+    descricao: "JORNALISMO ESPECIALIZADO (COMUNIT\xC1RIO, RURAL, EMP. CIENTIF.)"
+- model: academico.areacapes
+  pk: 60903007
+  fields:
+    descricao: "R\xC1DIO E TELEVIS\xC3O"
+- model: academico.areacapes
+  pk: 60903015
+  fields:
+    descricao: "RADIODIFUS\xC3O"
+- model: academico.areacapes
+  pk: 60903023
+  fields:
+    descricao: "VIDEODIFUS\xC3O"
+- model: academico.areacapes
+  pk: 60904003
+  fields:
+    descricao: "RELA\xC7\xD5ES P\xDABLICAS E PROPAGANDA"
+- model: academico.areacapes
+  pk: 60905000
+  fields:
+    descricao: "COMUNICA\xC7\xC3O VISUAL"
+- model: academico.areacapes
+  pk: 61000000
+  fields:
+    descricao: "SERVI\xC7O SOCIAL"
+- model: academico.areacapes
+  pk: 61001007
+  fields:
+    descricao: "FUNDAMENTOS DO SERVI\xC7O SOCIAL"
+- model: academico.areacapes
+  pk: 61002003
+  fields:
+    descricao: "SERVI\xC7O SOCIAL APLICADO"
+- model: academico.areacapes
+  pk: 61002011
+  fields:
+    descricao: "SERVI\xC7O SOCIAL DO TRABALHO"
+- model: academico.areacapes
+  pk: 61002020
+  fields:
+    descricao: "SERVI\xC7O SOCIAL DA EDUCA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 61002038
+  fields:
+    descricao: "SERVI\xC7O SOCIAL DO MENOR"
+- model: academico.areacapes
+  pk: 61002046
+  fields:
+    descricao: "SERVI\xC7O SOCIAL DA SA\xDADE"
+- model: academico.areacapes
+  pk: 61002054
+  fields:
+    descricao: "SERVI\xC7O SOCIAL DA HABITA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 61100005
+  fields:
+    descricao: "ECONOMIA DOM\xC9STICA"
+- model: academico.areacapes
+  pk: 61200000
+  fields:
+    descricao: DESENHO INDUSTRIAL
+- model: academico.areacapes
+  pk: 61201006
+  fields:
+    descricao: "PROGRAMA\xC7\xC3O VISUAL"
+- model: academico.areacapes
+  pk: 61202002
+  fields:
+    descricao: DESENHO DE PRODUTO
+- model: academico.areacapes
+  pk: 61300004
+  fields:
+    descricao: TURISMO
+- model: academico.areacapes
+  pk: 70000000
+  fields:
+    descricao: "CI\xCANCIAS HUMANAS"
+- model: academico.areacapes
+  pk: 70100004
+  fields:
+    descricao: FILOSOFIA
+- model: academico.areacapes
+  pk: 70101000
+  fields:
+    descricao: "HIST\xD3RIA DA FILOSOFIA"
+- model: academico.areacapes
+  pk: 70102007
+  fields:
+    descricao: "METAF\xCDSICA"
+- model: academico.areacapes
+  pk: 70103003
+  fields:
+    descricao: "L\xD3GICA"
+- model: academico.areacapes
+  pk: 70104000
+  fields:
+    descricao: "\xC9TICA"
+- model: academico.areacapes
+  pk: 70105006
+  fields:
+    descricao: EPISTEMOLOGIA
+- model: academico.areacapes
+  pk: 70106002
+  fields:
+    descricao: FILOSOFIA BRASILEIRA
+- model: academico.areacapes
+  pk: 70200009
+  fields:
+    descricao: SOCIOLOGIA
+- model: academico.areacapes
+  pk: 70201005
+  fields:
+    descricao: FUNDAMENTOS DA SOCIOLOGIA
+- model: academico.areacapes
+  pk: 70201013
+  fields:
+    descricao: "TEORIA SOCIOL\xD3GICA"
+- model: academico.areacapes
+  pk: 70201021
+  fields:
+    descricao: "HIST\xD3RIA DA SOCIOLOGIA"
+- model: academico.areacapes
+  pk: 70202001
+  fields:
+    descricao: SOCIOLOGIA DO CONHECIMENTO
+- model: academico.areacapes
+  pk: 70203008
+  fields:
+    descricao: SOCIOLOGIA DO DESENVOLVIMENTO
+- model: academico.areacapes
+  pk: 70204004
+  fields:
+    descricao: SOCIOLOGIA URBANA
+- model: academico.areacapes
+  pk: 70205000
+  fields:
+    descricao: SOCIOLOGIA RURAL
+- model: academico.areacapes
+  pk: 70206007
+  fields:
+    descricao: "SOCIOLOGIA DA SA\xDADE"
+- model: academico.areacapes
+  pk: 70207003
+  fields:
+    descricao: "OUTRAS SOCIOLOGIAS ESPEC\xCDFICAS"
+- model: academico.areacapes
+  pk: 70300003
+  fields:
+    descricao: ANTROPOLOGIA
+- model: academico.areacapes
+  pk: 70301000
+  fields:
+    descricao: "TEORIA ANTROPOL\xD3GICA"
+- model: academico.areacapes
+  pk: 70302006
+  fields:
+    descricao: "ETNOLOGIA IND\xCDGENA"
+- model: academico.areacapes
+  pk: 70303002
+  fields:
+    descricao: ANTROPOLOGIA URBANA
+- model: academico.areacapes
+  pk: 70304009
+  fields:
+    descricao: ANTROPOLOGIA RURAL
+- model: academico.areacapes
+  pk: 70305005
+  fields:
+    descricao: "ANTROPOLOGIA DAS POPULA\xC7\xD5ES AFRO-BRASILEIRAS"
+- model: academico.areacapes
+  pk: 70400008
+  fields:
+    descricao: ARQUEOLOGIA
+- model: academico.areacapes
+  pk: 70401004
+  fields:
+    descricao: "TEORIA E M\xC9TODO EM ARQUEOLOGIA"
+- model: academico.areacapes
+  pk: 70402000
+  fields:
+    descricao: "ARQUEOLOGIA PR\xC9-HIST\xD3RICA"
+- model: academico.areacapes
+  pk: 70403007
+  fields:
+    descricao: "ARQUEOLOGIA HIST\xD3RICA"
+- model: academico.areacapes
+  pk: 70500002
+  fields:
+    descricao: "HIST\xD3RIA"
+- model: academico.areacapes
+  pk: 70501009
+  fields:
+    descricao: "TEORIA E FILOSOFIA DA HIST\xD3RIA"
+- model: academico.areacapes
+  pk: 70502005
+  fields:
+    descricao: "HIST\xD3RIA ANTIGA E MEDIEVAL"
+- model: academico.areacapes
+  pk: 70503001
+  fields:
+    descricao: "HIST\xD3RIA MODERNA E CONTEMPOR\xC2NEA"
+- model: academico.areacapes
+  pk: 70504008
+  fields:
+    descricao: "HIST\xD3RIA DA AM\xC9RICA"
+- model: academico.areacapes
+  pk: 70504016
+  fields:
+    descricao: "HIST\xD3RIA DOS ESTADOS UNIDOS"
+- model: academico.areacapes
+  pk: 70504024
+  fields:
+    descricao: "HIST\xD3RIA LATINO-AMERICANA"
+- model: academico.areacapes
+  pk: 70505004
+  fields:
+    descricao: "HIST\xD3RIA DO BRASIL"
+- model: academico.areacapes
+  pk: 70505012
+  fields:
+    descricao: "HIST\xD3RIA DO BRASIL COL\xD4NIA"
+- model: academico.areacapes
+  pk: 70505020
+  fields:
+    descricao: "HIST\xD3RIA DO BRASIL IMP\xC9RIO"
+- model: academico.areacapes
+  pk: 70505039
+  fields:
+    descricao: "HIST\xD3RIA DO BRASIL REP\xDABLICA"
+- model: academico.areacapes
+  pk: 70505047
+  fields:
+    descricao: "HIST\xD3RIA REGIONAL DO BRASIL"
+- model: academico.areacapes
+  pk: 70506000
+  fields:
+    descricao: "HIST\xD3RIA DAS CI\xCANCIAS"
+- model: academico.areacapes
+  pk: 70600007
+  fields:
+    descricao: GEOGRAFIA
+- model: academico.areacapes
+  pk: 70601003
+  fields:
+    descricao: GEOGRAFIA HUMANA
+- model: academico.areacapes
+  pk: 70601011
+  fields:
+    descricao: "GEOGRAFIA DA POPULA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 70601020
+  fields:
+    descricao: "GEOGRAFIA AGR\xC1RIA"
+- model: academico.areacapes
+  pk: 70601038
+  fields:
+    descricao: GEOGRAFIA URBANA
+- model: academico.areacapes
+  pk: 70601046
+  fields:
+    descricao: "GEOGRAFIA ECON\xD4MICA"
+- model: academico.areacapes
+  pk: 70601054
+  fields:
+    descricao: "GEOGRAFIA POL\xCDTICA"
+- model: academico.areacapes
+  pk: 70602000
+  fields:
+    descricao: GEOGRAFIA REGIONAL
+- model: academico.areacapes
+  pk: 70602018
+  fields:
+    descricao: TEORIA DO DESENVOLVIMENTO REGIONAL
+- model: academico.areacapes
+  pk: 70602026
+  fields:
+    descricao: "REGIONALIZA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 70602034
+  fields:
+    descricao: "AN\xC1LISE REGIONAL"
+- model: academico.areacapes
+  pk: 70700001
+  fields:
+    descricao: PSICOLOGIA
+- model: academico.areacapes
+  pk: 70701008
+  fields:
+    descricao: FUNDAMENTOS E MEDIDAS DA PSICOLOGIA
+- model: academico.areacapes
+  pk: 70701016
+  fields:
+    descricao: "HIST\xD3RIA, TEORIAS E SISTEMAS EM PSICOLOGIA"
+- model: academico.areacapes
+  pk: 70701024
+  fields:
+    descricao: "METODOLOGIA, INSTRUMENTA\xC7\xC3O E EQUIPAMENTO EM PSICOLOGIA"
+- model: academico.areacapes
+  pk: 70701032
+  fields:
+    descricao: "CONSTRU\xC7\xC3O E VALIDADE DE TESTES, ESC. E O. MEDIDAS PSICOL\xD3\
+      G."
+- model: academico.areacapes
+  pk: 70701040
+  fields:
+    descricao: "T\xC9CN. DE PROCES. EST\xC1T., MATEM\xC1TICO E COMPUT. EM PSICOLOGIA"
+- model: academico.areacapes
+  pk: 70702004
+  fields:
+    descricao: PSICOLOGIA EXPERIMENTAL
+- model: academico.areacapes
+  pk: 70702012
+  fields:
+    descricao: PROCESSOS PERCEPTUAIS E MOTORES
+- model: academico.areacapes
+  pk: 70702020
+  fields:
+    descricao: "PROCESSOS DE APRENDIZAGEM, MEM\xD3RIA E MOTIVA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 70702039
+  fields:
+    descricao: PROCESSOS COGNITIVOS E ATENCIONAIS
+- model: academico.areacapes
+  pk: 70702047
+  fields:
+    descricao: "ESTADOS SUBJETIVOS E EMO\xC7\xC3O"
+- model: academico.areacapes
+  pk: 70703000
+  fields:
+    descricao: "PSICOLOGIA FISIOL\xD3GICA"
+- model: academico.areacapes
+  pk: 70703019
+  fields:
+    descricao: NEUROLOGIA, ELETROFISIOLOGIA E COMPORTAMENTO
+- model: academico.areacapes
+  pk: 70703027
+  fields:
+    descricao: "PROCESSOS PSICO-FISIOL\xD3GICOS"
+- model: academico.areacapes
+  pk: 70703035
+  fields:
+    descricao: "ESTIMULA\xC7\xC3O EL\xC9TRICA E COM DROGAS; COMPORTAMENTO"
+- model: academico.areacapes
+  pk: 70703043
+  fields:
+    descricao: PSICOBIOLOGIA
+- model: academico.areacapes
+  pk: 70704007
+  fields:
+    descricao: PSICOLOGIA COMPARATIVA
+- model: academico.areacapes
+  pk: 70704015
+  fields:
+    descricao: "ESTUDOS NATURAL\xCDSTICOS DO COMPORTAMENTO ANIMAL"
+- model: academico.areacapes
+  pk: 70704023
+  fields:
+    descricao: MECANISMOS INSTINTIVOS E PROCESSOS SOCIAIS EM ANIMAIS
+- model: academico.areacapes
+  pk: 70705003
+  fields:
+    descricao: PSICOLOGIA SOCIAL
+- model: academico.areacapes
+  pk: 70705011
+  fields:
+    descricao: "RELA\xC7\xD5ES INTERPESSOAIS"
+- model: academico.areacapes
+  pk: 70705020
+  fields:
+    descricao: "PROCESSOS GRUPAIS E DE COMUNICA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 70705038
+  fields:
+    descricao: "PAPEIS E ESTRUTURAS SOCIAIS; INDIV\xCDDUO"
+- model: academico.areacapes
+  pk: 70706000
+  fields:
+    descricao: PSICOLOGIA COGNITIVA
+- model: academico.areacapes
+  pk: 70707006
+  fields:
+    descricao: PSICOLOGIA DO DESENVOLVIMENTO HUMANO
+- model: academico.areacapes
+  pk: 70707014
+  fields:
+    descricao: PROCESSOS PERCEPTUAIS E COGNITIVOS; DESENVOLVIMENTO
+- model: academico.areacapes
+  pk: 70707022
+  fields:
+    descricao: DESENVOLVIMENTO SOCIAL E DA PERSONALIDADE
+- model: academico.areacapes
+  pk: 70708002
+  fields:
+    descricao: PSICOLOGIA DO ENSINO E DA APRENDIZAGEM
+- model: academico.areacapes
+  pk: 70708010
+  fields:
+    descricao: PLANEJAMENTO INSTITUCIONAL
+- model: academico.areacapes
+  pk: 70708029
+  fields:
+    descricao: "PROGRAMA\xC7\xC3O DE CONDI\xC7\xD5ES DE ENSINO"
+- model: academico.areacapes
+  pk: 70708037
+  fields:
+    descricao: TREINAMENTO DE PESSOAL
+- model: academico.areacapes
+  pk: 70708045
+  fields:
+    descricao: "APRENDIZAGEM E DESEMPENHO ACAD\xCAMICOS"
+- model: academico.areacapes
+  pk: 70708053
+  fields:
+    descricao: ENSINO E APRENDIZAGEM NA SALA DE AULA
+- model: academico.areacapes
+  pk: 70709009
+  fields:
+    descricao: PSICOLOGIA DO TRABALHO E ORGANIZACIONAL
+- model: academico.areacapes
+  pk: 70709017
+  fields:
+    descricao: "AN\xC1LISE INSTITUCIONAL"
+- model: academico.areacapes
+  pk: 70709025
+  fields:
+    descricao: "RECRUTAMENTO E SELE\xC7\xC3O DE PESSOAL"
+- model: academico.areacapes
+  pk: 70709033
+  fields:
+    descricao: "TREINAMENTO E AVALIA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 70709041
+  fields:
+    descricao: FATORES HUMANOS NO TRABALHO
+- model: academico.areacapes
+  pk: 70709050
+  fields:
+    descricao: PLANEJAMENTO AMBIENTAL E COMPORTAMENTO HUMANO
+- model: academico.areacapes
+  pk: 70710007
+  fields:
+    descricao: "TRATAMENTO E PREVEN\xC7\xC3O PSICOL\xD3GICA"
+- model: academico.areacapes
+  pk: 70710015
+  fields:
+    descricao: "INTERVEN\xC7\xC3O TERAP\xCAUTICA"
+- model: academico.areacapes
+  pk: 70710023
+  fields:
+    descricao: "PROGRAMAS DE ATENDIMENTO COMUNIT\xC1RIO"
+- model: academico.areacapes
+  pk: 70710031
+  fields:
+    descricao: "TREINAMENTO E REABILITA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 70710040
+  fields:
+    descricao: DESVIOS DA CONDUTA
+- model: academico.areacapes
+  pk: 70710058
+  fields:
+    descricao: "DIST\xDARBIOS DA LINGUAGEM"
+- model: academico.areacapes
+  pk: 70710066
+  fields:
+    descricao: "DIST\xDARBIOS PSICOSSOM\xC1TICOS"
+- model: academico.areacapes
+  pk: 70800006
+  fields:
+    descricao: "EDUCA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 70801002
+  fields:
+    descricao: "FUNDAMENTOS DA EDUCA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 70801010
+  fields:
+    descricao: "FILOSOFIA DA EDUCA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 70801029
+  fields:
+    descricao: "HIST\xD3RIA DA EDUCA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 70801037
+  fields:
+    descricao: "SOCIOLOGIA DA EDUCA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 70801045
+  fields:
+    descricao: ANTROPOLOGIA EDUCACIONAL
+- model: academico.areacapes
+  pk: 70801053
+  fields:
+    descricao: "ECONOMIA DA EDUCA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 70801061
+  fields:
+    descricao: PSICOLOGIA EDUCACIONAL
+- model: academico.areacapes
+  pk: 70802009
+  fields:
+    descricao: "ADMINISTRA\xC7\xC3O EDUCACIONAL"
+- model: academico.areacapes
+  pk: 70802017
+  fields:
+    descricao: "ADMINISTRA\xC7\xC3O DE SISTEMAS EDUCACIONAIS"
+- model: academico.areacapes
+  pk: 70802025
+  fields:
+    descricao: "ADMINISTRA\xC7\xC3O DE UNIDADES EDUCATIVAS"
+- model: academico.areacapes
+  pk: 70803005
+  fields:
+    descricao: "PLANEJAMENTO E AVALIA\xC7\xC3O EDUCACIONAL"
+- model: academico.areacapes
+  pk: 70803013
+  fields:
+    descricao: "POL\xCDTICA EDUCACIONAL"
+- model: academico.areacapes
+  pk: 70803021
+  fields:
+    descricao: PLANEJAMENTO EDUCACIONAL
+- model: academico.areacapes
+  pk: 70803030
+  fields:
+    descricao: AVAL. DE SISTEMAS, INST. PLANOS;E PROGRAMAS EDUCACIONAIS
+- model: academico.areacapes
+  pk: 70804001
+  fields:
+    descricao: ENSINO-APRENDIZAGEM
+- model: academico.areacapes
+  pk: 70804010
+  fields:
+    descricao: "TEORIAS DA INSTRU\xC7\xC3O"
+- model: academico.areacapes
+  pk: 70804028
+  fields:
+    descricao: "M\xC9TODOS E T\xC9CNICAS DE ENSINO"
+- model: academico.areacapes
+  pk: 70804036
+  fields:
+    descricao: TECNOLOGIA EDUCACIONAL
+- model: academico.areacapes
+  pk: 70804044
+  fields:
+    descricao: "AVALIA\xC7\xC3O DA APRENDIZAGEM"
+- model: academico.areacapes
+  pk: 70805008
+  fields:
+    descricao: "CURR\xCDCULO"
+- model: academico.areacapes
+  pk: 70805016
+  fields:
+    descricao: TEORIA GERAL DE PLANEJAMENTO E DESENV. CURRICULAR
+- model: academico.areacapes
+  pk: 70805024
+  fields:
+    descricao: "CURR\xCDCULOS ESPEC\xCDFICOS PARA N\xCDVEIS E TIPOS DE EDUCA\xC7\xC3\
+      O"
+- model: academico.areacapes
+  pk: 70806004
+  fields:
+    descricao: "ORIENTA\xC7\xC3O E ACONSELHAMENTO"
+- model: academico.areacapes
+  pk: 70806012
+  fields:
+    descricao: "ORIENTA\xC7\xC3O EDUCACIONAL"
+- model: academico.areacapes
+  pk: 70806020
+  fields:
+    descricao: "ORIENTA\xC7\xC3O VOCACIONAL"
+- model: academico.areacapes
+  pk: 70807000
+  fields:
+    descricao: "T\xD3PICOS ESPEC\xCDFICOS DE EDUCA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 70807019
+  fields:
+    descricao: "EDUCA\xC7\xC3O DE ADULTOS"
+- model: academico.areacapes
+  pk: 70807027
+  fields:
+    descricao: "EDUCA\xC7\xC3O PERMANENTE"
+- model: academico.areacapes
+  pk: 70807035
+  fields:
+    descricao: "EDUCA\xC7\xC3O RURAL"
+- model: academico.areacapes
+  pk: 70807043
+  fields:
+    descricao: "EDUCA\xC7\xC3O EM PERIFERIAS URBANAS"
+- model: academico.areacapes
+  pk: 70807051
+  fields:
+    descricao: "EDUCA\xC7\xC3O ESPECIAL"
+- model: academico.areacapes
+  pk: 70807060
+  fields:
+    descricao: "EDUCA\xC7\xC3O PR\xC9-ESCOLAR"
+- model: academico.areacapes
+  pk: 70807078
+  fields:
+    descricao: ENSINO PROFISSIONALIZANTE
+- model: academico.areacapes
+  pk: 70900000
+  fields:
+    descricao: "CI\xCANCIA POL\xCDTICA"
+- model: academico.areacapes
+  pk: 70901007
+  fields:
+    descricao: "TEORIA POL\xCDTICA"
+- model: academico.areacapes
+  pk: 70901015
+  fields:
+    descricao: "TEORIA POL\xCDTICA CL\xC1SSICA"
+- model: academico.areacapes
+  pk: 70901023
+  fields:
+    descricao: "TEORIA POL\xCDTICA MEDIEVAL"
+- model: academico.areacapes
+  pk: 70901031
+  fields:
+    descricao: "TEORIA POL\xCDTICA MODERNA"
+- model: academico.areacapes
+  pk: 70901040
+  fields:
+    descricao: "TEORIA POL\xCDTICA CONTEMPOR\xC2NEA"
+- model: academico.areacapes
+  pk: 70902003
+  fields:
+    descricao: ESTADO E GOVERNO
+- model: academico.areacapes
+  pk: 70902011
+  fields:
+    descricao: "ESTRUTURA E TRANSFORMA\xC7\xC3O DO ESTADO"
+- model: academico.areacapes
+  pk: 70902020
+  fields:
+    descricao: SISTEMAS GOVERNAMENTAIS COMPARADOS
+- model: academico.areacapes
+  pk: 70902038
+  fields:
+    descricao: "RELA\xC7\xD5ES INTERGOVERNAMENTAIS"
+- model: academico.areacapes
+  pk: 70902046
+  fields:
+    descricao: ESTUDOS DO PODER LOCAL
+- model: academico.areacapes
+  pk: 70902054
+  fields:
+    descricao: "INSTITUI\xC7\xD5ES GOVERNAMENTAIS ESPEC\xCDFICAS"
+- model: academico.areacapes
+  pk: 70903000
+  fields:
+    descricao: "COMPORTAMENTO POL\xCDTICO"
+- model: academico.areacapes
+  pk: 70903018
+  fields:
+    descricao: "ESTUDOS ELEITORAIS E PARTIDOS POL\xCDTICOS"
+- model: academico.areacapes
+  pk: 70903026
+  fields:
+    descricao: "ATITUDE E IDEOLOGIAS POL\xCDTICAS"
+- model: academico.areacapes
+  pk: 70903034
+  fields:
+    descricao: "CONFLITOS E COALIZ\xD5ES POL\xCDTICAS"
+- model: academico.areacapes
+  pk: 70903042
+  fields:
+    descricao: COMPORTAMENTO LEGISLATIVO
+- model: academico.areacapes
+  pk: 70903050
+  fields:
+    descricao: CLASSES SOCIAIS E GRUPOS DE INTERESSE
+- model: academico.areacapes
+  pk: 70904006
+  fields:
+    descricao: "POL\xCDTICAS P\xDABLICAS"
+- model: academico.areacapes
+  pk: 70904014
+  fields:
+    descricao: "AN\xC1LISE DO PROCESSO DECIS\xD3RIO"
+- model: academico.areacapes
+  pk: 70904022
+  fields:
+    descricao: "AN\xC1LISE INSTITUCIONAL"
+- model: academico.areacapes
+  pk: 70904030
+  fields:
+    descricao: "T\xC9CNICAS DE ANTECIPA\xC7\xC3O"
+- model: academico.areacapes
+  pk: 70905002
+  fields:
+    descricao: "POL\xCDTICA INTERNACIONAL"
+- model: academico.areacapes
+  pk: 70905010
+  fields:
+    descricao: "POL\xCDTICA EXTERNA DO BRASIL"
+- model: academico.areacapes
+  pk: 70905029
+  fields:
+    descricao: "ORGANIZA\xC7\xD5ES INTERNACIONAIS"
+- model: academico.areacapes
+  pk: 70905037
+  fields:
+    descricao: "INTEGRA\xC7\xC3O INTERNACIONAL, CONFLITO, GUERRA E PAZ"
+- model: academico.areacapes
+  pk: 70905045
+  fields:
+    descricao: "RELA\xC7\xD5ES INTERNACIONAIS, BILATERAIS E MULTILATERAIS"
+- model: academico.areacapes
+  pk: 71000003
+  fields:
+    descricao: TEOLOGIA
+- model: academico.areacapes
+  pk: 71001000
+  fields:
+    descricao: "HIST\xD3RIA DA TEOLOGIA"
+- model: academico.areacapes
+  pk: 71002006
+  fields:
+    descricao: TEOLOGIA MORAL
+- model: academico.areacapes
+  pk: 71003002
+  fields:
+    descricao: "TEOLOGIA SISTEM\xC1TICA"
+- model: academico.areacapes
+  pk: 71004009
+  fields:
+    descricao: TEOLOGIA PASTORAL
+- model: academico.areacapes
+  pk: 80000002
+  fields:
+    descricao: "LINGU\xCDSTICA, LETRAS E ARTES"
+- model: academico.areacapes
+  pk: 80100007
+  fields:
+    descricao: "LINGU\xCDSTICA;"
+- model: academico.areacapes
+  pk: 80101003
+  fields:
+    descricao: "TEORIA E AN\xC1LISE LINGU\xCDSTICA"
+- model: academico.areacapes
+  pk: 80102000
+  fields:
+    descricao: FISIOLOGIA DA LINGUAGEM
+- model: academico.areacapes
+  pk: 80103006
+  fields:
+    descricao: "LING\xDC\xCDSTICA HIST\xD3RICA"
+- model: academico.areacapes
+  pk: 80104002
+  fields:
+    descricao: "SOCIOLINGU\xCDSTICA E DIALETOLOGIA"
+- model: academico.areacapes
+  pk: 80105009
+  fields:
+    descricao: "PSICOLINGU\xCDSTICA"
+- model: academico.areacapes
+  pk: 80106005
+  fields:
+    descricao: "LINGU\xCDSTICA APLICADA"
+- model: academico.areacapes
+  pk: 80200001
+  fields:
+    descricao: LETRAS
+- model: academico.areacapes
+  pk: 80201008
+  fields:
+    descricao: "L\xCDNGUA PORTUGUESA"
+- model: academico.areacapes
+  pk: 80202004
+  fields:
+    descricao: "L\xCDNGUAS ESTRANGEIRAS MODERNAS"
+- model: academico.areacapes
+  pk: 80203000
+  fields:
+    descricao: "L\xCDNGUAS CL\xC1SSICAS"
+- model: academico.areacapes
+  pk: 80204007
+  fields:
+    descricao: "L\xCDNGUAS IND\xCDGENAS"
+- model: academico.areacapes
+  pk: 80205003
+  fields:
+    descricao: TEORIA LITERARIA
+- model: academico.areacapes
+  pk: 80206000
+  fields:
+    descricao: LITERATURA BRASILEIRA
+- model: academico.areacapes
+  pk: 80207006
+  fields:
+    descricao: "OUTRAS LITERATURAS VERN\xC1CULAS"
+- model: academico.areacapes
+  pk: 80208002
+  fields:
+    descricao: LITERATURAS ESTRANGEIRAS MODERNAS
+- model: academico.areacapes
+  pk: 80209009
+  fields:
+    descricao: "LITERATURAS CL\xC1SSICAS"
+- model: academico.areacapes
+  pk: 80210007
+  fields:
+    descricao: LITERATURA COMPARADA
+- model: academico.areacapes
+  pk: 80300006
+  fields:
+    descricao: ARTES
+- model: academico.areacapes
+  pk: 80301002
+  fields:
+    descricao: "FUNDAMENTOS E CR\xCDTICA DAS ARTES"
+- model: academico.areacapes
+  pk: 80301010
+  fields:
+    descricao: TEORIA DA ARTE
+- model: academico.areacapes
+  pk: 80301029
+  fields:
+    descricao: "HIST\xD3RIA DA ARTE"
+- model: academico.areacapes
+  pk: 80301037
+  fields:
+    descricao: "CR\xCDTICA DA ARTE"
+- model: academico.areacapes
+  pk: 80302009
+  fields:
+    descricao: "ARTES PL\xC1STICAS"
+- model: academico.areacapes
+  pk: 80302017
+  fields:
+    descricao: PINTURA
+- model: academico.areacapes
+  pk: 80302025
+  fields:
+    descricao: DESENHO
+- model: academico.areacapes
+  pk: 80302033
+  fields:
+    descricao: GRAVURA
+- model: academico.areacapes
+  pk: 80302041
+  fields:
+    descricao: ESCULTURA
+- model: academico.areacapes
+  pk: 80302050
+  fields:
+    descricao: "CER\xC2MICA"
+- model: academico.areacapes
+  pk: 80302068
+  fields:
+    descricao: TECELAGEM
+- model: academico.areacapes
+  pk: 80303005
+  fields:
+    descricao: "M\xDASICA"
+- model: academico.areacapes
+  pk: 80303013
+  fields:
+    descricao: "REG\xCANCIA"
+- model: academico.areacapes
+  pk: 80303021
+  fields:
+    descricao: "INSTRUMENTA\xC7\xC3O MUSICAL"
+- model: academico.areacapes
+  pk: 80303030
+  fields:
+    descricao: "COMPOSI\xC7\xC3O MUSICAL"
+- model: academico.areacapes
+  pk: 80303048
+  fields:
+    descricao: CANTO
+- model: academico.areacapes
+  pk: 80304001
+  fields:
+    descricao: "DAN\xC7A"
+- model: academico.areacapes
+  pk: 80304010
+  fields:
+    descricao: "EXECU\xC7\xC3O DA DAN\xC7A"
+- model: academico.areacapes
+  pk: 80304028
+  fields:
+    descricao: COREOGRAFIA
+- model: academico.areacapes
+  pk: 80305008
+  fields:
+    descricao: TEATRO
+- model: academico.areacapes
+  pk: 80305016
+  fields:
+    descricao: DRAMATURGIA
+- model: academico.areacapes
+  pk: 80305024
+  fields:
+    descricao: "DIRE\xC7\xC3O TEATRAL"
+- model: academico.areacapes
+  pk: 80305032
+  fields:
+    descricao: CENOGRAFIA
+- model: academico.areacapes
+  pk: 80305040
+  fields:
+    descricao: "INTERPRETA\xC7\xC3O TEATRAL"
+- model: academico.areacapes
+  pk: 80306004
+  fields:
+    descricao: "\xD3PERA"
+- model: academico.areacapes
+  pk: 80307000
+  fields:
+    descricao: FOTOGRAFIA
+- model: academico.areacapes
+  pk: 80308007
+  fields:
+    descricao: CINEMA
+- model: academico.areacapes
+  pk: 80308015
+  fields:
+    descricao: "ADMINISTRA\xC7\xC3O E PRODU\xC7\xC3O DE FILMES"
+- model: academico.areacapes
+  pk: 80308023
+  fields:
+    descricao: "ROTEIRO E DIRE\xC7\xC3O CINEMATOGR\xC1FICOS"
+- model: academico.areacapes
+  pk: 80308031
+  fields:
+    descricao: "T\xC9CNICAS DE REGISTROS E PROCESSAMENTO DE FILMES"
+- model: academico.areacapes
+  pk: 80308040
+  fields:
+    descricao: "INTERPRETA\xC7\xC3O CINEMATOGR\xC1FICA"
+- model: academico.areacapes
+  pk: 80309003
+  fields:
+    descricao: "ARTES DO V\xCDDEO"
+- model: academico.areacapes
+  pk: 80310001
+  fields:
+    descricao: "EDUCA\xC7\xC3O ART\xCDSTICA"
+- model: academico.areacapes
+  pk: 90000005
+  fields:
+    descricao: MULTIDISCIPLINAR
+- model: academico.areacapes
+  pk: 90100000
+  fields:
+    descricao: INTERDISCIPLINAR
+- model: academico.areacapes
+  pk: 90191000
+  fields:
+    descricao: "MEIO AMBIENTE E AGR\xC1RIAS"
+- model: academico.areacapes
+  pk: 90192000
+  fields:
+    descricao: SOCIAIS E HUMANIDADES
+- model: academico.areacapes
+  pk: 90193000
+  fields:
+    descricao: "ENGENHARIA/TECNOLOGIA/GEST\xC3O"
+- model: academico.areacapes
+  pk: 90194000
+  fields:
+    descricao: "SA\xDADE E BIOL\xD3GICAS"
+- model: academico.areacapes
+  pk: 90200000
+  fields:
+    descricao: ENSINO
+- model: academico.areacapes
+  pk: 90201000
+  fields:
+    descricao: "ENSINO DE CI\xCANCIAS E MATEM\xC1TICA"
+- model: academico.areacapes
+  pk: 90300009
+  fields:
+    descricao: MATERIAIS
+- model: academico.areacapes
+  pk: 90400003
+  fields:
+    descricao: BIOTECNOLOGIA
+- model: academico.areacapes
+  pk: 90500008
+  fields:
+    descricao: "CI\xCANCIAS AMBIENTAIS"

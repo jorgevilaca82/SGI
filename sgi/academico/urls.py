@@ -1,5 +1,7 @@
 from django.urls import path, include
 from django.views import generic
+from . import views
+
 
 app_name = 'academico'
 
@@ -11,4 +13,5 @@ urlpatterns = [
     path('', home_view, name='home'),
     path('aluno/', home_view, name='aluno-list'),
     path('professor/', home_view, name='professor-list'),
+    path('area_capes/search', views.AreaCAPESSearchListView.as_view(), name='area-capes-search-list'),
 ]

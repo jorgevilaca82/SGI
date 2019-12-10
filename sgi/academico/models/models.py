@@ -60,4 +60,4 @@ class Curso(models.Model):
         pass
 
     # Diretoria de Ensino (de)
-    de = models.ForeignKey(DiretoriaEnsino, on_delete=models.PROTECT)
+    ae = models.ForeignKey(AreaUnidadeDeEnsino, on_delete=models.PROTECT)

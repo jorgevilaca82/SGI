@@ -7,3 +7,5 @@
     link: 'academico:aluno-list'
   - label: Professor
     link: 'academico:professor-list'
+  - label: Unidades de Ensino
+    link: 'academico:unidadedeensino-list'
