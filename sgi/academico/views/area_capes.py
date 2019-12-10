@@ -2,7 +2,7 @@
 from sgi.commons.views import JSONListView
 # from django.db.models import Q
 # from . import models as m
-from .services.area_capes import AreaCAPESService
+from ..services.area_capes import AreaCAPESService
 
 
 class AreaCAPESSearchListView(JSONListView):
