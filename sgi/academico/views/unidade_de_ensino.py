@@ -3,30 +3,38 @@ from sgi.base.views import generic
 from django.forms import modelform_factory
 from django.views.generic import View
 
-class FormAndModelMixin:
-    model = am.UnidadeDeEnsino
-    form_class = modelform_factory(model, fields='__all__')
+
+MODEL = am.UnidadeDeEnsino
+FORM_CLASS = modelform_factory(MODEL, fields='__all__')
 
 
-class ListView(FormAndModelMixin, generic.ListView):
-    pass
+class ListView(generic.ListView):
+    model = MODEL
 
 
-class CreateView(FormAndModelMixin, generic.CreateView):
+class CreateView(generic.CreateView):
+    model = MODEL
+    form_class = FORM_CLASS
+    # pylint: disable=no-member
     success_message = model._meta.verbose_name + \
         " com n. %(id)s cadastrado com sucesso!"
 
 
-class DetailView(FormAndModelMixin, generic.DetailView):
-    pass
+class DetailView(generic.DetailView):
+    model = MODEL
 
 
-class UpdateView(FormAndModelMixin, generic.UpdateView):
+class UpdateView(generic.UpdateView):
+    model = MODEL
+    form_class = FORM_CLASS
+    # pylint: disable=no-member
     success_message = model._meta.verbose_name + \
         " com n. %(id)s atualizada com sucesso!"
 
 
-class DeleteView(FormAndModelMixin, generic.DeleteView):
+class DeleteView(generic.DeleteView):
+    model = MODEL
+    # pylint: disable=no-member
     success_message = model._meta.verbose_name + \
         " com n. %(id)s excluída permanentemente!"
     success_url_name = 'academico:unidade-de-ensino-list'
