@@ -8,4 +8,6 @@
   - label: Professor
     link: 'academico:professor-list'
   - label: Unidades de Ensino
-    link: 'academico:unidadedeensino-list'
+    link: 'academico:unidade-de-ensino-list'
+  - label: Áreas Unid. de Ensino
+    link: 'academico:area-unidade-de-ensino-list'

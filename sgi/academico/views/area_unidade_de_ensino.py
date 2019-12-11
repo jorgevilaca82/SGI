@@ -1,11 +1,10 @@
+from .. import models as am
 from sgi.commons.views import generic
-
-from sgi.base import models as bm
-from . import forms as bf
+from django.forms import modelform_factory
 
 
-MODEL = bm.PessoaJuridica
-FORM_CLASS = bf.PessoaJuridicaForm
+MODEL = am.AreaUnidadeDeEnsino
+FORM_CLASS = modelform_factory(MODEL, fields='__all__')
 
 
 class ListView(generic.ListView):
@@ -17,13 +16,11 @@ class CreateView(generic.CreateView):
     form_class = FORM_CLASS
     # pylint: disable=no-member
     success_message = model._meta.verbose_name + \
-        " com CNPJ n. %(cnpj)s cadastrada com sucesso!"
-    template_name = 'base/generic_form.html'
+        " com n. %(id)s cadastrado com sucesso!"
 
 
 class DetailView(generic.DetailView):
     model = MODEL
-    template_name = 'base/generic_pessoa_detail.html'
 
 
 class UpdateView(generic.UpdateView):
@@ -31,13 +28,12 @@ class UpdateView(generic.UpdateView):
     form_class = FORM_CLASS
     # pylint: disable=no-member
     success_message = model._meta.verbose_name + \
-        " com CNPJ n. %(cnpj)s atualizada com sucesso!"
-    template_name = 'base/generic_form.html'
+        " com n. %(id)s atualizada com sucesso!"
 
 
 class DeleteView(generic.DeleteView):
     model = MODEL
     # pylint: disable=no-member
     success_message = model._meta.verbose_name + \
-        " com CNPJ n. %(cnpj)s excluída permanentemente!"
-    success_url_name = 'sgi_base:pessoajuridica-list'
+        " com n. %(id)s excluída permanentemente!"
+    success_url_name = 'academico:area-unidade-de-ensino-list'

@@ -1,6 +1,6 @@
 from django.http import HttpResponse
-from django.views import generic
+from django.views.generic import TemplateView
 from django.contrib.auth.mixins import LoginRequiredMixin
 
-class HomeView(LoginRequiredMixin, generic.TemplateView):
+class HomeView(LoginRequiredMixin, TemplateView):
     template_name = "base/home.html"
