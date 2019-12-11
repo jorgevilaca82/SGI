@@ -1,5 +1,8 @@
 from enum import IntEnum, auto
-from django.contrib.contenttypes.fields import GenericRelation
+from django.contrib.contenttypes.fields import (
+    GenericRelation, 
+    GenericForeignKey
+)
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 
@@ -10,6 +13,10 @@ from .curso import *
 
 
 class UnidadeDeEnsino(bm.UnidadeOrganizacional):
+
+    class Meta:
+        verbose_name = _('Unidade de Ensino')
+        verbose_name_plural = _('Unidades de Ensinos')
 
     class Tipo(IntEnum):
         CAMPUS = auto()
@@ -39,6 +46,12 @@ class UnidadeDeEnsino(bm.UnidadeOrganizacional):
 
     por_tipo = PorTipoQuerySet.as_manager()
 
+    def __str__(self):
+        return '{0} > {1}'.format(self.uo_superior or '#', self.sigla)
+
+    def clean(self):
+        pass
+
 
 class AreaUnidadeDeEnsino(bm.UnidadeOrganizacional):
     """
@@ -61,7 +74,9 @@ class AreaUnidadeDeEnsino(bm.UnidadeOrganizacional):
 
     sub_areas = GenericRelation('AreaUnidadeDeEnsino')
 
-    # unidade_de_ensino = models.ForeignKey(UnidadeDeEnsino, on_delete=models.PROTECT)
+    area_superior = GenericForeignKey('content_type', 'object_id')
+
+    unidade_de_ensino = models.ForeignKey(UnidadeDeEnsino, on_delete=models.PROTECT, null=True)
 
     # area_superior = models.ForeignKey(
     #     'self',
@@ -82,6 +97,11 @@ class AreaUnidadeDeEnsino(bm.UnidadeOrganizacional):
 
     por_tipo = PorTipoQuerySet.as_manager()
 
+    def __str__(self):
+        return '{0} > {1}'.format(self.area_superior or self.unidade_de_ensino.nome, self.sigla)
+
+    def clean(self):
+        pass
 
 
 __all__ = [

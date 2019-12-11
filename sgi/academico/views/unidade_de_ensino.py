@@ -1,11 +1,11 @@
 from .. import models as am
-from sgi.base.views import generic
-from django.forms import modelform_factory
-from django.views.generic import View
+from sgi.commons.views import generic
+# from django.forms import modelform_factory
+from ..forms import UnidadeDeEnsinoForm
 
 
 MODEL = am.UnidadeDeEnsino
-FORM_CLASS = modelform_factory(MODEL, fields='__all__')
+FORM_CLASS = UnidadeDeEnsinoForm
 
 
 class ListView(generic.ListView):
@@ -18,6 +18,7 @@ class CreateView(generic.CreateView):
     # pylint: disable=no-member
     success_message = model._meta.verbose_name + \
         " com n. %(id)s cadastrado com sucesso!"
+    template_name = 'base/generic_form.html'
 
 
 class DetailView(generic.DetailView):
@@ -30,6 +31,7 @@ class UpdateView(generic.UpdateView):
     # pylint: disable=no-member
     success_message = model._meta.verbose_name + \
         " com n. %(id)s atualizada com sucesso!"
+    template_name = 'base/generic_form.html'
 
 
 class DeleteView(generic.DeleteView):

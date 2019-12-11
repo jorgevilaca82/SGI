@@ -1,1 +1,43 @@
-academico/unidadedeensino_list.html
+{% extends default_layout %}
+{% load model_utils %}
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">{{ opts.verbose_name_plural|title }}</h3>
+
+        <div class="card-tools">
+            <a class="btn btn-sm btn-success mr-2" href="{% url 'academico:unidade-de-ensino-create' %}">Cadastrar novo</a>
+            {% show_pagination class='pagination pagination-sm m-0 float-right' %}
+        </div>
+    </div>
+    <!-- /.card-header -->
+    <div class="card-body p-0">
+        <table class="table">
+            <tr>
+                <th style="width: 10px">#</th>
+                <th>Tipo</th>
+                <th>sigla</th>
+                <th>nome</th>
+                <th>pessoa_juridica</th>
+                <th>uo_superior</th>
+            </tr>
+            {% for uo in unidadedeensino_list %}
+            <tr>
+                <td>{{ uo.pk }}</td>
+                <td>{{ uo.get_tipo_display }}</td>
+                <td>{{ uo.sigla }}</td>
+                <td>{{ uo.nome }}</td>
+                <td>{{ uo.pessoa_juridica }}</td>
+                <td>{{ uo.uo_superior }}</td>
+                <td>
+                    <a class="btn btn-sm btn-light" href="{% url 'academico:unidade-de-ensino-update' pk=uo.id %}">Editar</a>
+                    <a class="btn btn-sm btn-light" href="{% url 'academico:unidade-de-ensino-detail' pk=uo.id %}">Detalhes</a>
+                </td>
+            </tr>
+            {% endfor %}        
+
+        </table>
+    </div>
+    <!-- /.card-body -->
+</div>
+{% endblock content %}
