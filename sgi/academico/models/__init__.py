@@ -1,6 +1,6 @@
 from enum import IntEnum, auto
 from django.contrib.contenttypes.fields import (
-    GenericRelation, 
+    GenericRelation,
     GenericForeignKey
 )
 from django.db import models
@@ -46,6 +46,11 @@ class UnidadeDeEnsino(bm.UnidadeOrganizacional):
 
     por_tipo = PorTipoQuerySet.as_manager()
 
+    def get_absolute_url(self):
+        from django.urls import reverse
+        return reverse('sgi_academico:unidade-de-ensino-detail',
+                       kwargs={'pk': self.pk})
+
     def __str__(self):
         return '{0} > {1}'.format(self.uo_superior or '#', self.sigla)
 
@@ -74,16 +79,8 @@ class AreaUnidadeDeEnsino(bm.UnidadeOrganizacional):
 
     sub_areas = GenericRelation('AreaUnidadeDeEnsino')
 
-    area_superior = GenericForeignKey('content_type', 'object_id')
-
-    unidade_de_ensino = models.ForeignKey(UnidadeDeEnsino, on_delete=models.PROTECT, null=True)
-
-    # area_superior = models.ForeignKey(
-    #     'self',
-    #     on_delete=models.PROTECT,
-    #     related_name='sub_areas',
-    #     null=True
-    # )
+    unidade_de_ensino = models.ForeignKey(
+        UnidadeDeEnsino, on_delete=models.PROTECT, null=True)
 
     responsavel = models.ForeignKey(bm.PessoaFisica, on_delete=models.PROTECT)
 

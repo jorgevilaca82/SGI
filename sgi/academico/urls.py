@@ -6,15 +6,11 @@ from .views import unidade_de_ensino as ue_views
 from .views import area_unidade_de_ensino as aue_views
 from sgi.commons.url_utils import crud
 
-app_name = 'academico'
+app_name = 'sgi_academico'
 
 base_module = 'sgi.academico'
 
 home_view = generic.TemplateView.as_view(template_name='academico/home.html')
-
-
-
-
 
 urlpatterns = [
     path('', home_view, name='home'),

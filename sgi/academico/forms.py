@@ -15,7 +15,7 @@ class _UnidadeDeEnsinoForm(ModelForm):
             'sigla',
             'nome',
             'pessoa_juridica',
-            'uo_superior',
+            # 'unidade_superior',
         )
 
         labels = {
@@ -23,7 +23,7 @@ class _UnidadeDeEnsinoForm(ModelForm):
             'sigla': _('Sigla'),
             'nome': _('Nome'),
             'pessoa_juridica': _('PJ'),
-            'uo_superior': _('Unid. Superior'),
+            # 'unidade_superior': _('Unid. Superior'),
         }
 
         extra_required = {

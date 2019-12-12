@@ -17,7 +17,7 @@ class CreateView(generic.CreateView):
     form_class = FORM_CLASS
     # pylint: disable=no-member
     success_message = model._meta.verbose_name + \
-        " com n. %(id)s cadastrado com sucesso!"
+        " com n. %(sigla)s cadastrado com sucesso!"
     template_name = 'base/generic_form.html'
 
 
@@ -30,7 +30,7 @@ class UpdateView(generic.UpdateView):
     form_class = FORM_CLASS
     # pylint: disable=no-member
     success_message = model._meta.verbose_name + \
-        " com n. %(id)s atualizada com sucesso!"
+        " com n. %(sigla)s atualizada com sucesso!"
     template_name = 'base/generic_form.html'
 
 
@@ -38,5 +38,5 @@ class DeleteView(generic.DeleteView):
     model = MODEL
     # pylint: disable=no-member
     success_message = model._meta.verbose_name + \
-        " com n. %(id)s excluída permanentemente!"
+        " com n. %(sigla)s excluída permanentemente!"
     success_url_name = 'academico:unidade-de-ensino-list'

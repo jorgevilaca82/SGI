@@ -1,0 +1,9 @@
+{% load model_utils html_utils %}
+<dt class="col-sm-2">{% fvb unidadedeensino 'sigla' as f %} {{f|title}}</dt>
+<dd class="col-sm-10">{{ unidadedeensino.sigla }}</dd>
+<dt class="col-sm-2">{{'nome'|title}}</dt>
+<dd class="col-sm-10">{{ unidadedeensino.nome }}</dd>
+<dt class="col-sm-2">{% fvb unidadedeensino 'tipo' as f %} {{f|title}}</dt>
+<dd class="col-sm-10">{{ unidadedeensino.get_tipo_display }}</dd>
+<dt class="col-sm-2">{% fvb unidadedeensino 'unidade_superior' as f %} {{f|title}}</dt>
+<dd class="col-sm-10">{{ unidadedeensino.unidade_superior }}</dd>

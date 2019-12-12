@@ -30,7 +30,7 @@ class UnidadeOrganizacional(AuditableModel):
 
     object_id = models.PositiveIntegerField(null=True)
 
-    uo_superior = GenericForeignKey('content_type', 'object_id')
+    content_object = GenericForeignKey('content_type', 'object_id')
 
     sub_uos = GenericRelation('UnidadeOrganizacional')
 
