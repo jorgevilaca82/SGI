@@ -4,7 +4,7 @@ from sgi.commons.views import generic
 
 from .. import models as am
 
-MODEL = am.AreaUnidadeDeEnsino
+MODEL = am.SetorEnsino
 FORM_CLASS = modelform_factory(MODEL, fields='__all__')
 
 

@@ -5,7 +5,7 @@ from sgi.commons.url_utils import crud
 
 from . import views
 from .views import area_capes as ac_views
-from .views import area_unidade_de_ensino as aue_views
+from .views import setor_ensino as se_views
 from .views import unidade_de_ensino as ue_views
 
 app_name = 'sgi_academico'
@@ -26,6 +26,6 @@ urlpatterns = [
 
     crud('unidade-de-ensino', ue_views, url_prefix='unidade-de-ensino'),
 
-    crud('area-unidades-de-ensino', aue_views,
+    crud('area-unidades-de-ensino', se_views,
          url_prefix='area-unidade-de-ensino'),
 ]

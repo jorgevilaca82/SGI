@@ -1,0 +1,12 @@
+- model: administracao.setortipo
+  pk: 1
+  fields: {nome: PRO-REITORIA}
+- model: administracao.setortipo
+  pk: 2
+  fields: {nome: DIRETORIA}
+- model: administracao.setortipo
+  pk: 3
+  fields: {nome: COORDENACAO}
+- model: administracao.setortipo
+  pk: 4
+  fields: {nome: COMISSAO}

@@ -1,10 +1,10 @@
-from enum import IntEnum, auto
+from enum import Enum, IntEnum, auto
 
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 
+from sgi.administracao import models as admm
 from sgi.base import models as bm
-from sgi.commons.models import AuditableModel
 
 from .curso import *
 
@@ -28,18 +28,16 @@ class UnidadeDeEnsino(bm.UnidadeOrganizacional):
 
     tipo = models.IntegerField(choices=TIPO_CHOICES)
 
-    # sub_unidades = GenericRelation('UnidadeDeEnsino')
-
     class PorTipoQuerySet(models.QuerySet):
 
         def campus(self):
             return self.filter(tipo=UnidadeDeEnsino.Tipo.CAMPUS)
 
-        def polo(self):
-            return self.filter(tipo=UnidadeDeEnsino.Tipo.POLO)
-
         def escolas(self):
             return self.filter(tipo=UnidadeDeEnsino.Tipo.ESCOLA)
+
+        def polo(self):
+            return self.filter(tipo=UnidadeDeEnsino.Tipo.POLO)
 
     por_tipo = PorTipoQuerySet.as_manager()
 
@@ -49,57 +47,29 @@ class UnidadeDeEnsino(bm.UnidadeOrganizacional):
                        kwargs={'pk': self.pk})
 
     def __str__(self):
-        return '{0} > {1}'.format(self.uo_superior or '#', self.sigla)
+        return super().__str__()
 
     def clean(self):
         pass
 
 
-class AreaUnidadeDeEnsino(bm.UnidadeOrganizacional):
+class SetorEnsino(admm.Setor):
     """
-    Áreas(setores) e sub-áreas(sub-setores) de uma unidade de ensino
+    Setores e sub-setores de uma unidade de ensino
     """
 
     class Meta:
-        pass
+        proxy = True
 
-    class Tipo(IntEnum):
-        DIRETORIA_DE_ENSINO = auto()
-        COORDENACAO_DE_CURSO = auto()
+    class Categoria(Enum):
+        ENSINO = 'EDU'
 
-    TIPO_CHOICES = (
-        (Tipo.DIRETORIA_DE_ENSINO.value, _('Diretoria de Ensino')),
-        (Tipo.COORDENACAO_DE_CURSO.value, _('Coordenação de Curso')),
-    )
+    CATEGORIA_DEFAULT = Categoria.ENSINO
 
-    tipo = models.IntegerField(choices=TIPO_CHOICES)
-
-    # sub_areas = GenericRelation('AreaUnidadeDeEnsino')
-
-    # unidade_de_ensino = models.ForeignKey(
-    #     UnidadeDeEnsino, on_delete=models.PROTECT, null=True)
-
-    responsavel = models.ForeignKey(bm.PessoaFisica, on_delete=models.PROTECT)
-
-    class PorTipoQuerySet(models.QuerySet):
-
-        def diretorias_de_ensino(self):
-            return self.filter(tipo=AreaUnidadeDeEnsino.Tipo.DIRETORIA_DE_ENSINO)
-
-        def coordenacao_de_curso(self):
-            return self.filter(tipo=AreaUnidadeDeEnsino.Tipo.COORDENACAO_DE_CURSO)
-
-    por_tipo = PorTipoQuerySet.as_manager()
-
-    def __str__(self):
-        return '{0} > {1}'.format(self.area_superior or self.unidade_de_ensino.nome, self.sigla)
-
-    def clean(self):
-        pass
 
 
 __all__ = [
     'AreaCAPES',
     'UnidadeDeEnsino',
-    'AreaUnidadeDeEnsino',
+    'SetorEnsino',
 ]

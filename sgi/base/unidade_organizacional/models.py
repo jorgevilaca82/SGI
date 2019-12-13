@@ -32,7 +32,7 @@ class UnidadeOrganizacional(AuditableModel):
 
     def __str__(self):
         return '{0} > {1}'.format(
-            (self.uo_superior or self.pessoa_juridica.razao_social or '!'),
+            (self.uo_superior or self.pessoa_juridica or '!'),
             self.sigla)
 
     def clean(self):
