@@ -8,4 +8,3 @@ class CommonsConfig(AppConfig):
     def ready(self):
         # print('sgi commons ready')
         pass
-

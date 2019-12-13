@@ -7,7 +7,7 @@ from sgi.base.models import PessoaFisica
 
 
 class InscricaoCandidato(models.Model):
-    
+
     class Status(IntEnum):
         DEFERIDA = auto()
         INDEFERIDA = auto()

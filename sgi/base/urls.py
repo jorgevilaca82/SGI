@@ -1,4 +1,4 @@
-from django.urls import path, include
+from django.urls import include, path
 
 from . import views
 from .pessoa import urls as pessoa_urls

@@ -1,15 +1,16 @@
 # rename to html_extras?
 from django import template
-
 from django.utils.html import mark_safe
 
 register = template.Library()
+
 
 @register.simple_tag
 def build_qs(**kwargs) -> str:
     '''Constroi uma query string com base nos parametros passadas'''
     import urllib
     return mark_safe('?{}'.format(urllib.parse.urlencode(kwargs)))
+
 
 @register.inclusion_tag('commons/_menu.html', takes_context=True)
 def menu(context):
@@ -32,4 +33,4 @@ def menu(context):
                 _menu_data = yaml.load(stream)
                 menu_data += (_menu_data)
 
-    return { 'menu_data': menu_data, 'request': context['request'] }
+    return {'menu_data': menu_data, 'request': context['request']}

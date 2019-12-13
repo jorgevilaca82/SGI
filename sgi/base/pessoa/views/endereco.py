@@ -1,7 +1,7 @@
 from sgi.base import models as bm
 from sgi.base.pessoa import forms
-from . import generic
 
+from . import generic
 
 MODEL = bm.Endereco
 FORM_CLASS = forms.EnderecoForm

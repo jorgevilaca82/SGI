@@ -1,13 +1,13 @@
+from enum import IntEnum, auto
+
+from django.db import models
 from django.utils.translation import gettext_lazy as _
 
 from sgi.administracao import models as adm
 from sgi.base import models as bm
 from sgi.recursos_humanos import models as rhm
-# import de models para inclusão nas migrations
-from .processo_seletivo.models import *  # no-qa
 
-from django.db import models
-from enum import IntEnum, auto
+from .processo_seletivo.models import *  # no-qa
 
 
 class Aluno(models.Model):
@@ -30,7 +30,8 @@ class Aluno(models.Model):
 
     # RA - Registro de Aluno (identificador de matricula)
     ra = models.CharField(max_length=255)
-    pessoa_fisica = models.ForeignKey(bm.PessoaFisica, on_delete=models.PROTECT)
+    pessoa_fisica = models.ForeignKey(
+        bm.PessoaFisica, on_delete=models.PROTECT)
 
 
 class Professor(rhm.Funcionario):

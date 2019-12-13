@@ -1,7 +1,1 @@
-from . import (
-    telefone,
-    contatosocial,
-    endereco,
-    documento
-)
-
+from . import contatosocial, documento, endereco, telefone

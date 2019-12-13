@@ -1,11 +1,10 @@
-from django.utils.translation import gettext_lazy as _
-from django.shortcuts import get_object_or_404
-
-from sgi.commons.views import generic
-from sgi.base import models as bm
-
-
 import mimetypes
+
+from django.shortcuts import get_object_or_404
+from django.utils.translation import gettext_lazy as _
+
+from sgi.base import models as bm
+from sgi.commons.views import generic
 
 JSON_MIMETYPE = mimetypes.types_map['.json']
 

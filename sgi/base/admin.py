@@ -3,8 +3,6 @@ from django.contrib import admin
 from sgi.base import models as bm
 
 
-# Register your models here.
-
 class EnderecoInline(admin.StackedInline):
     model = bm.Endereco
     extra = 1

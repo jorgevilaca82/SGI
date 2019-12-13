@@ -1,9 +1,9 @@
-from django.http import JsonResponse
-from django.views.generic.detail import BaseDetailView
-from django.views.generic import TemplateView, ListView
-from django.db.models import QuerySet
 import mimetypes
 
+from django.db.models import QuerySet
+from django.http import JsonResponse
+from django.views.generic import ListView, TemplateView
+from django.views.generic.detail import BaseDetailView
 
 JSON_MIMETYPE = mimetypes.types_map['.json']
 

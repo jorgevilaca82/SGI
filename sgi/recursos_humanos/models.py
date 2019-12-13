@@ -8,6 +8,7 @@ from sgi.base import models as bm  # (bm) base models
 
 
 class Funcionario(bm.PessoaFisica):
+    
     class Meta:
         pass
 

@@ -1,7 +1,8 @@
-from .. import models as am
-from sgi.commons.views import generic
 from django.forms import modelform_factory
 
+from sgi.commons.views import generic
+
+from .. import models as am
 
 MODEL = am.AreaUnidadeDeEnsino
 FORM_CLASS = modelform_factory(MODEL, fields='__all__')

@@ -1,13 +1,10 @@
 from enum import IntEnum, auto
-from django.contrib.contenttypes.fields import (
-    GenericRelation,
-    GenericForeignKey
-)
+
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 
-from sgi.commons.models import AuditableModel
 from sgi.base import models as bm
+from sgi.commons.models import AuditableModel
 
 from .curso import *
 
@@ -31,7 +28,7 @@ class UnidadeDeEnsino(bm.UnidadeOrganizacional):
 
     tipo = models.IntegerField(choices=TIPO_CHOICES)
 
-    sub_unidades = GenericRelation('UnidadeDeEnsino')
+    # sub_unidades = GenericRelation('UnidadeDeEnsino')
 
     class PorTipoQuerySet(models.QuerySet):
 
@@ -77,10 +74,10 @@ class AreaUnidadeDeEnsino(bm.UnidadeOrganizacional):
 
     tipo = models.IntegerField(choices=TIPO_CHOICES)
 
-    sub_areas = GenericRelation('AreaUnidadeDeEnsino')
+    # sub_areas = GenericRelation('AreaUnidadeDeEnsino')
 
-    unidade_de_ensino = models.ForeignKey(
-        UnidadeDeEnsino, on_delete=models.PROTECT, null=True)
+    # unidade_de_ensino = models.ForeignKey(
+    #     UnidadeDeEnsino, on_delete=models.PROTECT, null=True)
 
     responsavel = models.ForeignKey(bm.PessoaFisica, on_delete=models.PROTECT)
 

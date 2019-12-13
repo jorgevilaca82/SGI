@@ -8,6 +8,7 @@ from .pessoa import PessoaRelatedModel
 
 
 class Endereco(PessoaRelatedModel):
+    
     class Meta:
         verbose_name = _('Endereço')
         verbose_name_plural = _('Endereços')
@@ -30,8 +31,6 @@ class Endereco(PessoaRelatedModel):
 
     logradouro = models.CharField(max_length=255)
 
-    complemento = models.CharField(max_length=255, blank=True, null=True)
-
     bairro = models.CharField(max_length=120)
 
     numero = models.CharField(max_length=120)
@@ -40,6 +39,8 @@ class Endereco(PessoaRelatedModel):
 
     uf = lf_models.BRStateField()
 
+    complemento = models.CharField(max_length=255, blank=True, null=True)
+    
     # Define se é o endereço principal
     principal = models.BooleanField(default=False)
 

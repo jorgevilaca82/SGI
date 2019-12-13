@@ -1,13 +1,13 @@
 from crispy_forms.helper import FormHelper
-from crispy_forms.layout import Layout, Submit, Row, Column
-from django.forms import (modelform_factory, ModelForm, )
+from crispy_forms.layout import Column, Layout, Row, Submit
+from django.forms import ModelForm, modelform_factory
 from django.utils.translation import gettext_lazy as _
 
 from . import models as bm
 
 
 class _PessoaFisicaForm(ModelForm):
-    
+
     class Meta:
         model = bm.PessoaFisica
 

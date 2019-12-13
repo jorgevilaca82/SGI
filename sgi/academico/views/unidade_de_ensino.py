@@ -1,8 +1,7 @@
-from .. import models as am
 from sgi.commons.views import generic
-# from django.forms import modelform_factory
-from ..forms import UnidadeDeEnsinoForm
 
+from .. import models as am
+from ..forms import UnidadeDeEnsinoForm
 
 MODEL = am.UnidadeDeEnsino
 FORM_CLASS = UnidadeDeEnsinoForm

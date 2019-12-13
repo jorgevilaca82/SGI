@@ -4,9 +4,9 @@ from django.db import models
 from django.utils.translation import gettext_lazy as _
 from localflavor.br import models as lf_models
 
+from sgi.base.models import Pessoa
 from sgi.commons import ChoiceEnumCharValueMeta
 from sgi.commons.constants import ONE_SPACE
-from sgi.base.models import Pessoa
 
 
 class CondicaoLimitante(models.Model):

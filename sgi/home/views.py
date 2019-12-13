@@ -1,7 +1,8 @@
+import calendar
+
+from django.conf import settings
 from django.shortcuts import render
 from django.views.generic import TemplateView
-from django.conf import settings
-import calendar
 
 
 class HomeView(TemplateView):

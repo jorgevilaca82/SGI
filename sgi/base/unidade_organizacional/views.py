@@ -1,8 +1,7 @@
+from sgi.base import models as bm
 from sgi.commons.views import generic
 
-from sgi.base import models as bm
 from . import forms as bf
-
 
 MODEL = bm.UnidadeOrganizacional
 FORM_CLASS = bf.UnidadeOrganizacionalForm

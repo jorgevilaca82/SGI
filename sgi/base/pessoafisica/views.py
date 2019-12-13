@@ -1,8 +1,7 @@
+from sgi.base import models as bm
 from sgi.commons.views import generic
 
 from . import forms as bf
-from sgi.base import models as bm
-
 
 MODEL = bm.PessoaFisica
 FORM_CLASS = bf.PessoaFisicaForm

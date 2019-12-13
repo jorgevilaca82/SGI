@@ -1,5 +1,5 @@
 from .contatosocial import ContatoSocial
-from .documento import DocumentoPessoalTipo, DocumentoPessoal
+from .documento import DocumentoPessoal, DocumentoPessoalTipo
 from .endereco import Endereco
 from .pessoa import Pessoa
 from .telefone import Telefone

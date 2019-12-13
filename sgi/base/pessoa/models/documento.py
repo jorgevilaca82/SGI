@@ -5,6 +5,7 @@ from .pessoa import PessoaRelatedModel
 
 
 class DocumentoPessoalTipo(models.Model):
+    
     class Meta:
         verbose_name = _('Documento Pessoal Tipo')
         verbose_name_plural = _('Documentos Pessoais Tipos')
@@ -17,6 +18,7 @@ class DocumentoPessoalTipo(models.Model):
 
 
 class DocumentoPessoal(PessoaRelatedModel):
+    
     class Meta:
         unique_together = ('tipo', 'pessoa')
         verbose_name = _('Documento Pessoal')

@@ -1,6 +1,7 @@
 from django.apps import apps
 from django.core.checks import Error, register
 
+
 @register()
 def sgi_commons_installed_check(app_configs, **kwargs):
     errors = []

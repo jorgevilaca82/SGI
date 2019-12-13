@@ -4,6 +4,7 @@ from sgi.base import models as bm
 
 
 class SetorTipo(models.Model):
+    
     class Meta:
         pass
 
@@ -11,6 +12,7 @@ class SetorTipo(models.Model):
 
 
 class Setor(models.Model):
+    
     class Meta:
         pass
 

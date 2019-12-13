@@ -1,7 +1,7 @@
-from django.forms import Select
 from crispy_forms.helper import FormHelper
-from crispy_forms.layout import Layout, Submit, Row, Column
-from django.forms import modelform_factory, ModelForm
+from crispy_forms.layout import Column, Layout, Row, Submit
+from django.forms import ModelForm, Select, modelform_factory
+
 from . import models as bm
 
 
