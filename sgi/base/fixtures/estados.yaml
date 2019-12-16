@@ -1,0 +1,135 @@
+- model: base.estado
+  pk: 11
+  fields:
+    uf: RO
+    nome: "Rond\xF4nia"
+- model: base.estado
+  pk: 12
+  fields:
+    uf: AC
+    nome: Acre
+- model: base.estado
+  pk: 13
+  fields:
+    uf: AM
+    nome: Amazonas
+- model: base.estado
+  pk: 14
+  fields:
+    uf: RR
+    nome: Roraima
+- model: base.estado
+  pk: 15
+  fields:
+    uf: PA
+    nome: "Par\xE1"
+- model: base.estado
+  pk: 16
+  fields:
+    uf: AP
+    nome: "Amap\xE1"
+- model: base.estado
+  pk: 17
+  fields:
+    uf: TO
+    nome: Tocantins
+- model: base.estado
+  pk: 21
+  fields:
+    uf: MA
+    nome: "Maranh\xE3o"
+- model: base.estado
+  pk: 22
+  fields:
+    uf: PI
+    nome: "Piau\xED"
+- model: base.estado
+  pk: 23
+  fields:
+    uf: CE
+    nome: "Cear\xE1"
+- model: base.estado
+  pk: 24
+  fields:
+    uf: RN
+    nome: Rio Grande do Norte
+- model: base.estado
+  pk: 25
+  fields:
+    uf: PB
+    nome: "Para\xEDba"
+- model: base.estado
+  pk: 26
+  fields:
+    uf: PE
+    nome: Pernambuco
+- model: base.estado
+  pk: 27
+  fields:
+    uf: AL
+    nome: Alagoas
+- model: base.estado
+  pk: 28
+  fields:
+    uf: SE
+    nome: Sergipe
+- model: base.estado
+  pk: 29
+  fields:
+    uf: BA
+    nome: Bahia
+- model: base.estado
+  pk: 31
+  fields:
+    uf: MG
+    nome: Minas Gerais
+- model: base.estado
+  pk: 32
+  fields:
+    uf: ES
+    nome: "Esp\xEDrito Santo"
+- model: base.estado
+  pk: 33
+  fields:
+    uf: RJ
+    nome: Rio de Janeiro
+- model: base.estado
+  pk: 35
+  fields:
+    uf: SP
+    nome: "S\xE3o Paulo"
+- model: base.estado
+  pk: 41
+  fields:
+    uf: PR
+    nome: "Paran\xE1"
+- model: base.estado
+  pk: 42
+  fields:
+    uf: SC
+    nome: Santa Catarina
+- model: base.estado
+  pk: 43
+  fields:
+    uf: RS
+    nome: Rio Grande do Sul
+- model: base.estado
+  pk: 50
+  fields:
+    uf: MS
+    nome: Mato Grosso do Sul
+- model: base.estado
+  pk: 51
+  fields:
+    uf: MT
+    nome: Mato Grosso
+- model: base.estado
+  pk: 52
+  fields:
+    uf: GO
+    nome: "Goi\xE1s"
+- model: base.estado
+  pk: 53
+  fields:
+    uf: DF
+    nome: Distrito Federal
