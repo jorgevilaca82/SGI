@@ -17,6 +17,14 @@ module.exports = (env, argv) => {
             new CopyWebpackPlugin([{
                 from: './node_modules/admin-lte',
                 to: path.resolve(__dirname, path.join(copyStaticToDir, 'admin-lte'))
+            }]),
+            new CopyWebpackPlugin([{
+                from: './node_modules/select2/dist/js',
+                to: path.resolve(__dirname, path.join(copyStaticToDir, 'select2/js'))
+            }]),
+            new CopyWebpackPlugin([{
+                from: './node_modules/select2/dist/css',
+                to: path.resolve(__dirname, path.join(copyStaticToDir, 'select2/css'))
             }])
         ]
     }
