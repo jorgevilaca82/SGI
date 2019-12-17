@@ -1,15 +1,18 @@
 from crispy_forms.helper import FormHelper
 from crispy_forms.layout import Column, Layout, Row, Submit
-from django.forms import ModelForm, modelform_factory
+from django.forms import ModelForm, modelform_factory, Select, ChoiceField
+from django.urls import reverse_lazy
 from django.utils.translation import gettext_lazy as _
 
-from . import models as bm
+from . import models as pfm
+from ..geo import models as gm
 
 
 class _PessoaFisicaForm(ModelForm):
 
+
     class Meta:
-        model = bm.PessoaFisica
+        model = pfm.PessoaFisica
 
         fields = (
             'cpf',
@@ -18,16 +21,22 @@ class _PessoaFisicaForm(ModelForm):
             'estado_civil',
             'tipo_sanguineo',
             'natural_cidade',
-            'natural_uf',
             'nacionalidade',
             'falecido',
         )
+
+        widgets = {
+            'natural_cidade': Select(attrs={
+                'class': 'sgi-select2', 
+                'data-url': reverse_lazy('sgi_base:municipio-search-list'),
+                'data-processFn': 'ofMunicipio'
+            }),
+        }
 
         labels = {
             'cpf': _('CPF'),
             'nome_razao_social': _('Nome completo'),
             'tipo_sanguineo': _('Tipo Sanguíneo'),
-            'natural_uf': _('Natural UF'),
         }
 
         extra_required = {
@@ -35,7 +44,6 @@ class _PessoaFisicaForm(ModelForm):
             'estado_civil': True,
             'tipo_sanguineo': True,
             'natural_cidade': True,
-            'natural_uf': True,
             'nacionalidade': True,
         }
 
@@ -45,6 +53,9 @@ class _PessoaFisicaForm(ModelForm):
         # set extra required fields
         for field, required in self.Meta.extra_required.items():
             self.fields[field].required = required
+
+        # self.fields['natural_cidade'].widgets.choices = []
+        # gm.Municipio.objects.filter(codigo_ibge=self.initial['natural_cidade']).all()
 
         self.helper = FormHelper()
         self.helper.layout = Layout(
@@ -61,11 +72,10 @@ class _PessoaFisicaForm(ModelForm):
             Row(
                 Column('nacionalidade', css_class='form-group col-md-3 mb-0'),
                 Column('natural_cidade', css_class='form-group col-md-6 mb-0'),
-                Column('natural_uf', css_class='form-group col-md-3 mb-0'),
             ),
             'falecido',
             Submit('submit', 'Salvar'),
         )
 
 
-PessoaFisicaForm = modelform_factory(bm.PessoaFisica, form=_PessoaFisicaForm)
+PessoaFisicaForm = modelform_factory(pfm.PessoaFisica, form=_PessoaFisicaForm)

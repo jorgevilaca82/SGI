@@ -14,3 +14,6 @@ class Municipio(models.Model):
     longitude = models.DecimalField(max_digits=22, decimal_places=16)
     capital = models.BooleanField()
     codigo_uf = models.ForeignKey(Estado, on_delete=models.PROTECT)
+
+    def __str__(self):
+        return '{0} ({1})'.format(self.nome, self.codigo_uf.uf)

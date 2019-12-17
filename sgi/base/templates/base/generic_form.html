@@ -1,7 +1,11 @@
-
 {% extends default_layout %}
 
-{% load crispy_forms_tags %}
+{% load crispy_forms_tags static %}
+
+{% block head %}
+<link href="{% static 'select2/css/select2.min.css' %}" rel="stylesheet" />
+<link href="{% static 'select2/css/select2-bootstrap.min.css' %}" rel="stylesheet" />
+{% endblock head %}
 
 {% block content %}
 <div class="row ml-auto mr-auto">
@@ -11,9 +15,49 @@
                 <h5 class="card-title">{{ action }} {{ opts.verbose_name }}</h5>
             </div>
             <div class="card-body">
-            {% crispy form %}
+                {% crispy form %}
             </div>
         </div>
     </div>
 </div>
 {% endblock content %}
+
+{% block scripts %}
+<script src="{% static 'select2/js/select2.full.min.js' %}"></script>
+<script>
+    $.fn.select2.defaults.set( "theme", "bootstrap" );
+
+    processResults = {
+        ofMunicipio: function (data) {
+            
+            let _results = data.map((i) => ({
+                id: i.codigo_ibge, 
+                text: `${i.nome} (${i.uf})`
+            }))
+
+            return {
+                results: _results,
+                pagination: {
+                    more: false
+                }
+            }
+        }
+    }
+    
+    let sl2Obj = $('select.sgi-select2')
+
+    sl2Obj.each((index, obj) => {
+        let jqsl2Obj = $(obj)
+        let objData = jqsl2Obj.data()      
+
+        jqsl2Obj.select2({
+            ajax: {
+                url: objData.url,
+                dataType: 'json',
+                processResults: processResults[objData.processfn] || null
+            }
+        })
+    })
+
+</script>
+{% endblock scripts %}

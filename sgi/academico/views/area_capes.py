@@ -1,4 +1,3 @@
-
 from sgi.commons.views import JSONListView
 
 from ..services.area_capes import AreaCAPESService

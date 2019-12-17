@@ -5,6 +5,7 @@ from .pessoa import urls as pessoa_urls
 from .pessoafisica import urls as pessoafisica_urls
 from .pessoajuridica import urls as pessoajuridica_urls
 from .unidade_organizacional import urls as unidade_organizacional_urls
+from .geo import urls as geo_urls
 
 app_name = 'sgi_base'
 
@@ -26,6 +27,8 @@ urlpatterns = [
 
     path('unidade_organizacional/',
          include(unidade_organizacional_urls)),
+
+     path('geo/', include(geo_urls)),
 
     # path('reviews/', include((pessoa_urls, 'reviews'), namespace='reviews')),
 ]

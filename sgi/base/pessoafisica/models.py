@@ -8,6 +8,8 @@ from sgi.base.models import Pessoa
 from sgi.commons import ChoiceEnumCharValueMeta
 from sgi.commons.constants import ONE_SPACE
 
+from ..geo import models as gm
+
 
 class CondicaoLimitante(models.Model):
 
@@ -83,9 +85,8 @@ class PessoaFisica(Pessoa):
         null=True
     )
 
-    natural_cidade = models.CharField(max_length=120, blank=True, null=True)
-
-    natural_uf = lf_models.BRStateField(blank=True, null=True)
+    natural_cidade = models.ForeignKey(gm.Municipio, 
+        on_delete=models.DO_NOTHING)
 
     class NacionalidadeTipo(Enum, metaclass=ChoiceEnumCharValueMeta):
         BRASILEIRO = 'BR'
