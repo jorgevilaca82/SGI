@@ -10,7 +10,6 @@ from ..geo import models as gm
 
 class _PessoaFisicaForm(ModelForm):
 
-
     class Meta:
         model = pfm.PessoaFisica
 
@@ -27,7 +26,7 @@ class _PessoaFisicaForm(ModelForm):
 
         widgets = {
             'natural_cidade': Select(attrs={
-                'class': 'sgi-select2', 
+                'class': 'sgi-select2',
                 'data-url': reverse_lazy('sgi_base:municipio-search-list'),
                 'data-processFn': 'ofMunicipio'
             }),
@@ -54,8 +53,14 @@ class _PessoaFisicaForm(ModelForm):
         for field, required in self.Meta.extra_required.items():
             self.fields[field].required = required
 
-        # self.fields['natural_cidade'].widgets.choices = []
-        # gm.Municipio.objects.filter(codigo_ibge=self.initial['natural_cidade']).all()
+        natural_cidade_choices = []
+
+        if self.initial.get('natural_cidade'):
+            municipio = gm.Municipio.objects.get(
+                pk=self.initial['natural_cidade'])
+            natural_cidade_choices = [(municipio.pk, municipio), ]
+
+        self.fields['natural_cidade'].widget.choices = natural_cidade_choices
 
         self.helper = FormHelper()
         self.helper.layout = Layout(
