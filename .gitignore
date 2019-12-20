@@ -108,7 +108,7 @@ wwwroot/*
 !wwwroot/.gitkeep
 
 node_modules/
-static/
+/static/
 
 .vscode
 

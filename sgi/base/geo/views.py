@@ -1,5 +1,5 @@
 
-from sgi.commons.views import JSONListView
+from sgi.commons.views import JSONListView, JSONView
 
 from .services import GeoService
 
@@ -24,8 +24,8 @@ class MunicipioSearchListView(JSONListView):
         Returns an object that will be serialized as JSON by json.dumps().
         """
         fields = [
-            'nome', 
-            'codigo_uf__uf', 
+            'nome',
+            'codigo_uf__uf',
             'codigo_ibge',
             'latitude',
             'longitude',
@@ -34,9 +34,9 @@ class MunicipioSearchListView(JSONListView):
 
         def tranform(o):
             return dict(
-                nome=o[fields[0]], 
-                uf=o[fields[1]], 
-                codigo_ibge=o[fields[2]], 
+                nome=o[fields[0]],
+                uf=o[fields[1]],
+                codigo_ibge=o[fields[2]],
                 latitude=o[fields[3]],
                 longitude=o[fields[4]],
                 capital=o[fields[5]],
@@ -46,3 +46,11 @@ class MunicipioSearchListView(JSONListView):
         results = list(map(tranform, data))
 
         return results
+
+
+class CEPSearchView(JSONView):
+
+    def get_data(self, context):
+        cep = self.kwargs.get('cep')
+
+        return GeoService.get_endereco_by_cep(cep)
