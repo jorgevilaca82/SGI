@@ -27,11 +27,11 @@ class Setor(bm.UnidadeOrganizacional):
         COMERCIAL = 'COM'
 
     CATEGORIA_CHOICES = (
-        (Categoria.ADMINISTRATIVO.value, _('ADMINISTRATIVO')),
-        (Categoria.FINANCEIRO.value, _('FINANCEIRO')),
-        (Categoria.RECURSOS_HUMANOS.value, _('RECURSOS_HUMANOS')),
-        (Categoria.OPERACIONAL.value, _('OPERACIONAL')),
-        (Categoria.COMERCIAL.value, _('COMERCIAL')),
+        (Categoria.ADMINISTRATIVO.value, _('Administrativo')),
+        (Categoria.FINANCEIRO.value, _('Financeiro')),
+        (Categoria.RECURSOS_HUMANOS.value, _('Recursos Humanos')),
+        (Categoria.OPERACIONAL.value, _('Operacional')),
+        (Categoria.COMERCIAL.value, _('Comercial')),
     )
 
     CATEGORIA_DEFAULT = Categoria.ADMINISTRATIVO

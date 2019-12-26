@@ -25,4 +25,5 @@ class GeoService(object):
     @staticmethod
     def get_endereco_by_cep(cep: str) -> CepResponseDict:
         viacep_obj = viacep.ViaCEP(cep)
+        
         return viacep_obj.getDadosCEP()

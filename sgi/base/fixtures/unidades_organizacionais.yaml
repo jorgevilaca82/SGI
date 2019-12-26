@@ -6,8 +6,6 @@
     sigla: DGTI
     nome: Dir. de TI
     pessoa_juridica: 2
-    content_type: null
-    object_id: null
 - model: base.unidadeorganizacional
   pk: 2
   fields:
@@ -16,5 +14,3 @@
     sigla: CDSIS
     nome: Coorde de Des de Sist
     pessoa_juridica: null
-    content_type: 13
-    object_id: 1
