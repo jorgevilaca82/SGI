@@ -10,5 +10,13 @@ class HomeViewsTest(TestCase):
         self.assertTrue('dias_da_semana' in response.context)
         self.assertEqual(
             response.context['dias_da_semana'],
-            ['Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado', 'Domingo']
+            [
+                'Segunda',
+                'Terça',
+                'Quarta',
+                'Quinta',
+                'Sexta',
+                'Sábado',
+                'Domingo'
+            ]
         )

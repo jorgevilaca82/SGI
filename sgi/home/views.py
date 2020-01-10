@@ -10,6 +10,11 @@ class HomeView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
+
         context['dias_da_semana'] = list(map(
             lambda d: d.capitalize(), list(calendar.day_name)))
+
+        context['meses'] = list(map(
+            lambda m: m.capitalize(), list(calendar.month_name)))
+
         return context

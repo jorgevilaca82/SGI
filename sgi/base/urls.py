@@ -12,23 +12,36 @@ app_name = 'sgi_base'
 base_module = 'sgi.base'
 
 urlpatterns = [
-    path('',
-         views.HomeView.as_view(),
-         name='home'),
+    path(
+         '', 
+         views.HomeView.as_view(), 
+         name='home'
+     ),
 
-    path('pessoafisica/',
-         include(pessoafisica_urls)),
+    path(
+         'pessoafisica/', 
+         include(pessoafisica_urls)
+     ),
 
-    path('pessoajuridica/',
-         include(pessoajuridica_urls)),
+    path(
+         'pessoajuridica/',
+         include(pessoajuridica_urls)
+     ),
 
-    path('pessoa/',
-         include(pessoa_urls)),
+    path(
+         'pessoa/',
+         include(pessoa_urls)
+     ),
 
-    path('unidade_organizacional/',
-         include(unidade_organizacional_urls)),
+    path(
+         'unidade_organizacional/',
+         include(unidade_organizacional_urls)
+     ),
 
-     path('geo/', include(geo_urls)),
+     path(
+          'geo/', 
+          include(geo_urls)
+     ),
 
     # path('reviews/', include((pessoa_urls, 'reviews'), namespace='reviews')),
 ]

@@ -8,23 +8,41 @@ from . import views
 
 urlpatterns = [
 
-    path('<int:pessoa_id>/', include([
+    path(
+        '<int:pessoa_id>/',
+        include([
 
-         crud('telefone', views.telefone,
-              url_prefix='pessoa-telefone'),
+            crud(
+                'telefone',
+                views.telefone,
+                url_prefix='pessoa-telefone'
+            ),
 
-         crud('contatosocial', views.contatosocial,
-              url_prefix='pessoa-contatosocial'),
+            crud(
+                'contatosocial',
+                views.contatosocial,
+                url_prefix='pessoa-contatosocial'
+            ),
 
-         crud('endereco', views.endereco,
-              url_prefix='pessoa-endereco'),
+            crud(
+                'endereco',
+                views.endereco,
+                url_prefix='pessoa-endereco'
+            ),
 
-         crud('documento', views.documento,
-              url_prefix='pessoa-documento'),
+            crud(
+                'documento',
+                views.documento,
+                url_prefix='pessoa-documento'
+            ),
 
-         crud('documento', views.documento,
-              url_prefix='pessoa-documento'),
+            crud(
+                'documento',
+                views.documento,
+                url_prefix='pessoa-documento'
+            ),
 
-         ])),
+        ])
+    ),
 
 ]

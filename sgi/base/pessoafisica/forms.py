@@ -56,6 +56,7 @@ class _PessoaFisicaForm(ModelForm):
         natural_cidade_choices = []
 
         if self.initial.get('natural_cidade'):
+            # pylint: disable=no-member
             municipio = gm.Municipio.objects.get(
                 pk=self.initial['natural_cidade'])
             natural_cidade_choices = [(municipio.pk, municipio), ]
@@ -65,18 +66,38 @@ class _PessoaFisicaForm(ModelForm):
         self.helper = FormHelper()
         self.helper.layout = Layout(
             Row(
-                Column('cpf', css_class='form-group col-md-4 mb-0'),
-                Column('nome_razao_social',
-                       css_class='form-group col-md-8 mb-0'),
+                Column(
+                    'cpf',
+                    css_class='form-group col-md-4 mb-0'
+                ),
+                Column(
+                    'nome_razao_social',
+                    css_class='form-group col-md-8 mb-0'
+                ),
             ),
             Row(
-                Column('sexo', css_class='form-group col-md-4 mb-0'),
-                Column('estado_civil', css_class='form-group col-md-5 mb-0'),
-                Column('tipo_sanguineo', css_class='form-group col-md-3 mb-0'),
+                Column(
+                    'sexo',
+                    css_class='form-group col-md-4 mb-0'
+                ),
+                Column(
+                    'estado_civil',
+                    css_class='form-group col-md-5 mb-0'
+                ),
+                Column(
+                    'tipo_sanguineo',
+                    css_class='form-group col-md-3 mb-0'
+                ),
             ),
             Row(
-                Column('nacionalidade', css_class='form-group col-md-3 mb-0'),
-                Column('natural_cidade', css_class='form-group col-md-6 mb-0'),
+                Column(
+                    'nacionalidade',
+                    css_class='form-group col-md-3 mb-0'
+                ),
+                Column(
+                    'natural_cidade',
+                    css_class='form-group col-md-6 mb-0'
+                ),
             ),
             'falecido',
             Submit('submit', 'Salvar'),

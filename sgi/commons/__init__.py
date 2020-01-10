@@ -10,5 +10,7 @@ class ChoiceEnumCharValueMeta(EnumMeta):
 
 
 class AutoNameEnum(Enum):
+    # pylint: disable=no-self-argument
     def _generate_next_value_(name, start, count, last_values):
+        # pylint: disable=no-member
         return name.title()

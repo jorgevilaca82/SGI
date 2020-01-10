@@ -19,7 +19,11 @@ class ListView(LoginRequiredMixin, ModelOptsMixin, generic.ListView):
     ordering = ['-id']
 
 
-class CreateView(LoginRequiredMixin, SuccessMessageMixin, ModelOptsMixin, generic.CreateView):
+class CreateView(
+        LoginRequiredMixin,
+        SuccessMessageMixin,
+        ModelOptsMixin,
+        generic.CreateView):
     extra_context = {'action': _('Cadastrar'), }
 
     def post(self, request, *args, **kwargs):
@@ -31,18 +35,26 @@ class DetailView(LoginRequiredMixin, ModelOptsMixin, generic.DetailView):
     pass
 
 
-class UpdateView(LoginRequiredMixin, SuccessMessageMixin, ModelOptsMixin, generic.UpdateView):
+class UpdateView(
+        LoginRequiredMixin,
+        SuccessMessageMixin,
+        ModelOptsMixin,
+        generic.UpdateView):
     model = None
     extra_context = {'action': _('Editar'), }
 
 
-class DeleteView(LoginRequiredMixin, SuccessMessageOnDeleteMixin, generic.DeleteView):
+class DeleteView(
+        LoginRequiredMixin,
+        SuccessMessageOnDeleteMixin,
+        generic.DeleteView):
     model = None
     success_url_name = None
     success_params = []
 
     def get_success_params(self):
-        return dict(map(lambda k: (k, self.kwargs.get(k, None)), self.success_params))
+        kwg = self.kwargs.get
+        return dict(map(lambda k: (k, kwg(k, None)), self.success_params))
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)

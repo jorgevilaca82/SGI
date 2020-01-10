@@ -12,6 +12,8 @@ class UnidadeOrganizacionalForm(ModelForm):
 
         model = bm.UnidadeOrganizacional
 
-        fields = ('sigla',
-                  'nome',
-                  'pessoa_juridica',)
+        fields = (
+            'sigla',
+            'nome',
+            'pessoa_juridica',
+        )

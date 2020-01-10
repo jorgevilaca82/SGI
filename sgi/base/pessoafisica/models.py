@@ -85,8 +85,8 @@ class PessoaFisica(Pessoa):
         null=True
     )
 
-    natural_cidade = models.ForeignKey(gm.Municipio, 
-        on_delete=models.DO_NOTHING)
+    natural_cidade = models.ForeignKey(gm.Municipio,
+                                       on_delete=models.DO_NOTHING)
 
     class NacionalidadeTipo(Enum, metaclass=ChoiceEnumCharValueMeta):
         BRASILEIRO = 'BR'
@@ -141,10 +141,10 @@ class PessoaFisica(Pessoa):
         return reverse('sgi_base:pessoafisica-detail', kwargs={'pk': self.pk})
 
     def __init__(self, *args, **kwargs):
-        instance = super().__init__(*args, **kwargs)
+        super().__init__(*args, **kwargs)
+        # pylint: disable=no-member
         self._meta.get_field(
             'nome_razao_social').verbose_name = _('Nome Completo')
-        return instance
 
 
 class RelacaoDependencia(models.Model):

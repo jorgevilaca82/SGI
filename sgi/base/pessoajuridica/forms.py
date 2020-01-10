@@ -20,10 +20,14 @@ class _PessoaJuridicaForm(ModelForm):
         self.helper = FormHelper()
         self.helper.layout = Layout(
             Row(
-                Column('cnpj',
-                       css_class='form-group col-md-4 mb-0'),
-                Column('nome_razao_social',
-                       css_class='form-group col-md-8 mb-0'),
+                Column(
+                    'cnpj',
+                    css_class='form-group col-md-4 mb-0'
+                ),
+                Column(
+                    'nome_razao_social',
+                    css_class='form-group col-md-8 mb-0'
+                ),
             ),
             Submit('submit', 'Salvar'),
         )

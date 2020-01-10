@@ -23,7 +23,8 @@ def menu(context):
 
     _apps = [app for app in apps.app_configs]
 
-    # TODO: checar se a chave app já existe pra fazer o merge e colocar menu em cache
+    # TODO: checar se a chave app já existe pra fazer o merge e
+    # colocar menu em cache
 
     for a in _apps:
         _path = apps.get_app_config(a).path

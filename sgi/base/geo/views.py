@@ -7,13 +7,9 @@ from .services import GeoService
 class MunicipioSearchListView(JSONListView):
 
     def get_queryset(self):
-
         max_limit = 20
-
         search_term = self.request.GET.get('term', '')
-
         limit = self.request.GET.get('l', max_limit)
-
         if limit > max_limit:
             limit = max_limit
 

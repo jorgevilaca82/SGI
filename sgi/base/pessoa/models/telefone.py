@@ -24,8 +24,12 @@ class Telefone(PessoaRelatedModel):
 
     tipo = models.IntegerField(choices=TELEFONE_TIPO_CHOICES)
 
-    numero = models.CharField(max_length=120, validators=[
-                              PhoneRegexValidator()])
+    numero = models.CharField(
+        max_length=120,
+        validators=[
+            PhoneRegexValidator()
+        ]
+    )
 
     observacoes = models.TextField(null=True, blank=True)
 
@@ -34,5 +38,6 @@ class Telefone(PessoaRelatedModel):
 
     def get_absolute_url(self):
         from django.urls import reverse
+        # pylint: disable=no-member
         kwargs = {'pessoa_id': self.pessoa_id, 'pk': self.pk}
         return reverse('sgi_base:pessoa-telefone-detail', kwargs=kwargs)

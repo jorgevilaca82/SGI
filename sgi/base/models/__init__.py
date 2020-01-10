@@ -1,7 +1,12 @@
 from sgi.base.geo.models import Estado, Municipio
-from sgi.base.pessoa.models import (ContatoSocial, DocumentoPessoal,
-                                    DocumentoPessoalTipo, Endereco, Pessoa,
-                                    Telefone)
+from sgi.base.pessoa.models import (
+    ContatoSocial,
+    DocumentoPessoal,
+    DocumentoPessoalTipo,
+    Endereco,
+    Pessoa,
+    Telefone
+)
 from sgi.base.pessoafisica.models import PessoaFisica, RelacaoDependencia
 from sgi.base.pessoajuridica.models import PessoaJuridica
 from sgi.base.unidade_organizacional.models import UnidadeOrganizacional

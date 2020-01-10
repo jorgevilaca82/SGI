@@ -1,7 +1,12 @@
 home
 opa
 {% for dia in dias_da_semana %}
-    <li>{{ dia }}</li>
+<li>{{ dia }}</li>
 {% endfor %}
 
 <a href="{% url 'sgi_base:home' %}">Base Home</a>
+
+
+{% for mes in meses %}
+<li>{{ mes }}</li>
+{% endfor %}

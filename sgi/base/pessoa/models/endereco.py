@@ -8,7 +8,7 @@ from .pessoa import PessoaRelatedModel
 
 
 class Endereco(PessoaRelatedModel):
-    
+
     class Meta:
         verbose_name = _('Endereço')
         verbose_name_plural = _('Endereços')
@@ -40,11 +40,12 @@ class Endereco(PessoaRelatedModel):
     uf = lf_models.BRStateField()
 
     complemento = models.CharField(max_length=255, blank=True, null=True)
-    
+
     # Define se é o endereço principal
     principal = models.BooleanField(default=False)
 
     def get_absolute_url(self):
         from django.urls import reverse
+        # pylint: disable=no-member
         kwargs = {'pessoa_id': self.pessoa_id, 'pk': self.pk}
         return reverse('sgi_base:pessoa-endereco-detail', kwargs=kwargs)

@@ -21,14 +21,19 @@ class UnidadeOrganizacional(AuditableModel):
 
     # opcional no caso de sub unidades
     pessoa_juridica = models.ForeignKey(
-        bm.PessoaJuridica, on_delete=models.PROTECT, blank=True, null=True)
+        bm.PessoaJuridica,
+        on_delete=models.PROTECT,
+        blank=True,
+        null=True
+    )
 
     uo_superior = models.ForeignKey(
         'self',
         blank=True,
         null=True,
         on_delete=models.PROTECT,
-        related_name='subordinados')
+        related_name='subordinados'
+    )
 
     def __str__(self):
         return '{0} > {1}'.format(
@@ -38,5 +43,6 @@ class UnidadeOrganizacional(AuditableModel):
     def clean(self):
         if not self.pessoa_juridica and not self.uo_superior:
             raise ValidationError(
-                ('Unidade Organizacional deve estar atrelada à uma '
-                 'pessoa jurídica ou à uma unidade organizacional superior.'))
+                'Unidade Organizacional deve estar atrelada à uma '
+                'pessoa jurídica ou à uma unidade organizacional superior.'
+            )

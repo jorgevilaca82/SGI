@@ -14,6 +14,7 @@ class ListView(generic.ListView):
 class CreateView(generic.CreateView):
     model = MODEL
     form_class = FORM_CLASS
+    # pylint: disable=no-member
     success_message = model._meta.verbose_name + \
         " com n. %(valor)s cadastrado com sucesso!"
 
@@ -27,9 +28,8 @@ class CreateView(generic.CreateView):
 
     def get(self, request, *args, **kwargs):
         # Desabilita os tipos de documentos já utlizados pela pessoa
-        self.documentos_disabled = (
-            [documento['tipo']
-                for documento in self.pessoa.base_documentopessoal_related.values('tipo')])
+        tipos = self.pessoa.base_documentopessoal_related.values('tipo')
+        self.documentos_disabled = ([documento['tipo'] for documento in tipos])
 
         return super().get(request, *args, **kwargs)
 
@@ -41,12 +41,14 @@ class DetailView(generic.DetailView):
 class UpdateView(generic.UpdateView):
     model = MODEL
     form_class = FORM_CLASS
+    # pylint: disable=no-member
     success_message = model._meta.verbose_name + \
         " com n. %(valor)s atualizada com sucesso!"
 
 
 class DeleteView(generic.DeleteView):
     model = MODEL
+    # pylint: disable=no-member
     success_message = model._meta.verbose_name + \
         " com n. %(valor)s excluída permanentemente!"
     success_url_name = 'sgi_base:pessoa-documento-list'

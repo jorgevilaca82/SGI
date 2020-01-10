@@ -33,10 +33,10 @@ class PessoaJuridica(Pessoa):
         return reverse('sgi_base:pessoajuridica-detail', kwargs={'pk': self.pk})
 
     def __init__(self, *args, **kwargs):
-        instance = super().__init__(*args, **kwargs)
+        super().__init__(*args, **kwargs)
+        # pylint: disable=no-member
         self._meta.get_field(
             'nome_razao_social').verbose_name = _('Razão Social')
-        return instance
 
     def __str__(self):
         return '{nome_razao_social} ({cnpj})'.format(**vars(self))

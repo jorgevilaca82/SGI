@@ -10,7 +10,8 @@ class SGIAuthenticationForm(AuthenticationForm):
             'autofocus': True,
             'class': 'form-control',
             'placeholder': _('Username')
-        }))
+        })
+    )
 
     password = forms.CharField(
         label=_("Password"),

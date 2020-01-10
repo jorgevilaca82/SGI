@@ -16,4 +16,5 @@ class Municipio(models.Model):
     codigo_uf = models.ForeignKey(Estado, on_delete=models.PROTECT)
 
     def __str__(self):
+        # pylint: disable=no-member
         return '{0} ({1})'.format(self.nome, self.codigo_uf.uf)
