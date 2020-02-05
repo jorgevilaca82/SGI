@@ -28,7 +28,9 @@ class UnidadesAreasAcademicasTest(TestCase):
         self.assertIsNot(polo1.pk, None)
 
         responsavel = PessoaFisica.objects.create(
-            nome='Jorge Vilaca', cpf='70434239291')
+            nome='Jorge Vilaca', 
+            cpf='70434239291'
+        )
 
         area_diretoria = AreaUnidadeDeEnsino.objects.create(
             tipo=AreaUnidadeDeEnsino.Tipo.DIRETORIA_DE_ENSINO,

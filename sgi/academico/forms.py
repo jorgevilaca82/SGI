@@ -71,4 +71,6 @@ class _UnidadeDeEnsinoForm(ModelForm):
 
 
 UnidadeDeEnsinoForm = modelform_factory(
-    am.UnidadeDeEnsino, form=_UnidadeDeEnsinoForm)
+    am.UnidadeDeEnsino, 
+    form=_UnidadeDeEnsinoForm
+)

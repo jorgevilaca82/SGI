@@ -12,7 +12,6 @@ class Aluno(bm.PessoaFisica):
     associada um curso. Uma Pessoa Física pode ser aluno de mais de um curso,
     mas nunca mais que dois e sem conflito de turnos
     """
-
     class Status(IntEnum):
         MATRICULADO = auto()
         EVADIDO = auto()
@@ -39,6 +38,4 @@ class Aluno(bm.PessoaFisica):
     status = models.IntegerField(choices=ALUNO_STATUS_CHOICES)
 
     # RA - Registro de Aluno (identificador de matricula)
-    ra = models.CharField(
-        max_length=20, default='', editable=False, unique=True)
-
+    ra = models.CharField(max_length=20, default='', editable=False, unique=True)

@@ -7,11 +7,10 @@ from sgi.recursos_humanos import models as rhm
 
 
 class Professor(rhm.Funcionario):
-    
+
     class Meta:
         pass
 
-    
     class Titulacao(IntEnum):
         GRADUACAO = auto()
         ESPECIALIZACAO = auto()
@@ -19,7 +18,6 @@ class Professor(rhm.Funcionario):
         DOUTORADO = auto()
         POS_DOUTORADO = auto()
 
-    
     PROFESSOR_TITULACAO_CHOICES = (
         (Titulacao.GRADUACAO.value, _('Gradução')),
         (Titulacao.ESPECIALIZACAO.value, _('Especialização')),

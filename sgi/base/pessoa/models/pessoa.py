@@ -4,7 +4,7 @@ from sgi.commons.models import AuditableModel
 
 
 class Pessoa(AuditableModel):
-    
+
     class Meta:
         pass
 
@@ -15,7 +15,7 @@ class Pessoa(AuditableModel):
 
 
 class PessoaRelatedModel(AuditableModel):
-    
+
     class Meta:
         abstract = True
 

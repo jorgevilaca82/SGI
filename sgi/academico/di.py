@@ -2,7 +2,7 @@
 
 from injector import Injector, InstanceProvider, Module
 
-from .services.registro_aluno import GeradorRAImpl, GeradorRA, AlunoRAUpdater
+from .services.registro_aluno import AlunoRAUpdater, GeradorRA, GeradorRAImpl
 
 
 class AcademicoModule(Module):

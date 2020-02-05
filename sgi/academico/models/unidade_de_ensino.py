@@ -43,8 +43,10 @@ class UnidadeDeEnsino(bm.UnidadeOrganizacional):
 
     def get_absolute_url(self):
         from django.urls import reverse
-        return reverse('sgi_academico:unidade-de-ensino-detail',
-                       kwargs={'pk': self.pk})
+        return reverse(
+            'sgi_academico:unidade-de-ensino-detail',
+            kwargs={'pk': self.pk}
+        )
 
     def __str__(self):
         return super().__str__()

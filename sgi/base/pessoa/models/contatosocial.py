@@ -9,7 +9,7 @@ from .pessoa import PessoaRelatedModel
 
 
 class ContatoSocial(PessoaRelatedModel):
-    
+
     class Meta:
         verbose_name = _('Contato Social')
         verbose_name_plural = _('Contatos Sociais')

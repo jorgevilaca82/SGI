@@ -31,7 +31,7 @@ def menu(context):
         _menu_path = os.path.join(_path, 'menu.yml')
         if os.path.exists(_menu_path):
             with open(_menu_path, 'rt', encoding='utf8') as stream:
-                _menu_data = yaml.load(stream)
+                _menu_data = yaml.safe_load(stream)
                 menu_data += (_menu_data)
 
     return {'menu_data': menu_data, 'request': context['request']}

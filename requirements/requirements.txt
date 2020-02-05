@@ -1,15 +1,16 @@
 asgiref==3.2.3
 certifi==2019.11.28
 chardet==3.0.4
-Django==3.0.1
+Django==3.0.2
 django-crispy-forms==1.8.1
 django-localflavor==2.2
 idna==2.8
-python-dotenv==0.10.3
-python-stdnum==1.12
+injector==0.18.2
+python-dotenv==0.10.5
+python-stdnum==1.13
 pytz==2019.3
-PyYAML==5.2
+PyYAML==5.3
 requests==2.22.0
 sqlparse==0.3.0
-urllib3==1.25.7
+urllib3==1.25.8
 -e git+https://github.com/leogregianin/viacep-python.git@e5caf7ed1c0e2928a18a617bf1c88c1e4c92be6e#egg=viacep

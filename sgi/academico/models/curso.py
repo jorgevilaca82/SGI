@@ -6,12 +6,12 @@ from .setor_ensino import SetorEnsino
 
 
 class AreaCAPES(models.Model):
-    
+
     class Meta:
         pass
 
     codigo = models.PositiveIntegerField(primary_key=True)
-    
+
     descricao = models.CharField(max_length=80)
 
     @property
@@ -23,7 +23,7 @@ class AreaCAPES(models.Model):
 
 
 class Curso(models.Model):
-    
+
     class Meta:
         pass
 
@@ -42,7 +42,6 @@ class MatrizCurricular(models.Model):
     class Meta:
         pass
 
-    
     class Status(IntEnum):
         ATIVA = auto()
         VIGENTE = auto()

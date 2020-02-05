@@ -12,7 +12,7 @@ class AuditableModel(models.Model):
 
 
 class NomeESiglaMixin(object):
-    
+
     sigla = models.CharField(max_length=20)
 
-    nome = models.CharField(max_length=140)    
+    nome = models.CharField(max_length=140)
