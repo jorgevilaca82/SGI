@@ -5,10 +5,10 @@ from .pessoa import Pessoa
 from .telefone import Telefone
 
 __all__ = [
-    'Pessoa',
-    'Endereco',
-    'ContatoSocial',
-    'DocumentoPessoalTipo',
-    'DocumentoPessoal',
-    'Telefone',
+    "Pessoa",
+    "Endereco",
+    "ContatoSocial",
+    "DocumentoPessoalTipo",
+    "DocumentoPessoal",
+    "Telefone",
 ]

@@ -1,7 +1,7 @@
 # codigo comum compartilhado pelas apps
 from enum import Enum, EnumMeta
 
-default_app_config = 'sgi.commons.apps.CommonsConfig'
+default_app_config = "sgi.commons.apps.CommonsConfig"
 
 
 class ChoiceEnumCharValueMeta(EnumMeta):

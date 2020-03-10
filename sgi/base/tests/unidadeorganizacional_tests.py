@@ -7,18 +7,22 @@ from sgi.base.models import *
 class UnidadeOrganizacionalTestCase(TestCase):
 
     fixtures = (
-        'pessoas.yaml',
-        'pessoasjuridicas.yaml',
+        "pessoas.yaml",
+        "pessoasjuridicas.yaml",
     )
 
     def setUp(self):
         self.pessoa_juridica = PessoaJuridica.objects.get(pk=2)
 
         self.uo_reitoria = UnidadeOrganizacional.objects.create(
-            sigla='REITORIA', nome='REITORIA', pessoa_juridica=self.pessoa_juridica)
+            sigla="REITORIA", nome="REITORIA", pessoa_juridica=self.pessoa_juridica
+        )
 
         self.dgti = UnidadeOrganizacional(
-            sigla='DGTI', nome='Diretoria de Gestão de Tecnologia da Informação', pessoa_juridica=self.pessoa_juridica)
+            sigla="DGTI",
+            nome="Diretoria de Gestão de Tecnologia da Informação",
+            pessoa_juridica=self.pessoa_juridica,
+        )
 
         self.dgti.save()
 

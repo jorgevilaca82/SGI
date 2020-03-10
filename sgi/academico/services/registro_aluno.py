@@ -4,7 +4,6 @@ from injector import inject
 
 
 class GeradorRA(object):
-    
     def gerar(self):
         raise NotImplementedError()
 
@@ -15,11 +14,10 @@ class GeradorRAImpl(GeradorRA):
 
     def gerar(self):
         y = datetime.date.today().year
-        return '%s%s' % (y, self.model.pk)
+        return f"{y}{self.model.pk}"
 
 
 class AlunoRAUpdater(object):
-
     @inject
     def __init__(self, gerador_ra: GeradorRA, aluno):
         self.gerador_ra = gerador_ra
@@ -28,4 +26,4 @@ class AlunoRAUpdater(object):
 
     def update(self) -> None:
         self.aluno.ra = self.gerador_ra.gerar()
-        self.aluno.save(update_fields=['ra'])
+        self.aluno.save(update_fields=["ra"])

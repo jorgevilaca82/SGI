@@ -5,10 +5,9 @@ from .pessoa import PessoaRelatedModel
 
 
 class DocumentoPessoalTipo(models.Model):
-
     class Meta:
-        verbose_name = _('Documento Pessoal Tipo')
-        verbose_name_plural = _('Documentos Pessoais Tipos')
+        verbose_name = _("Documento Pessoal Tipo")
+        verbose_name_plural = _("Documentos Pessoais Tipos")
 
     # RG CTPS CNH TITULO_ELEITOR PASSAPORTE RESERVISTA CERTIDAO_NASCIMENTO
     nome = models.CharField(max_length=20)
@@ -18,11 +17,10 @@ class DocumentoPessoalTipo(models.Model):
 
 
 class DocumentoPessoal(PessoaRelatedModel):
-
     class Meta:
-        unique_together = ('tipo', 'pessoa')
-        verbose_name = _('Documento Pessoal')
-        verbose_name_plural = _('Documentos Pessoais')
+        unique_together = ("tipo", "pessoa")
+        verbose_name = _("Documento Pessoal")
+        verbose_name_plural = _("Documentos Pessoais")
 
     tipo = models.ForeignKey(DocumentoPessoalTipo, on_delete=models.PROTECT)
 
@@ -31,9 +29,10 @@ class DocumentoPessoal(PessoaRelatedModel):
     observacoes = models.CharField(max_length=140, null=True, blank=True)
 
     def __str__(self):
-        return '{}: {}'.format(self.tipo, self.valor)
+        return "{}: {}".format(self.tipo, self.valor)
 
     def get_absolute_url(self):
         from django.urls import reverse
-        kwargs = {'pessoa_id': self.pessoa_id, 'pk': self.pk}
-        return reverse('sgi_base:pessoa-documento-detail', kwargs=kwargs)
+
+        kwargs = {"pessoa_id": self.pessoa_id, "pk": self.pk}
+        return reverse("sgi_base:pessoa-documento-detail", kwargs=kwargs)

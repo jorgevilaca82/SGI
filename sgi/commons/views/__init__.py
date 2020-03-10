@@ -5,13 +5,13 @@ from django.http import JsonResponse
 from django.views.generic import ListView, TemplateView
 from django.views.generic.detail import BaseDetailView
 
-JSON_MIMETYPE = mimetypes.types_map['.json']
+JSON_MIMETYPE = mimetypes.types_map[".json"]
 
 
 def wants_json(request):
     return (
-        request.META.get('HTTP_ACCEPT') == JSON_MIMETYPE or
-        request.GET.get('format') == 'json'
+        request.META.get("HTTP_ACCEPT") == JSON_MIMETYPE
+        or request.GET.get("format") == "json"
     )
 
 
@@ -24,11 +24,8 @@ class JSONResponseMixin:
         """
         Returns a JSON response, transforming 'context' to make the payload.
         """
-        response_kwargs['safe'] = False
-        return JsonResponse(
-            self.get_data(context),
-            **response_kwargs
-        )
+        response_kwargs["safe"] = False
+        return JsonResponse(self.get_data(context), **response_kwargs)
 
     def get_data(self, context):
         """

@@ -10,10 +10,9 @@ from .curso import *
 
 
 class UnidadeDeEnsino(bm.UnidadeOrganizacional):
-
     class Meta:
-        verbose_name = _('Unidade de Ensino')
-        verbose_name_plural = _('Unidades de Ensinos')
+        verbose_name = _("Unidade de Ensino")
+        verbose_name_plural = _("Unidades de Ensinos")
 
     class Tipo(IntEnum):
         CAMPUS = auto()
@@ -21,15 +20,14 @@ class UnidadeDeEnsino(bm.UnidadeOrganizacional):
         ESCOLA = auto()
 
     TIPO_CHOICES = (
-        (Tipo.CAMPUS.value, _('Campus')),
-        (Tipo.POLO.value, _('Polo')),
-        (Tipo.ESCOLA.value, _('Escola')),
+        (Tipo.CAMPUS.value, _("Campus")),
+        (Tipo.POLO.value, _("Polo")),
+        (Tipo.ESCOLA.value, _("Escola")),
     )
 
     tipo = models.IntegerField(choices=TIPO_CHOICES)
 
     class PorTipoQuerySet(models.QuerySet):
-
         def campus(self):
             return self.filter(tipo=UnidadeDeEnsino.Tipo.CAMPUS)
 
@@ -43,10 +41,8 @@ class UnidadeDeEnsino(bm.UnidadeOrganizacional):
 
     def get_absolute_url(self):
         from django.urls import reverse
-        return reverse(
-            'sgi_academico:unidade-de-ensino-detail',
-            kwargs={'pk': self.pk}
-        )
+
+        return reverse("sgi_academico:unidade-de-ensino-detail", kwargs={"pk": self.pk})
 
     def __str__(self):
         return super().__str__()

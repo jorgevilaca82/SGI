@@ -6,7 +6,6 @@ from .setor_ensino import SetorEnsino
 
 
 class AreaCAPES(models.Model):
-
     class Meta:
         pass
 
@@ -23,7 +22,6 @@ class AreaCAPES(models.Model):
 
 
 class Curso(models.Model):
-
     class Meta:
         pass
 

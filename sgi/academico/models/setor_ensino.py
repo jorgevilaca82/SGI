@@ -16,6 +16,6 @@ class SetorEnsino(admm.Setor):
         pass
 
     class Categoria(Enum):
-        ENSINO = 'EDU'
+        ENSINO = "EDU"
 
     CATEGORIA_DEFAULT = Categoria.ENSINO

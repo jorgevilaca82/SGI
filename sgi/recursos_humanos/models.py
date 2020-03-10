@@ -8,7 +8,6 @@ from sgi.base import models as bm  # (bm) base models
 
 
 class Funcionario(bm.PessoaFisica):
-
     class Meta:
         pass
 
@@ -22,13 +21,13 @@ class Funcionario(bm.PessoaFisica):
         MENOR_APRENDIZ = auto()
 
     FUNCIONARIO_TIPO_CHOICES = (
-        (Tipo.CLT_PERMANENTE.value, _('CLT Permanente')),
-        (Tipo.CLT_TEMPORARIO.value, _('CLT Temporário')),
-        (Tipo.PRESTADOR_SERVICO.value, _('Prestador de Serviço')),
-        (Tipo.SERVIDOR_PUBLICO.value, _('Servidor Público')),
-        (Tipo.ESTAGIARIO.value, _('Estagiário')),
-        (Tipo.TRAINEE.value, _('Trainee')),
-        (Tipo.MENOR_APRENDIZ.value, _('Menor Aprendiz')),
+        (Tipo.CLT_PERMANENTE.value, _("CLT Permanente")),
+        (Tipo.CLT_TEMPORARIO.value, _("CLT Temporário")),
+        (Tipo.PRESTADOR_SERVICO.value, _("Prestador de Serviço")),
+        (Tipo.SERVIDOR_PUBLICO.value, _("Servidor Público")),
+        (Tipo.ESTAGIARIO.value, _("Estagiário")),
+        (Tipo.TRAINEE.value, _("Trainee")),
+        (Tipo.MENOR_APRENDIZ.value, _("Menor Aprendiz")),
     )
 
     tipo = models.IntegerField(choices=FUNCIONARIO_TIPO_CHOICES)
@@ -41,8 +40,7 @@ class Funcionario(bm.PessoaFisica):
 
     class ServidorManager(models.Manager):
         def get_queryset(self):
-            return (super().get_queryset()
-                    .filter(tipo=Funcionario.Tipo.SERVIDOR_PUBLICO))
+            return super().get_queryset().filter(tipo=Funcionario.Tipo.SERVIDOR_PUBLICO)
 
     servidores = ServidorManager()
 

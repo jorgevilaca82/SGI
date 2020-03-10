@@ -10,14 +10,13 @@ CepResponseDict = Dict[str, str]
 
 
 class GeoService(object):
-
     @staticmethod
     def search_municipio_by_nome_or_uf(term: str) -> QuerySet:
 
         qs = m.Municipio.objects.filter(
-            Q(nome__startswith=term) |
-            Q(codigo_uf__nome__startswith=term) |
-            Q(codigo_uf__uf__startswith=term)
+            Q(nome__startswith=term)
+            | Q(codigo_uf__nome__startswith=term)
+            | Q(codigo_uf__uf__startswith=term)
         )
 
         return qs
@@ -25,5 +24,5 @@ class GeoService(object):
     @staticmethod
     def get_endereco_by_cep(cep: str) -> CepResponseDict:
         viacep_obj = viacep.ViaCEP(cep)
-        
+
         return viacep_obj.getDadosCEP()

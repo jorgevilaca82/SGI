@@ -6,13 +6,13 @@ from django.utils.translation import gettext_lazy as _
 from sgi.base import models as bm
 from sgi.commons.views import generic
 
-JSON_MIMETYPE = mimetypes.types_map['.json']
+JSON_MIMETYPE = mimetypes.types_map[".json"]
 
 
 def wants_json(request):
     return (
-        request.META.get('HTTP_ACCEPT') == JSON_MIMETYPE or
-        request.GET.get('format') == 'json'
+        request.META.get("HTTP_ACCEPT") == JSON_MIMETYPE
+        or request.GET.get("format") == "json"
     )
 
 
@@ -22,14 +22,14 @@ def find_pessoa(pk):
 
 class PessoaQuerySetFilterMixin(object):
     def get_queryset(self):
-        self.pessoa = find_pessoa(self.kwargs['pessoa_id'])
+        self.pessoa = find_pessoa(self.kwargs["pessoa_id"])
         self.queryset = self.model.objects.filter(pessoa=self.pessoa)
         return super().get_queryset()
 
 
 class ListView(PessoaQuerySetFilterMixin, generic.ListView):
     paginate_by = 5
-    ordering = ['-id']
+    ordering = ["-id"]
 
     # def render_to_response(self, context, **response_kwargs):
     #     if self.request.is_ajax() or wants_json(self.request):
@@ -39,10 +39,10 @@ class ListView(PessoaQuerySetFilterMixin, generic.ListView):
 
 class CreateView(generic.CreateView):
     pessoa = None
-    template_name = 'base/generic_form.html'
+    template_name = "base/generic_form.html"
 
     def dispatch(self, *args, **kwargs):
-        self.pessoa = find_pessoa(self.kwargs['pessoa_id'])
+        self.pessoa = find_pessoa(self.kwargs["pessoa_id"])
         return super().dispatch(*args, **kwargs)
 
     def form_valid(self, form):
@@ -62,4 +62,6 @@ class UpdateView(generic.UpdateView):
 
 class DeleteView(generic.DeleteView):
     success_url_name = None
-    success_params = ['pessoa_id', ]
+    success_params = [
+        "pessoa_id",
+    ]

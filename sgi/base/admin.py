@@ -8,11 +8,16 @@ class EnderecoInline(admin.StackedInline):
     extra = 1
 
     fieldsets = (
-        (None, {'fields': (
-            ('tipo', 'cep', 'logradouro', 'numero'),
-            ('bairro', 'cidade', 'uf'),
-            ('complemento', 'principal')
-        )}),
+        (
+            None,
+            {
+                "fields": (
+                    ("tipo", "cep", "logradouro", "numero"),
+                    ("bairro", "cidade", "uf"),
+                    ("complemento", "principal"),
+                )
+            },
+        ),
     )
 
 
@@ -42,20 +47,25 @@ class PessoaAdminMixin(admin.ModelAdmin):
 
 @admin.register(bm.PessoaFisica)
 class PessoaFisicaAdmin(PessoaAdminMixin):
-    list_display = ('nome_razao_social', 'cpf', 'estado_civil')
+    list_display = ("nome_razao_social", "cpf", "estado_civil")
 
     fieldsets = (
-        (None, {'fields': (
-            ('cpf', 'nome_razao_social', 'sexo'),
-            ('estado_civil', 'tipo_sanguineo'),
-            ('natural_cidade', 'natural_uf'),
-        )}),
+        (
+            None,
+            {
+                "fields": (
+                    ("cpf", "nome_razao_social", "sexo"),
+                    ("estado_civil", "tipo_sanguineo"),
+                    ("natural_cidade", "natural_uf"),
+                )
+            },
+        ),
     )
 
 
 @admin.register(bm.PessoaJuridica)
 class PessoaJuridicaAdmin(PessoaAdminMixin):
-    list_display = ('nome_razao_social', 'cnpj')
+    list_display = ("nome_razao_social", "cnpj")
 
 
 @admin.register(bm.DocumentoPessoalTipo)

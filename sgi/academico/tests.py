@@ -8,34 +8,28 @@ from .models import AreaUnidadeDeEnsino, UnidadeDeEnsino
 
 
 class UnidadesAreasAcademicasTest(TestCase):
-
     def test_create_unidade_de_ensino(self):
 
         campus1 = UnidadeDeEnsino.objects.create(
-            tipo=UnidadeDeEnsino.Tipo.CAMPUS,
-            sigla='PVHCAL',
-            nome='CAMPUS PVH CALAMA'
+            tipo=UnidadeDeEnsino.Tipo.CAMPUS, sigla="PVHCAL", nome="CAMPUS PVH CALAMA"
         )
 
         self.assertIsNot(campus1.pk, None)
 
         polo1 = UnidadeDeEnsino.objects.create(
-            tipo=UnidadeDeEnsino.Tipo.POLO,
-            sigla='POLO_VLH',
-            nome='POLO VILHENA'
+            tipo=UnidadeDeEnsino.Tipo.POLO, sigla="POLO_VLH", nome="POLO VILHENA"
         )
 
         self.assertIsNot(polo1.pk, None)
 
         responsavel = PessoaFisica.objects.create(
-            nome='Jorge Vilaca', 
-            cpf='70434239291'
+            nome="Jorge Vilaca", cpf="70434239291"
         )
 
         area_diretoria = AreaUnidadeDeEnsino.objects.create(
             tipo=AreaUnidadeDeEnsino.Tipo.DIRETORIA_DE_ENSINO,
-            sigla='DECAL',
-            nome='DIRETORIA DE ENSINO PVHCAL'
+            sigla="DECAL",
+            nome="DIRETORIA DE ENSINO PVHCAL",
         )
 
         self.assertIsNot(area_diretoria.pk, None)

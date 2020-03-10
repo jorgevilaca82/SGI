@@ -1,1 +1,1 @@
-default_app_config = 'sgi.academico.apps.AcademicoConfig'
+default_app_config = "sgi.academico.apps.AcademicoConfig"

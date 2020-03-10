@@ -5,7 +5,8 @@ class SuccessMessageOnDeleteMixin(object):
     """
     Add a success message on successful form delete submission.
     """
-    success_message = ''
+
+    success_message = ""
 
     def delete(self, request, *args, **kwargs):
         obj = self.get_object()

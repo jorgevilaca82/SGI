@@ -7,7 +7,6 @@ from sgi.base import models as bm
 
 
 class SetorTipo(models.Model):
-    
     class Meta:
         pass
 
@@ -15,23 +14,22 @@ class SetorTipo(models.Model):
 
 
 class Setor(bm.UnidadeOrganizacional):
-    
     class Meta:
         pass
 
     class Categoria(Enum):
-        ADMINISTRATIVO = 'ADM'
-        FINANCEIRO = 'FIN'
-        RECURSOS_HUMANOS = 'RH'
-        OPERACIONAL = 'OPR'
-        COMERCIAL = 'COM'
+        ADMINISTRATIVO = "ADM"
+        FINANCEIRO = "FIN"
+        RECURSOS_HUMANOS = "RH"
+        OPERACIONAL = "OPR"
+        COMERCIAL = "COM"
 
     CATEGORIA_CHOICES = (
-        (Categoria.ADMINISTRATIVO.value, _('Administrativo')),
-        (Categoria.FINANCEIRO.value, _('Financeiro')),
-        (Categoria.RECURSOS_HUMANOS.value, _('Recursos Humanos')),
-        (Categoria.OPERACIONAL.value, _('Operacional')),
-        (Categoria.COMERCIAL.value, _('Comercial')),
+        (Categoria.ADMINISTRATIVO.value, _("Administrativo")),
+        (Categoria.FINANCEIRO.value, _("Financeiro")),
+        (Categoria.RECURSOS_HUMANOS.value, _("Recursos Humanos")),
+        (Categoria.OPERACIONAL.value, _("Operacional")),
+        (Categoria.COMERCIAL.value, _("Comercial")),
     )
 
     CATEGORIA_DEFAULT = Categoria.ADMINISTRATIVO

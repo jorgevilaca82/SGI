@@ -6,19 +6,15 @@ from sgi.base.models import Pessoa
 
 
 class PessoaJuridica(Pessoa):
-
     class Meta:
-        verbose_name = _('Pessoa Jurídica')
-        verbose_name_plural = _('Pessoas Jurídicas')
+        verbose_name = _("Pessoa Jurídica")
+        verbose_name_plural = _("Pessoas Jurídicas")
 
     cnpj = lf_models.BRCNPJField(unique=True)
 
     matriz = models.ForeignKey(
-        'self',
-        blank=True,
-        null=True,
-        on_delete=models.PROTECT,
-        related_name='filiais')
+        "self", blank=True, null=True, on_delete=models.PROTECT, related_name="filiais"
+    )
 
     @property
     def razao_social(self):
@@ -30,13 +26,13 @@ class PessoaJuridica(Pessoa):
 
     def get_absolute_url(self):
         from django.urls import reverse
-        return reverse('sgi_base:pessoajuridica-detail', kwargs={'pk': self.pk})
+
+        return reverse("sgi_base:pessoajuridica-detail", kwargs={"pk": self.pk})
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         # pylint: disable=no-member
-        self._meta.get_field(
-            'nome_razao_social').verbose_name = _('Razão Social')
+        self._meta.get_field("nome_razao_social").verbose_name = _("Razão Social")
 
     def __str__(self):
-        return '{nome_razao_social} ({cnpj})'.format(**vars(self))
+        return "{nome_razao_social} ({cnpj})".format(**vars(self))

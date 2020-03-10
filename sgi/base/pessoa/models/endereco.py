@@ -8,10 +8,9 @@ from .pessoa import PessoaRelatedModel
 
 
 class Endereco(PessoaRelatedModel):
-
     class Meta:
-        verbose_name = _('Endereço')
-        verbose_name_plural = _('Endereços')
+        verbose_name = _("Endereço")
+        verbose_name_plural = _("Endereços")
         # unique_together = ('pessoa', 'principal')
 
     class Tipo(IntEnum):
@@ -20,9 +19,9 @@ class Endereco(PessoaRelatedModel):
         RURAL = 3
 
     TIPOS_CHOICES = (
-        (Tipo.COMERCIAL.value, _('Comercial')),
-        (Tipo.RESIDENCIAL.value, _('Residencial')),
-        (Tipo.RURAL.value, _('Rural')),
+        (Tipo.COMERCIAL.value, _("Comercial")),
+        (Tipo.RESIDENCIAL.value, _("Residencial")),
+        (Tipo.RURAL.value, _("Rural")),
     )
 
     tipo = models.IntegerField(choices=TIPOS_CHOICES)
@@ -46,6 +45,7 @@ class Endereco(PessoaRelatedModel):
 
     def get_absolute_url(self):
         from django.urls import reverse
+
         # pylint: disable=no-member
-        kwargs = {'pessoa_id': self.pessoa_id, 'pk': self.pk}
-        return reverse('sgi_base:pessoa-endereco-detail', kwargs=kwargs)
+        kwargs = {"pessoa_id": self.pessoa_id, "pk": self.pk}
+        return reverse("sgi_base:pessoa-endereco-detail", kwargs=kwargs)

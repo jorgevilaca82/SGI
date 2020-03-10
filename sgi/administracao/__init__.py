@@ -1,1 +1,1 @@
-default_app_config = 'sgi.administracao.apps.AdministracaoConfig'
+default_app_config = "sgi.administracao.apps.AdministracaoConfig"

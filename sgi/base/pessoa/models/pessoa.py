@@ -4,7 +4,6 @@ from sgi.commons.models import AuditableModel
 
 
 class Pessoa(AuditableModel):
-
     class Meta:
         pass
 
@@ -15,13 +14,12 @@ class Pessoa(AuditableModel):
 
 
 class PessoaRelatedModel(AuditableModel):
-
     class Meta:
         abstract = True
 
     pessoa = models.ForeignKey(
         Pessoa,
         on_delete=models.CASCADE,
-        related_name='%(app_label)s_%(class)s_related',
-        related_query_name='%(app_label)s_%(class)ss',
+        related_name="%(app_label)s_%(class)s_related",
+        related_query_name="%(app_label)s_%(class)ss",
     )

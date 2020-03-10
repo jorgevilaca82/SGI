@@ -7,7 +7,6 @@ from sgi.recursos_humanos import models as rhm
 
 
 class Professor(rhm.Funcionario):
-
     class Meta:
         pass
 
@@ -19,11 +18,11 @@ class Professor(rhm.Funcionario):
         POS_DOUTORADO = auto()
 
     PROFESSOR_TITULACAO_CHOICES = (
-        (Titulacao.GRADUACAO.value, _('Gradução')),
-        (Titulacao.ESPECIALIZACAO.value, _('Especialização')),
-        (Titulacao.MESTRADO.value, _('Mestrador')),
-        (Titulacao.DOUTORADO.value, _('Doutorado')),
-        (Titulacao.POS_DOUTORADO.value, _('Pós Doutorado')),
+        (Titulacao.GRADUACAO.value, _("Gradução")),
+        (Titulacao.ESPECIALIZACAO.value, _("Especialização")),
+        (Titulacao.MESTRADO.value, _("Mestrador")),
+        (Titulacao.DOUTORADO.value, _("Doutorado")),
+        (Titulacao.POS_DOUTORADO.value, _("Pós Doutorado")),
     )
 
     titulacao = models.IntegerField(choices=PROFESSOR_TITULACAO_CHOICES)

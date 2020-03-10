@@ -15,5 +15,5 @@ def execute_aluno_ra_updater(instance):
 
 @receiver(post_save, sender=Aluno)
 def post_save_aluno(sender, **kwargs):
-    if kwargs.get('created'):
-        execute_aluno_ra_updater(kwargs.get('instance'))
+    if kwargs.get("created"):
+        execute_aluno_ra_updater(kwargs.get("instance"))

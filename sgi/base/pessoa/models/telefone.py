@@ -9,27 +9,21 @@ from .pessoa import PessoaRelatedModel
 
 
 class Telefone(PessoaRelatedModel):
-
     class Meta:
-        unique_together = ('numero', 'pessoa')
+        unique_together = ("numero", "pessoa")
 
     class Tipo(IntEnum):
         FIXO = auto()
         CEL = auto()
 
     TELEFONE_TIPO_CHOICES = (
-        (Tipo.FIXO.value, _('Tel. Fixo')),
-        (Tipo.CEL.value, _('Tel. Celular')),
+        (Tipo.FIXO.value, _("Tel. Fixo")),
+        (Tipo.CEL.value, _("Tel. Celular")),
     )
 
     tipo = models.IntegerField(choices=TELEFONE_TIPO_CHOICES)
 
-    numero = models.CharField(
-        max_length=120,
-        validators=[
-            PhoneRegexValidator()
-        ]
-    )
+    numero = models.CharField(max_length=120, validators=[PhoneRegexValidator()])
 
     observacoes = models.TextField(null=True, blank=True)
 
@@ -38,6 +32,7 @@ class Telefone(PessoaRelatedModel):
 
     def get_absolute_url(self):
         from django.urls import reverse
+
         # pylint: disable=no-member
-        kwargs = {'pessoa_id': self.pessoa_id, 'pk': self.pk}
-        return reverse('sgi_base:pessoa-telefone-detail', kwargs=kwargs)
+        kwargs = {"pessoa_id": self.pessoa_id, "pk": self.pk}
+        return reverse("sgi_base:pessoa-telefone-detail", kwargs=kwargs)

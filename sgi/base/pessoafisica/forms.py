@@ -9,41 +9,42 @@ from ..geo import models as gm
 
 
 class _PessoaFisicaForm(ModelForm):
-
     class Meta:
         model = pfm.PessoaFisica
 
         fields = (
-            'cpf',
-            'nome_razao_social',
-            'sexo',
-            'estado_civil',
-            'tipo_sanguineo',
-            'natural_cidade',
-            'nacionalidade',
-            'falecido',
+            "cpf",
+            "nome_razao_social",
+            "sexo",
+            "estado_civil",
+            "tipo_sanguineo",
+            "natural_cidade",
+            "nacionalidade",
+            "falecido",
         )
 
         widgets = {
-            'natural_cidade': Select(attrs={
-                'class': 'sgi-select2',
-                'data-url': reverse_lazy('sgi_base:municipio-search-list'),
-                'data-processFn': 'ofMunicipio'
-            }),
+            "natural_cidade": Select(
+                attrs={
+                    "class": "sgi-select2",
+                    "data-url": reverse_lazy("sgi_base:municipio-search-list"),
+                    "data-processFn": "ofMunicipio",
+                }
+            ),
         }
 
         labels = {
-            'cpf': _('CPF'),
-            'nome_razao_social': _('Nome completo'),
-            'tipo_sanguineo': _('Tipo Sanguíneo'),
+            "cpf": _("CPF"),
+            "nome_razao_social": _("Nome completo"),
+            "tipo_sanguineo": _("Tipo Sanguíneo"),
         }
 
         extra_required = {
-            'sexo': True,
-            'estado_civil': True,
-            'tipo_sanguineo': True,
-            'natural_cidade': True,
-            'nacionalidade': True,
+            "sexo": True,
+            "estado_civil": True,
+            "tipo_sanguineo": True,
+            "natural_cidade": True,
+            "nacionalidade": True,
         }
 
     def __init__(self, *args, **kwargs):
@@ -55,52 +56,32 @@ class _PessoaFisicaForm(ModelForm):
 
         natural_cidade_choices = []
 
-        if self.initial.get('natural_cidade'):
+        if self.initial.get("natural_cidade"):
             # pylint: disable=no-member
-            municipio = gm.Municipio.objects.get(
-                pk=self.initial['natural_cidade'])
-            natural_cidade_choices = [(municipio.pk, municipio), ]
+            municipio = gm.Municipio.objects.get(pk=self.initial["natural_cidade"])
+            natural_cidade_choices = [
+                (municipio.pk, municipio),
+            ]
 
-        self.fields['natural_cidade'].widget.choices = natural_cidade_choices
+        self.fields["natural_cidade"].widget.choices = natural_cidade_choices
 
         self.helper = FormHelper()
         self.helper.layout = Layout(
             Row(
-                Column(
-                    'cpf',
-                    css_class='form-group col-md-4 mb-0'
-                ),
-                Column(
-                    'nome_razao_social',
-                    css_class='form-group col-md-8 mb-0'
-                ),
+                Column("cpf", css_class="form-group col-md-4 mb-0"),
+                Column("nome_razao_social", css_class="form-group col-md-8 mb-0"),
             ),
             Row(
-                Column(
-                    'sexo',
-                    css_class='form-group col-md-4 mb-0'
-                ),
-                Column(
-                    'estado_civil',
-                    css_class='form-group col-md-5 mb-0'
-                ),
-                Column(
-                    'tipo_sanguineo',
-                    css_class='form-group col-md-3 mb-0'
-                ),
+                Column("sexo", css_class="form-group col-md-4 mb-0"),
+                Column("estado_civil", css_class="form-group col-md-5 mb-0"),
+                Column("tipo_sanguineo", css_class="form-group col-md-3 mb-0"),
             ),
             Row(
-                Column(
-                    'nacionalidade',
-                    css_class='form-group col-md-3 mb-0'
-                ),
-                Column(
-                    'natural_cidade',
-                    css_class='form-group col-md-6 mb-0'
-                ),
+                Column("nacionalidade", css_class="form-group col-md-3 mb-0"),
+                Column("natural_cidade", css_class="form-group col-md-6 mb-0"),
             ),
-            'falecido',
-            Submit('submit', 'Salvar'),
+            "falecido",
+            Submit("submit", "Salvar"),
         )
 
 

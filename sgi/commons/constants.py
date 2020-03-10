@@ -1,1 +1,1 @@
-ONE_SPACE = ' '
+ONE_SPACE = " "

@@ -17,4 +17,4 @@ class Municipio(models.Model):
 
     def __str__(self):
         # pylint: disable=no-member
-        return '{0} ({1})'.format(self.nome, self.codigo_uf.uf)
+        return "{0} ({1})".format(self.nome, self.codigo_uf.uf)

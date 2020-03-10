@@ -4,11 +4,10 @@ from ..services.area_capes import AreaCAPESService
 
 
 class AreaCAPESSearchListView(JSONListView):
-
     def get_queryset(self):
         max_limit = 20
-        search_term = self.request.GET.get('term', '')
-        limit = self.request.GET.get('l', max_limit)
+        search_term = self.request.GET.get("term", "")
+        limit = self.request.GET.get("l", max_limit)
         if limit > max_limit:
             limit = max_limit
 
@@ -18,7 +17,7 @@ class AreaCAPESSearchListView(JSONListView):
         """
         Returns an object that will be serialized as JSON by json.dumps().
         """
-        fields = ['codigo', 'descricao']
-        data = list(context['object_list'].values(*fields))
+        fields = ["codigo", "descricao"]
+        data = list(context["object_list"].values(*fields))
 
         return dict(data=data)
