@@ -12,5 +12,5 @@ pytz==2019.3
 PyYAML==5.3
 requests==2.22.0
 sqlparse==0.3.0
-urllib3==1.25.8
+urllib3==1.26.5
 -e git+https://github.com/leogregianin/viacep-python.git@e5caf7ed1c0e2928a18a617bf1c88c1e4c92be6e#egg=viacep
